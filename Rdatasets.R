@@ -48,5 +48,13 @@ write.csv(index_out, file='datasets.csv', row.names=FALSE)
 index_out$csv = paste("<a href='", index_out$csv, "'> CSV </a>", sep='')
 index_out$doc = paste("<a href='", index_out$doc, "'> DOC </a>", sep='')
 unlink('datasets.html')
-HTML(index_out, file='datasets.html', row.names=FALSE)
+rss = '
+<style type="text/css">
+  tr:nth-child(even){
+          background-color: #E5E7E5;
+  }
+</style>
+'
+cat(rss, file='datasets.html')
+HTML(index_out, file='datasets.html', row.names=FALSE, append=TRUE)
 
