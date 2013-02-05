@@ -21,7 +21,7 @@ ghpages:
 	git checkout master README.rst
 	git checkout master datasets.html
 	git checkout master datasets.csv
-	sed -i 's/https:\/\/raw.github.com\/vincentarelbundock\/Rdatasets\/master\///g' datasets.html 
+	sed -i '.bak' 's/https:\/\/raw.github.com\/vincentarelbundock\/Rdatasets\/master\///g' datasets.html 
 	git add csv
 	git add doc
 	git add datasets.html
