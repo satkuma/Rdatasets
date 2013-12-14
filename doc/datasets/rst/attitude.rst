@@ -24,7 +24,7 @@ Usage
 Format
 ~~~~~~
 
-A dataframe with 30 observations on 7 variables. The first column are
+A data frame with 30 observations on 7 variables. The first column are
 the short names from the reference, the second one the variable names in
 the data frame:
 

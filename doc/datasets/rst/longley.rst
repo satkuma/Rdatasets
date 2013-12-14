@@ -52,7 +52,7 @@ Source
 
 J. W. Longley (1967) An appraisal of least-squares programs from the
 point of view of the user. *Journal of the American Statistical
-Association*, **62**, 819–841.
+Association* **62**, 819–841.
 
 References
 ~~~~~~~~~~

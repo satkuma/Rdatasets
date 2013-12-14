@@ -25,12 +25,17 @@ Format
 A 1-way table giving the number of occurrences of ‘may’ in 262 blocks of
 text. The variable and its levels are
 
-+------+--------+----------------+
-| No   | Name   | Levels         |
-+------+--------+----------------+
-| 1    | nMay   | 0, 1, ..., 6   |
-+------+--------+----------------+
-+------+--------+----------------+
+No
+
+Name
+
+Levels
+
+1
+
+nMay
+
+0, 1, ..., 6
 
 Source
 ~~~~~~

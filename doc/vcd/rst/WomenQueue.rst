@@ -25,12 +25,17 @@ Format
 A 1-way table giving the number of women in 100 queues of length 10. The
 variable and its levels are
 
-+------+----------+-----------------+
-| No   | Name     | Levels          |
-+------+----------+-----------------+
-| 1    | nWomen   | 0, 1, ..., 10   |
-+------+----------+-----------------+
-+------+----------+-----------------+
+No
+
+Name
+
+Levels
+
+1
+
+nWomen
+
+0, 1, ..., 10
 
 Source
 ~~~~~~

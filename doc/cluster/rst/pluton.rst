@@ -49,7 +49,7 @@ Source
 ~~~~~~
 
 Available as ‘pluton.dat’ from the archive currently
-`http://www.agoras.ua.ac.be/datasets/clusplot-examples.tar.gz <http://www.agoras.ua.ac.be/datasets/clusplot-examples.tar.gz>`_.
+`http://www.agoras.ua.ac.be/datasets/clusplot-examples.tar.gz <http://www.agoras.ua.ac.be/datasets/clusplot-examples.tar.gz>`__.
 
 References
 ~~~~~~~~~~

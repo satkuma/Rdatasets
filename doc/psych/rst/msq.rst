@@ -51,10 +51,10 @@ A data frame with 3896 observations on the following 92 variables.
 ``astonished``
     a numeric vector
 
-``at-ease``
+``at.ease``
     a numeric vector
 
-``at-rest``
+``at.rest``
     a numeric vector
 
 ``attentive``
@@ -72,7 +72,7 @@ A data frame with 3896 observations on the following 92 variables.
 ``cheerful``
     a numeric vector
 
-``clutched-up``
+``clutched.up``
     a numeric vector
 
 ``confident``
@@ -117,7 +117,7 @@ A data frame with 3896 observations on the following 92 variables.
 ``frustrated``
     a numeric vector
 
-``full-of-pep``
+``full.of.pep``
     a numeric vector
 
 ``gloomy``
@@ -240,7 +240,7 @@ A data frame with 3896 observations on the following 92 variables.
 ``warmhearted``
     a numeric vector
 
-``wide-awake``
+``wide.awake``
     a numeric vector
 
 ``alone``
@@ -312,7 +312,7 @@ A data frame with 3896 observations on the following 92 variables.
 Details
 ~~~~~~~
 
-The Motivational States Questionnaire (MSQ) is composed of 72 items,
+| The Motivational States Questionnaire (MSQ) is composed of 72 items,
 which represent the full affective range (Revelle & Anderson, 1998). The
 MSQ consists of 20 items taken from the Activation-Deactivation
 Adjective Check List (Thayer, 1986), 18 from the Positive and Negative
@@ -322,8 +322,8 @@ four-point scale that corresponds to Russell and Carroll's (1999)
 "ambiguous–likely-unipolar format" and that asks the respondents to
 indicate their current standing (“at this moment") with the following
 rating scale:
- 0—————-1—————-2—————-3
- Not at all A little Moderately Very much
+|  0—————-1—————-2—————-3
+|  Not at all A little Moderately Very much
 
 The original version of the MSQ included 70 items. Intermediate analyses
 (done with 1840 subjects) demonstrated a concentration of items in some
@@ -389,7 +389,7 @@ happiness and sadness truly opposite affects? Motivation and Emotion,
 Revelle, W. and Anderson, K.J. (1998) Personality, motivation and
 cognitive performance: Final report to the Army Research Institute on
 contract MDA 903-93-K-0008.
-(`http://www.personality-project.org/revelle/publications/ra.ari.98.pdf <http://www.personality-project.org/revelle/publications/ra.ari.98.pdf>`_).
+(`http://www.personality-project.org/revelle/publications/ra.ari.98.pdf <http://www.personality-project.org/revelle/publications/ra.ari.98.pdf>`__).
 
 Thayer, R.E. (1989) The biopsychology of mood and arousal. Oxford
 University Press. New York, NY.
@@ -418,23 +418,26 @@ Examples
     describe(msq)
 
     #score them for 12 short scales
-    keys <- make.keys(75,list(
-           EA=c(1, 26, 69, 70, 72, 31, 44, -57,-65,-23),
-           TA =c(40,43,29, 64, 16, -51, -61,-47, -14, -10),
-           PA =c(1,28,62, 39, 21, 11, 41, 27, 49, 3),
-           NAf =c(43,46, 55, 2, 34, 7, 22,68,36, 42),
-           HAct = c(1,6, 63, 40, 8),
-           aPA = c(25, 28, 27,44),
-           uNA = c(14, 56, 52, 10, 18, 9),
-           pa = c(35,71,48, 15, 19 ),
-           LAct = c(51, 38, 37, 61, 66),
-           uPA =c(24, 13, 58, 65, 23),
-           naf = c(53, 12, 67, 32, 33),
-           aNA = c(43, 5, 46, 29, 22))
+     
+    keys <- make.keys(colnames(msq)[1:75], list(
+     EA = c("active", "energetic", "vigorous", "wakeful", "wide.awake", "full.of.pep",
+           "lively", "-sleepy", "-tired", "-drowsy"),
+      TA =c("intense", "jittery", "fearful", "tense", "clutched.up", "-quiet", "-still", 
+           "-placid", "-calm", "at.rest") ,
+      PA =c("active", "excited", "strong", "inspired", "determined", "attentive", 
+              "interested", "enthusiastic", "proud", "alert"),
+     NAf =c("jittery", "nervous", "scared", "afraid", "guilty", "ashamed", "distressed",  
+             "upset", "hostile", "irritable" ),
+     HAct = c("active", "aroused", "surprised", "intense", "astonished"),
+     aPA = c("elated", "excited", "enthusiastic", "lively"),
+     uNA = c("calm", "serene", "relaxed", "at.rest", "content", "at.ease"),
+     pa = c("happy", "warmhearted", "pleased", "cheerful", "delighted" ),
+     LAct = c("quiet", "inactive", "idle", "still", "tranquil"),
+      uPA =c( "dull", "bored", "sluggish", "tired", "drowsy"),
+     naf = c( "sad", "blue", "unhappy", "gloomy", "grouchy"),
+     aNA = c("jittery", "anxious", "nervous", "fearful", "distressed"))
            )
-        
            
-    rownames(keys) <- colnames(msq)[1:75]
     msq.scores <- score.items(keys,msq[1:75])
 
     #show a circumplex structure 

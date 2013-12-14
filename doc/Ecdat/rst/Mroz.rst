@@ -96,7 +96,7 @@ References
 ~~~~~~~~~~
 
 Greene, W.H. (2003) *Econometric Analysis*, Prentice Hall,
-`http://www.prenhall.com/greene/greene1.html <http://www.prenhall.com/greene/greene1.html>`_,
+`http://www.prenhall.com/greene/greene1.html <http://www.prenhall.com/greene/greene1.html>`__,
 Table F4.1.
 
 See Also

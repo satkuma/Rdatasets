@@ -64,7 +64,7 @@ Consequences*. London: Macmillan.
 
 Hanley, J. A. (2004). "Transmuting" Women into Men: Galton's Family Data
 on Human Stature. *The American Statistician*, 58, 237-243. See:
-`http://www.medicine.mcgill.ca/epidemiology/hanley/galton/ <http://www.medicine.mcgill.ca/epidemiology/hanley/galton/>`_
+`http://www.medicine.mcgill.ca/epidemiology/hanley/galton/ <http://www.medicine.mcgill.ca/epidemiology/hanley/galton/>`__
 for source materials.
 
 Stigler, S. M. (1986). *The History of Statistics: The Measurement of
@@ -74,12 +74,12 @@ Uncertainty before 1900*. Cambridge, MA: Harvard University Press, Table
 Wachsmuth, A. W., Wilkinson L., Dallal G. E. (2003). Galton's bend: A
 previously undiscovered nonlinearity in Galton's family stature
 regression data. *The American Statistician*, 57, 190-192.
-`http://www.cs.uic.edu/~wilkinson/Publications/galton.pdf <http://www.cs.uic.edu/~wilkinson/Publications/galton.pdf>`_
+`http://www.cs.uic.edu/~wilkinson/Publications/galton.pdf <http://www.cs.uic.edu/~wilkinson/Publications/galton.pdf>`__
 
 See Also
 ~~~~~~~~
 
-``PearsonLee``, ``galton``
+``link{GaltonFamilies}``, ``PearsonLee``, ``galton``
 
 Examples
 ~~~~~~~~

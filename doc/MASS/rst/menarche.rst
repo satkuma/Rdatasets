@@ -39,8 +39,8 @@ Source
 Milicer, H. and Szczotka, F. (1966) Age at Menarche in Warsaw girls in
 1965. *Human Biology* **38**, 199–203.
 
-The data are also given in
- Aranda-Ordaz, F.J. (1981) On two families of transformations to
+| The data are also given in
+|  Aranda-Ordaz, F.J. (1981) On two families of transformations to
 additivity for binary response data. *Biometrika* **68**, 357–363.
 
 References

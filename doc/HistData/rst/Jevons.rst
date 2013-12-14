@@ -66,7 +66,7 @@ References
 Miller, G. A. (1956). The Magical Number Seven, Plus or Minus Two: Some
 Limits on Our Capacity for Processing Information, *Psychological
 Review*, 63, 81-97,
-`http://www.musanim.com/miller1956/ <http://www.musanim.com/miller1956/>`_
+`http://www.musanim.com/miller1956/ <http://www.musanim.com/miller1956/>`__
 
 Examples
 ~~~~~~~~
@@ -79,7 +79,8 @@ Examples
     xtabs(frequency ~ error+actual, data=Jevons)
 
     # show as sunflowerplot with regression line
-    with(Jevons, sunflowerplot(actual, estimated, frequency, main="Jevons data on numerical estimation"))
+    with(Jevons, sunflowerplot(actual, estimated, frequency, 
+      main="Jevons data on numerical estimation"))
     Jmod <-lm(estimated ~ actual, data=Jevons, weights=frequency)
     abline(Jmod)
 
@@ -87,10 +88,12 @@ Examples
     if (require(gplots)) {
 
     with(Jevons, balloonplot(actual, estimated, frequency, xlab="actual", ylab="estimated", 
-     main="Jevons data on numerical estimation\nBubble area proportional to frequency", text.size=0.8))
+      main="Jevons data on numerical estimation\nBubble area proportional to frequency",
+      text.size=0.8))
 
     with(Jevons, balloonplot(actual, error, frequency, xlab="actual", ylab="error", 
-     main="Jevons data on numerical estimation: Errors\nBubble area proportional to frequency", text.size=0.8))
+      main="Jevons data on numerical estimation: Errors\nBubble area proportional to frequency", 
+      text.size=0.8))
     }
 
     # plot average error

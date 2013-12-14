@@ -10,7 +10,6 @@
 
 <h3>Description</h3>
 
-
 <p>Waiting time between eruptions and the duration of the eruption for
 the Old Faithful geyser in Yellowstone National Park, Wyoming, USA.
 </p>
@@ -47,7 +46,6 @@ the Old Faithful geyser in Yellowstone National Park, Wyoming, USA.
 
 <h3>Details</h3>
 
-
 <p>A closer look at <code>faithful$eruptions</code> reveals that these are
 heavily rounded times originally in seconds, where multiples of 5 are
 more frequent than expected under non-human measurement.  For a
@@ -65,7 +63,6 @@ better version of the eruption times, see the example below.
 
 <h3>References</h3>
 
-
 <p>Härdle, W. (1991)
 <EM>Smoothing Techniques with Implementation in S</EM>.
 New York: Springer.
@@ -77,7 +74,6 @@ A look at some data on the Old Faithful geyser.
 
 
 <h3>See Also</h3>
-
 
 <p><code>geyser</code> in package <a href="http://CRAN.R-project.org/package=MASS"><span class="pkg">MASS</span></a> for the Azzalini&ndash;Bowman version.
 </p>
@@ -95,7 +91,7 @@ table(zapsmall(abs(e60 - ne60))) # 0, 0.02 or 0.04
 faithful$better.eruptions &lt;- ne60 / 60
 te &lt;- table(ne60)
 te[te &gt;= 4]                      # (too) many multiples of 5 !
-plot(names(te), te, type="h", main = f.tit, xlab = "Eruption time (sec)")
+plot(names(te), te, type = "h", main = f.tit, xlab = "Eruption time (sec)")
 
 plot(faithful[, -3], main = f.tit,
      xlab = "Eruption time (min)",

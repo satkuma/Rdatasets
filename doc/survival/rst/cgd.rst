@@ -27,38 +27,63 @@ Usage
 Format
 ~~~~~~
 
-+------------------+--------------------------------------------------+
-| id:              | subject identifiction number                     |
-+------------------+--------------------------------------------------+
-| center:          | enrolling center                                 |
-+------------------+--------------------------------------------------+
-| random:          | date of randomization                            |
-+------------------+--------------------------------------------------+
-| treatment:       | placebo or gamma interferon                      |
-+------------------+--------------------------------------------------+
-| sex:             |                                                  |
-+------------------+--------------------------------------------------+
-| age:             | age in years, at study entry                     |
-+------------------+--------------------------------------------------+
-| height:          | height in cm at study entry                      |
-+------------------+--------------------------------------------------+
-| weight:          | weight in kg at study entry                      |
-+------------------+--------------------------------------------------+
-| inherit:         | pattern of inheritance                           |
-+------------------+--------------------------------------------------+
-| steroids:        | use of steroids at study entry,1=yes             |
-+------------------+--------------------------------------------------+
-| propylac:        | use of prophylactic antibiotics at study entry   |
-+------------------+--------------------------------------------------+
-| hos.cat:         | a categorization of the centers into 4 groups    |
-+------------------+--------------------------------------------------+
-| tstart, tstop:   | start and end of each time interval              |
-+------------------+--------------------------------------------------+
-| status:          | 1=the interval ends with an infection            |
-+------------------+--------------------------------------------------+
-| enum:            | observation number within subject                |
-+------------------+--------------------------------------------------+
-+------------------+--------------------------------------------------+
+id:
+
+subject identifiction number
+
+center:
+
+enrolling center
+
+random:
+
+date of randomization
+
+treatment:
+
+placebo or gamma interferon
+
+sex:
+
+age:
+
+age in years, at study entry
+
+height:
+
+height in cm at study entry
+
+weight:
+
+weight in kg at study entry
+
+inherit:
+
+pattern of inheritance
+
+steroids:
+
+use of steroids at study entry,1=yes
+
+propylac:
+
+use of prophylactic antibiotics at study entry
+
+hos.cat:
+
+a categorization of the centers into 4 groups
+
+tstart, tstop:
+
+start and end of each time interval
+
+status:
+
+1=the interval ends with an infection
+
+enum:
+
+observation number within subject
 
 Source
 ~~~~~~

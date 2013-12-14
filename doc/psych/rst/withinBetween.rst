@@ -96,7 +96,7 @@ explanation and prediction. Harcourt Brace.
 
 Revelle, W. An introduction to psychometric theory with applications in
 R (in prep) Springer. Draft chapters available at
-`http://personality-project.org/r/book/ <http://personality-project.org/r/book/>`_
+`http://personality-project.org/r/book/ <http://personality-project.org/r/book/>`__
 
 See Also
 ~~~~~~~~
@@ -109,7 +109,8 @@ Examples
 ::
 
     data(withinBetween)
-    pairs.panels(withinBetween,bg=c("red","blue","white","black")[withinBetween[,1]],pch=21,ellipses=FALSE)
+    pairs.panels(withinBetween,bg=c("red","blue","white","black")[withinBetween[,1]],
+         pch=21,ellipses=FALSE)
     stats <- statsBy(withinBetween,'Group')
     print(stats,short=FALSE)
 

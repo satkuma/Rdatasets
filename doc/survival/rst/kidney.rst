@@ -21,22 +21,33 @@ observation is removed no evidence remains for a random subject effect.
 Format
 ~~~~~~
 
-+------------+---------------------------------------------+
-| patient:   | id                                          |
-+------------+---------------------------------------------+
-| time:      | time                                        |
-+------------+---------------------------------------------+
-| status:    | event status                                |
-+------------+---------------------------------------------+
-| age:       | in years                                    |
-+------------+---------------------------------------------+
-| sex:       | 1=male, 2=female                            |
-+------------+---------------------------------------------+
-| disease:   | disease type (0=GN, 1=AN, 2=PKD, 3=Other)   |
-+------------+---------------------------------------------+
-| frail:     | frailty estimate from original paper        |
-+------------+---------------------------------------------+
-+------------+---------------------------------------------+
+patient:
+
+id
+
+time:
+
+time
+
+status:
+
+event status
+
+age:
+
+in years
+
+sex:
+
+1=male, 2=female
+
+disease:
+
+disease type (0=GN, 1=AN, 2=PKD, 3=Other)
+
+frail:
+
+frailty estimate from original paper
 
 Note
 ~~~~

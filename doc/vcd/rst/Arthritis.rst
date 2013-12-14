@@ -42,7 +42,7 @@ Source
 ~~~~~~
 
 Michael Friendly (2000), Visualizing Categorical Data:
-`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/arthrit.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/arthrit.sas>`_
+`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/arthrit.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/arthrit.sas>`__
 
 References
 ~~~~~~~~~~

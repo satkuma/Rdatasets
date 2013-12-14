@@ -66,7 +66,7 @@ the office shelves; we are therefore dealing with a random sampling.*
 Source
 ~~~~~~
 
-`http://pbil.univ-lyon1.fr/R/donnees/criminals1902.txt <http://pbil.univ-lyon1.fr/R/donnees/criminals1902.txt>`_
+`http://pbil.univ-lyon1.fr/R/donnees/criminals1902.txt <http://pbil.univ-lyon1.fr/R/donnees/criminals1902.txt>`__
 thanks to Jean R. Lobry and Anne-Béatrice Dufour.
 
 References
@@ -91,7 +91,7 @@ Examples
     utils::str(crimtab)
     ## for nicer printing:
     local({cT <- crimtab
-           colnames(cT) <- substring(colnames(cT), 2,3)
+           colnames(cT) <- substring(colnames(cT), 2, 3)
            print(cT, zero.print = " ")
     })
 

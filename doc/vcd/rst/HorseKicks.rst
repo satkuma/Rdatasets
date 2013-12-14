@@ -27,12 +27,17 @@ Format
 A 1-way table giving the number of deaths in 200 corps-years. The
 variable and its levels are
 
-+------+-----------+----------------+
-| No   | Name      | Levels         |
-+------+-----------+----------------+
-| 1    | nDeaths   | 0, 1, ..., 4   |
-+------+-----------+----------------+
-+------+-----------+----------------+
+No
+
+Name
+
+Levels
+
+1
+
+nDeaths
+
+0, 1, ..., 4
 
 Source
 ~~~~~~

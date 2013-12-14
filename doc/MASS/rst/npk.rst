@@ -40,6 +40,11 @@ The ``npk`` data frame has 24 rows and 5 columns:
 ``yield``
     Yield of peas, in pounds/plot (the plots were (1/70) acre).
 
+Note
+~~~~
+
+This dataset is also contained in **R** 3.0.2 and later.
+
 Source
 ~~~~~~
 

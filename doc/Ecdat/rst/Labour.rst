@@ -45,7 +45,7 @@ References
 
 Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley and
 Sons,
-`http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`_,
+`http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`__,
 chapter 4.
 
 See Also

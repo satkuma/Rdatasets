@@ -25,64 +25,91 @@ Format
 
 mgus: A data frame with 241 observations on the following 12 variables.
 
-+-----------+----------------------------------------------------------------------+
-| id:       | subject id                                                           |
-+-----------+----------------------------------------------------------------------+
-| age:      | age in years                                                         |
-+-----------+----------------------------------------------------------------------+
-| sex:      | ``male`` or ``female``                                               |
-+-----------+----------------------------------------------------------------------+
-| dxyr:     | year of diagnosis                                                    |
-+-----------+----------------------------------------------------------------------+
-| pcdx:     | for subjects who progress to a plasma cell malignancy                |
-+-----------+----------------------------------------------------------------------+
-|           | the subtype of malignancy: multiple myeloma (MM) is the              |
-+-----------+----------------------------------------------------------------------+
-|           | most common, followed by amyloidosis (AM), macroglobulinemia (MA),   |
-+-----------+----------------------------------------------------------------------+
-|           | and other lymphprolifative (LP)                                      |
-+-----------+----------------------------------------------------------------------+
-| pctime:   | days from MGUS until diagnosis of a plasma cell malignancy           |
-+-----------+----------------------------------------------------------------------+
-| futime:   | days from diagnosis to last follow-up                                |
-+-----------+----------------------------------------------------------------------+
-| death:    | 1= follow-up is until death                                          |
-+-----------+----------------------------------------------------------------------+
-| alb:      | albumin level at MGUS diagnosis                                      |
-+-----------+----------------------------------------------------------------------+
-| creat:    | creatinine at MGUS diagnosis                                         |
-+-----------+----------------------------------------------------------------------+
-| hgb:      | hemoglobin at MGUS diagnosis                                         |
-+-----------+----------------------------------------------------------------------+
-| mspike:   | size of the monoclonal protien spike at diagnosis                    |
-+-----------+----------------------------------------------------------------------+
-+-----------+----------------------------------------------------------------------+
+id:
+
+subject id
+
+age:
+
+age in years
+
+sex:
+
+``male`` or ``female``
+
+dxyr:
+
+year of diagnosis
+
+pcdx:
+
+for subjects who progress to a plasma cell malignancy
+
+the subtype of malignancy: multiple myeloma (MM) is the
+
+most common, followed by amyloidosis (AM), macroglobulinemia (MA),
+
+and other lymphprolifative (LP)
+
+pctime:
+
+days from MGUS until diagnosis of a plasma cell malignancy
+
+futime:
+
+days from diagnosis to last follow-up
+
+death:
+
+1= follow-up is until death
+
+alb:
+
+albumin level at MGUS diagnosis
+
+creat:
+
+creatinine at MGUS diagnosis
+
+hgb:
+
+hemoglobin at MGUS diagnosis
+
+mspike:
+
+size of the monoclonal protien spike at diagnosis
 
 mgus1: The same data set in start,stop format. Contains the id, age,
 sex, and laboratory variable described above along with
 
-+----------------+-------------------------------------------------+
-| start, stop:   | sequential intervals of time for each subject   |
-+----------------+-------------------------------------------------+
-| status:        | =1 if the interval ends in an event             |
-+----------------+-------------------------------------------------+
-| event:         | the event type                                  |
-+----------------+-------------------------------------------------+
-+----------------+-------------------------------------------------+
+start, stop:
+
+sequential intervals of time for each subject
+
+status:
+
+=1 if the interval ends in an event
+
+event:
+
+the event type
 
 mgus2: The mgus data, but formatted in the competing risks style. Each
 subject has three observations, one for time to death, one for time to
 MM, and one for time to a PC malignancy other than MM. Contains the id,
 age, sex, and laboratory variable described above along with
 
-+-----------+---------------------------------------+
-| time:     | time to event or censoring            |
-+-----------+---------------------------------------+
-| status:   | 1 if the event occured, 0 otherwise   |
-+-----------+---------------------------------------+
-| event:    | death, myeloma, or other              |
-+-----------+---------------------------------------+
-+-----------+---------------------------------------+
+time:
+
+time to event or censoring
+
+status:
+
+1 if the event occured, 0 otherwise
+
+event:
+
+death, myeloma, or other
 
 Details
 ~~~~~~~

@@ -60,3 +60,6 @@ Examples
 
     summary(lm.education <- lm(Y ~ Region + X1+X2+X3, data=education))
 
+
+    ## See  example(lmrob.M.S) # for how robust regression is used
+

@@ -44,7 +44,7 @@ Source
 ~~~~~~
 
 The website accompanying the MMY-book:
-`http://www.wiley.com/legacy/wileychi/robust\_statistics <http://www.wiley.com/legacy/wileychi/robust_statistics>`_
+`http://www.wiley.com/legacy/wileychi/robust\_statistics <http://www.wiley.com/legacy/wileychi/robust_statistics>`__
 
 Examples
 ~~~~~~~~

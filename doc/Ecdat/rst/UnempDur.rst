@@ -9,7 +9,7 @@ Description
 ~~~~~~~~~~~
 
 Journal of Business Economics and Statistics web site :
-`http://www.amstat.org/publications/jbes/ <http://www.amstat.org/publications/jbes/>`_
+`http://www.amstat.org/publications/jbes/ <http://www.amstat.org/publications/jbes/>`__
 
 *number of observations* : 3343
 

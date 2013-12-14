@@ -23,12 +23,21 @@ Format
 
 A data frame with 272 observations on 2 variables.
 
-+--------+-------------+-----------+-------------------------------------------+
-| [,1]   | eruptions   | numeric   | Eruption time in mins                     |
-+--------+-------------+-----------+-------------------------------------------+
-| [,2]   | waiting     | numeric   | Waiting time to next eruption (in mins)   |
-+--------+-------------+-----------+-------------------------------------------+
-+--------+-------------+-----------+-------------------------------------------+
+[,1]
+
+eruptions
+
+numeric
+
+Eruption time in mins
+
+[,2]
+
+waiting
+
+numeric
+
+Waiting time to next eruption (in mins)
 
 Details
 ~~~~~~~
@@ -58,7 +67,7 @@ Faithful geyser. *Applied Statistics* **39**, 357–365.
 See Also
 ~~~~~~~~
 
-``geyser`` in package `MASS <http://CRAN.R-project.org/package=MASS>`_
+``geyser`` in package `MASS <http://CRAN.R-project.org/package=MASS>`__
 for the Azzalini–Bowman version.
 
 Examples
@@ -75,7 +84,7 @@ Examples
     faithful$better.eruptions <- ne60 / 60
     te <- table(ne60)
     te[te >= 4]                      # (too) many multiples of 5 !
-    plot(names(te), te, type="h", main = f.tit, xlab = "Eruption time (sec)")
+    plot(names(te), te, type = "h", main = f.tit, xlab = "Eruption time (sec)")
 
     plot(faithful[, -3], main = f.tit,
          xlab = "Eruption time (min)",

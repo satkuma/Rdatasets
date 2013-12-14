@@ -68,11 +68,11 @@ References
 ~~~~~~~~~~
 
 Greene, W.H. (2003) *Econometric Analysis*, Prentice Hall,
-`http://www.prenhall.com/greene/greene1.html <http://www.prenhall.com/greene/greene1.html>`_,
+`http://www.prenhall.com/greene/greene1.html <http://www.prenhall.com/greene/greene1.html>`__,
 Table F14.2.
 
 Hayashi, F. (2000) *Econometrics*, Princeton University Press,
-`http://www.e.u-tokyo.ac.jp/~hayashi/hayashi\_econometrics.htm <http://www.e.u-tokyo.ac.jp/~hayashi/hayashi_econometrics.htm>`_,
+`http://www.e.u-tokyo.ac.jp/~hayashi/hayashi\_econometrics.htm <http://www.e.u-tokyo.ac.jp/~hayashi/hayashi_econometrics.htm>`__,
 chapter 1, 76-84.
 
 See Also

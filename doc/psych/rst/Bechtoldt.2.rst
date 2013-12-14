@@ -111,9 +111,9 @@ data set.
 Source
 ~~~~~~
 
-Holzinger: Holzinger and Swineford (1937)
- Reise: Steve Reise (personal communication)
- sem help page (for Thurstone)
+| Holzinger: Holzinger and Swineford (1937)
+|  Reise: Steve Reise (personal communication)
+|  sem help page (for Thurstone)
 
 References
 ~~~~~~~~~~

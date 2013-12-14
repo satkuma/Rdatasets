@@ -12,7 +12,6 @@ Eighth-Grade Pupils in the Netherlands
 
 <h3>Description</h3>
 
-
 <p>Snijders and Bosker (1999) use as a running example a study of 2287
 eighth-grade pupils (aged about 11) in 132 classes in 131 schools in
 the Netherlands.  Only the variables used in our examples are supplied.
@@ -27,7 +26,6 @@ nlschools
 
 
 <h3>Format</h3>
-
 
 <p>This data frame contains 2287 rows and the following columns:
 </p>
@@ -67,7 +65,6 @@ eighth-graders were tested.
 
 <h3>Source</h3>
 
-
 <p>Snijders, T. A. B. and Bosker, R. J. (1999)
 <EM>Multilevel Analysis. An Introduction to Basic and Advanced
 Multilevel Modelling.</EM> London: Sage.
@@ -75,7 +72,6 @@ Multilevel Modelling.</EM> London: Sage.
 
 
 <h3>References</h3>
-
 
 <p>Venables, W. N. and Ripley, B. D. (2002)
 <EM>Modern Applied Statistics with S.</EM> Fourth edition.  Springer.
@@ -85,18 +81,15 @@ Multilevel Modelling.</EM> London: Sage.
 <h3>Examples</h3>
 
 <pre>
-library(nlme)
-nl1 &lt;- nlschools
-attach(nl1)
-classMeans &lt;- tapply(IQ, class, mean)
-nl1$IQave &lt;- classMeans[as.character(class)]
-nl1$IQ &lt;- nl1$IQ - nl1$IQave
-detach()
+nl1 &lt;- within(nlschools, {
+IQave &lt;- tapply(IQ, class, mean)[as.character(class)]
+IQ &lt;- IQ - IQave
+})
 cen &lt;- c("IQ", "IQave", "SES")
 nl1[cen] &lt;- scale(nl1[cen], center = TRUE, scale = FALSE)
 
-nl.lme &lt;- lme(lang ~ IQ*COMB + IQave + SES,
-              random = ~ IQ | class, data = nl1)
+nl.lme &lt;- nlme::lme(lang ~ IQ*COMB + IQave + SES,
+                    random = ~ IQ | class, data = nl1)
 summary(nl.lme)
 </pre>
 

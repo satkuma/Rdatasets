@@ -47,7 +47,7 @@ Examples
     cbind(euro)
 
     ## These relations hold:
-    euro == signif(euro,6) # [6 digit precision in Euro's definition]
+    euro == signif(euro, 6) # [6 digit precision in Euro's definition]
     all(euro.cross == outer(1/euro, euro))
 
     ## Convert 20 Euro to Belgian Franc

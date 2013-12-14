@@ -79,7 +79,7 @@ Vegetable Kingdom*, 2nd Ed. London: John Murray.
 Andrews, D. and Herzberg, A. (1985) *Data: a collection of problems from
 many fields for the student and research worker*. New York: Springer.
 Data retrieved from:
-`http://lib.stat.cmu.edu/datasets/Andrews/ <http://lib.stat.cmu.edu/datasets/Andrews/>`_
+`http://lib.stat.cmu.edu/datasets/Andrews/ <http://lib.stat.cmu.edu/datasets/Andrews/>`__
 
 References
 ~~~~~~~~~~
@@ -134,7 +134,8 @@ Examples
     # complete permutation distribution of diff, for all 2^15 ways of assigning
     # one value to cross and the other to self (thx: Bert Gunter)
     N <- nrow(ZeaMays)
-    allmeans <- as.matrix(expand.grid(as.data.frame(matrix(rep(c(-1,1),N), nr =2)))) %*% abs(ZeaMays$diff) / N
+    allmeans <- as.matrix(expand.grid(as.data.frame(
+                             matrix(rep(c(-1,1),N), nr =2))))  %*% abs(ZeaMays$diff) / N
 
     # upper-tail p-value
     sum(allmeans > mean(ZeaMays$diff)) / 2^N

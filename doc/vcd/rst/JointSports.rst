@@ -57,6 +57,7 @@ Examples
 
 ::
 
+    library(MASS)
     data("JointSports")
     tab <- xtabs(Freq ~ gender + opinion + grade + year, data = JointSports)
     doubledecker(opinion ~ gender + year + grade, data = tab)

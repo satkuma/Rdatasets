@@ -71,6 +71,9 @@ Immer, R. F., H. K. Hayes, and LeRoy Powers. (1934). Statistical
 Determination of Barley Varietal Adaptation. *Journal of the American
 Society of Agronomy*, **26**, 403–419.
 
+Wright, Kevin (2013). Revisiting Immer's Barley Data. *The American
+Statistician*, **67(3)**, 129–133.
+
 References
 ~~~~~~~~~~
 

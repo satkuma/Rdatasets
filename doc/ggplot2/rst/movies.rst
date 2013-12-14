@@ -8,13 +8,13 @@ Movie information and user ratings from IMDB.com.
 Description
 ~~~~~~~~~~~
 
-The internet movie database, `http://imdb.com/ <http://imdb.com/>`_, is
+The internet movie database, `http://imdb.com/ <http://imdb.com/>`__, is
 a website devoted to collecting movie data supplied by studios and fans.
 It claims to be the biggest movie database on the web and is run by
 amazon. More about information imdb.com can be found online,
-`http://imdb.com/help/show\_leaf?about <http://imdb.com/help/show_leaf?about>`_,
+`http://imdb.com/help/show\_leaf?about <http://imdb.com/help/show_leaf?about>`__,
 including information about the data collection process,
-`http://imdb.com/help/show\_leaf?infosource <http://imdb.com/help/show_leaf?infosource>`_.
+`http://imdb.com/help/show\_leaf?infosource <http://imdb.com/help/show_leaf?infosource>`__.
 
 Format
 ~~~~~~
@@ -52,4 +52,4 @@ following fields:
 References
 ~~~~~~~~~~
 
-`http://had.co.nz/data/movies/ <http://had.co.nz/data/movies/>`_
+`http://had.co.nz/data/movies/ <http://had.co.nz/data/movies/>`__

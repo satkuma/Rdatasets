@@ -47,12 +47,14 @@ References
 
 Stigler, S. M. (1999). Statistics on the Table: The History of
 Statistical Concepts and Methods. Harvard University Press. Galton, F.
-(1869). Hereditary Genius: An Inquiry into its Laws and Con- sequences.
-London: Macmillan.
+(1886). Regression towards mediocrity in hereditary stature. Journal of
+the Anthropological Institute of Great Britain and Ireland, 15:246-263.
+Galton, F. (1869). Hereditary Genius: An Inquiry into its Laws and
+Consequences. London: Macmillan.
 
 Wachsmuth, A.W., Wilkinson L., Dallal G.E. (2003). Galton's bend: A
 previously undiscovered nonlinearity in Galton's family stature
-regression data. The American Statistician, 57, 190-1922.
+regression data. The American Statistician, 57, 190-192.
 
 See Also
 ~~~~~~~~
@@ -66,7 +68,10 @@ Examples
 
     data(galton)
     describe(galton)
-    pairs.panels(galton,main="Galton's Parent child heights")   #show the scatter plot and the lowess fit 
-    pairs.panels(galton,lm=TRUE,main="Galton's Parent child heights") #but this makes the regression lines look the same
-    pairs.panels(galton,lm=TRUE,xlim=c(62,74),ylim=c(62,74),main="Galton's Parent child heights")  #better is to scale them 
+     #show the scatter plot and the lowess fit 
+    pairs.panels(galton,main="Galton's Parent child heights")  
+    #but this makes the regression lines look the same
+    pairs.panels(galton,lm=TRUE,main="Galton's Parent child heights") 
+     #better is to scale them 
+    pairs.panels(galton,lm=TRUE,xlim=c(62,74),ylim=c(62,74),main="Galton's Parent child heights") 
 

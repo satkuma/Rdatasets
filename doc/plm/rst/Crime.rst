@@ -106,13 +106,13 @@ Source
 
 Online complements to Baltagi (2001).
 
-`http://www.wiley.com/legacy/wileychi/baltagi/ <http://www.wiley.com/legacy/wileychi/baltagi/>`_,
+`http://www.wiley.com/legacy/wileychi/baltagi/ <http://www.wiley.com/legacy/wileychi/baltagi/>`__,
 .
 
 See also Journal of Applied Econometrics data archive entry for Baltagi
 (2006) at
 
-`http://www.econ.queensu.ca/jae/2006-v21.4/baltagi/ <http://www.econ.queensu.ca/jae/2006-v21.4/baltagi/>`_.
+`http://www.econ.queensu.ca/jae/2006-v21.4/baltagi/ <http://www.econ.queensu.ca/jae/2006-v21.4/baltagi/>`__.
 
 References
 ~~~~~~~~~~

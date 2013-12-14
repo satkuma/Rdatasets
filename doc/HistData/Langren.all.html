@@ -12,7 +12,6 @@ van Langren's Data on Longitude Distance between Toledo and Rome
 
 <h3>Description</h3>
 
-
 <p>Michael Florent van Langren (1598-1675) was a Dutch mathematician and astronomer, who served
 as a royal mathematician to King Phillip IV of Spain, and who worked on one of the most significant
 problems of his time&mdash; the accurate determination of longitude, particularly for navigation at sea.
@@ -41,7 +40,6 @@ from all known versions of this graph.
 
 
 <h3>Format</h3>
-
 
 <p><code>Langren1644</code>: A data frame with 12 observations on the following 9 variables,
 giving determinations of the distance in longitude between Toledo and Rome, from the 1644 graph.
@@ -88,7 +86,6 @@ with levels  <code>Algunos1</code> <code>Algunos2</code>  <code>Apianus</code> .
 
 <h3>Details</h3>
 
-
 <p>In all the graphs, Toledo is implicitly at the origin and Rome is located relatively at the value of <code>Longitude</code>  
 To judge correspondence with an actual map, the positions in (lat, long) are
 </p>
@@ -101,14 +98,12 @@ To judge correspondence with an actual map, the positions in (lat, long) are
 
 <h3>Source</h3>
 
-
 <p>The longitude values were digitized from images of the various graphs, which may be
 found on the Supplementary materials page for Friendly etal. (2009).
 </p>
 
 
 <h3>References</h3>
-
 
 <p>Friendly, M., Valero-Mora, P. and Ulargui, J. I. (2010).
 The First (Known) Statistical Graph: Michael Florent van Langren and the &quot;Secret&quot; of Longitude.
@@ -170,9 +165,10 @@ if (require(jpeg, quietly=TRUE)) {
   text(xlate(8), 17, "Grados de la Longitud", cex=1.7)
 
   # label the observations with the names
-  points(x=xlate(Langren1644$Longitude), y=rep(57, nrow(Langren1644)), pch=25, col="blue", bg="blue")
-  text(x=xlate(Langren1644$Longitude), y=rep(57, nrow(Langren1644)), labels=Langren1644$Name, srt=90, adj=c(-.1, .5), cex=0.8)
-
+  points(x=xlate(Langren1644$Longitude), y=rep(57, nrow(Langren1644)), 
+         pch=25, col="blue", bg="blue")
+  text(x=xlate(Langren1644$Longitude), y=rep(57, nrow(Langren1644)), 
+       labels=Langren1644$Name, srt=90, adj=c(-.1, .5), cex=0.8)
   par(op)
 }
 
@@ -197,8 +193,10 @@ if (require(ReadImages)) {
   xlate &lt;- function(x) {
     130+x*726/30	
   }
-  points(x=xlate(Langren1644$Longitude), y=rep(57, nrow(Langren1644)), pch=25, col="blue")
-  text(x=xlate(Langren1644$Longitude), y=rep(57, nrow(Langren1644)), labels=Langren1644$Name, srt=90, adj=c(0, 0.5), cex=0.8)
+  points(x=xlate(Langren1644$Longitude), y=rep(57, nrow(Langren1644)), 
+         pch=25, col="blue")
+  text(x=xlate(Langren1644$Longitude), y=rep(57, nrow(Langren1644)), 
+         labels=Langren1644$Name, srt=90, adj=c(0, 0.5), cex=0.8)
 }
 
 ## End(Not run)

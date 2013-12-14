@@ -41,7 +41,7 @@ Examples
 ::
 
         ## Not run: 
-            friendship <- format.network.data(friends, advice, prestige, authority, perpower, per)   
-                
+    friendship <- format.network.data(friends, advice, prestige, authority, perpower, per)
+
     ## End(Not run)
 

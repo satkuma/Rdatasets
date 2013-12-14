@@ -23,14 +23,12 @@ euro.cross
 
 <h3>Format</h3>
 
-
-<p><code>euro</code> is a named vector of length 11, <code>euro.cross</code> a 
+<p><code>euro</code> is a named vector of length 11, <code>euro.cross</code> a
 matrix of size 11 by 11, with dimnames.
 </p>
 
 
 <h3>Details</h3>
-
 
 <p>The data set <code>euro</code> contains the value of 1 Euro in all
 currencies participating in the European monetary union (Austrian
@@ -53,7 +51,7 @@ various Euro currencies, i.e., the result of
 cbind(euro)
 
 ## These relations hold:
-euro == signif(euro,6) # [6 digit precision in Euro's definition]
+euro == signif(euro, 6) # [6 digit precision in Euro's definition]
 all(euro.cross == outer(1/euro, euro))
 
 ## Convert 20 Euro to Belgian Franc

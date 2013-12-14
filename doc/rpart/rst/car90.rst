@@ -2,14 +2,14 @@
 | car90   | R Documentation   |
 +---------+-------------------+
 
-Automobile Data from Consumer Reports 1990
-------------------------------------------
+Automobile Data from 'Consumer Reports' 1990
+--------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
 Data on 111 cars, taken from pages 235–255, 281–285 and 287–288 of the
-April 1990 Consumer Reports Magazine.
+April 1990 *Consumer Reports* Magazine.
 
 Usage
 ~~~~~
@@ -145,7 +145,8 @@ definitions.
 See Also
 ~~~~~~~~
 
-``car.test.frame``, ``cu.summary``
+``car.test.frame``, ``cu.summary`` for extracts from other versions of
+the dataset.
 
 Examples
 ~~~~~~~~

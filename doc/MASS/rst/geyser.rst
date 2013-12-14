@@ -28,12 +28,17 @@ Format
 
 A data frame with 299 observations on 2 variables.
 
-+----------------+-----------+---------------------------------+
-| ``duration``   | numeric   | Eruption time in mins           |
-+----------------+-----------+---------------------------------+
-| ``waiting``    | numeric   | Waiting time to next eruption   |
-+----------------+-----------+---------------------------------+
-+----------------+-----------+---------------------------------+
+``duration``
+
+numeric
+
+Eruption time in mins
+
+``waiting``
+
+numeric
+
+Waiting time to next eruption
 
 References
 ~~~~~~~~~~

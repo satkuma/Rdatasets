@@ -10,7 +10,6 @@
 
 <h3>Description</h3>
 
-
 <p>The number of telephones in various regions of the world (in
 thousands).
 </p>
@@ -22,7 +21,6 @@ thousands).
 
 
 <h3>Format</h3>
-
 
 <p>A matrix with 7 rows and 8 columns.  The columns of the matrix give
 the figures for a given region, and the rows the figures for a year.
@@ -36,13 +34,11 @@ Africa, Central America.
 
 <h3>Source</h3>
 
-
 <p>AT&amp;T (1961) <EM>The World's Telephones</EM>.
 </p>
 
 
 <h3>References</h3>
-
 
 <p>McNeil, D. R. (1977)
 <EM>Interactive Data Analysis</EM>.
@@ -56,7 +52,7 @@ New York: Wiley.
 require(graphics)
 matplot(rownames(WorldPhones), WorldPhones, type = "b", log = "y",
         xlab = "Year", ylab = "Number of telephones (1000's)")
-legend(1951.5, 80000, colnames(WorldPhones), col = 1:6, lty = 1:5, 
+legend(1951.5, 80000, colnames(WorldPhones), col = 1:6, lty = 1:5,
        pch = rep(21, 7))
 title(main = "World phones data: log scale for response")
 </pre>

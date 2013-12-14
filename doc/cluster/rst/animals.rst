@@ -22,20 +22,41 @@ Format
 
 A data frame with 20 observations on 6 variables:
 
-+----------+-------+------------------+
-| [ , 1]   | war   | warm-blooded     |
-+----------+-------+------------------+
-| [ , 2]   | fly   | can fly          |
-+----------+-------+------------------+
-| [ , 3]   | ver   | vertebrate       |
-+----------+-------+------------------+
-| [ , 4]   | end   | endangered       |
-+----------+-------+------------------+
-| [ , 5]   | gro   | live in groups   |
-+----------+-------+------------------+
-| [ , 6]   | hai   | have hair        |
-+----------+-------+------------------+
-+----------+-------+------------------+
+[ , 1]
+
+war
+
+warm-blooded
+
+[ , 2]
+
+fly
+
+can fly
+
+[ , 3]
+
+ver
+
+vertebrate
+
+[ , 4]
+
+end
+
+endangered
+
+[ , 5]
+
+gro
+
+live in groups
+
+[ , 6]
+
+hai
+
+have hair
 
 All variables are encoded as 1 = ‘no’, 2 = ‘yes’.
 

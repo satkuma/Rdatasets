@@ -54,11 +54,11 @@ References
 ~~~~~~~~~~
 
 Greene, W.H. (2003) *Econometric Analysis*, Prentice Hall,
-`http://www.prenhall.com/greene/greene1.html <http://www.prenhall.com/greene/greene1.html>`_,
+`http://www.prenhall.com/greene/greene1.html <http://www.prenhall.com/greene/greene1.html>`__,
 Table F18.1.
 
 Journal of Applied Econometrics data archive :
-`http://jae.wiley.com/jae/ <http://jae.wiley.com/jae/>`_.
+`http://jae.wiley.com/jae/ <http://jae.wiley.com/jae/>`__.
 
 See Also
 ~~~~~~~~

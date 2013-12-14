@@ -76,12 +76,12 @@ Source
 Macdonell, W. R. (1902). On Criminal Anthropometry and the
 Identification of Criminals. *Biometrika*, 1(2), 177-227.
 doi:10.1093/biomet/1.2.177
-`http://www.jstor.org/stable/2331487 <http://www.jstor.org/stable/2331487>`_
+`http://www.jstor.org/stable/2331487 <http://www.jstor.org/stable/2331487>`__
 
 The data used here were obtained from:
 
 Hanley, J. (2008). Macdonell data used by Student.
-`http://www.medicine.mcgill.ca/epidemiology/hanley/Student/ <http://www.medicine.mcgill.ca/epidemiology/hanley/Student/>`_
+`http://www.medicine.mcgill.ca/epidemiology/hanley/Student/ <http://www.medicine.mcgill.ca/epidemiology/hanley/Student/>`__
 
 References
 ~~~~~~~~~~
@@ -91,7 +91,7 @@ What if Gosset had R? *The American Statistican*, 62(1), 64-69.
 
 Gosett, W. S. [Student] (1908). Probable error of a mean. *Biometrika*,
 6(1), 1-25.
-`http://www.york.ac.uk/depts/maths/histstat/student.pdf <http://www.york.ac.uk/depts/maths/histstat/student.pdf>`_
+`http://www.york.ac.uk/depts/maths/histstat/student.pdf <http://www.york.ac.uk/depts/maths/histstat/student.pdf>`__
 
 Gosett, W. S. [Student] (1908). Probable error of a correlation
 coefficient. *Biometrika*, 6, 302-310.

@@ -10,7 +10,6 @@
 
 <h3>Description</h3>
 
-
 <p>A classical data of Michelson (but not this one with Morley) on
 measurements done in 1879 on the speed of light.  The data consists of
 five experiments, each consisting of 20 consecutive &lsquo;runs&rsquo;.
@@ -21,11 +20,12 @@ The response is the speed of light measurement, suitably coded
 
 <h3>Usage</h3>
 
-<pre>morley</pre>
+<pre>
+morley
+</pre>
 
 
 <h3>Format</h3>
-
 
 <p>A data frame contains the following components:
 </p>
@@ -43,7 +43,6 @@ The response is the speed of light measurement, suitably coded
 
 <h3>Details</h3>
 
-
 <p>The data is here viewed as a randomized block experiment with
 &lsquo;experiment&rsquo; and &lsquo;run&rsquo; as the factors.  &lsquo;run&rsquo; may
 also be considered a quantitative variate to account for linear (or
@@ -54,13 +53,12 @@ experiment.
 
 <h3>Note</h3>
 
-
-<p>This is the same dataset as <code>michelson</code> in package <span class="pkg">MASS</span>.
+<p>This is the same dataset as <code>michelson</code> in package
+<a href="http://CRAN.R-project.org/package=MASS"><span class="pkg">MASS</span></a>.
 </p>
 
 
 <h3>Source</h3>
-
 
 <p>A. J. Weekes (1986)
 <EM>A Genstat Primer</EM>.
@@ -82,13 +80,12 @@ U.S. Nautical Almanac Office.  (See Table 24.)
 
 <pre>
 require(stats); require(graphics)
-morley$Expt &lt;- factor(morley$Expt)
-morley$Run &lt;- factor(morley$Run)
-
-xtabs(~ Expt + Run, data = morley)# 5 x 20 balanced (two-way)
-plot(Speed ~ Expt, data = morley,
+michelson &lt;- transform(morley,
+                       Expt = factor(Expt), Run = factor(Run))
+xtabs(~ Expt + Run, data = michelson)  # 5 x 20 balanced (two-way)
+plot(Speed ~ Expt, data = michelson,
      main = "Speed of Light Data", xlab = "Experiment No.")
-fm &lt;- aov(Speed ~ Run + Expt, data = morley)
+fm &lt;- aov(Speed ~ Run + Expt, data = michelson)
 summary(fm)
 fm0 &lt;- update(fm, . ~ . - Run)
 anova(fm0, fm)

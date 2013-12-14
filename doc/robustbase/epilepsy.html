@@ -23,7 +23,6 @@ Poisson regression.
 
 <h3>Format</h3>
 
-
 <p>A data frame with 59 observations on the following 11 variables.
 </p>
 
@@ -76,7 +75,6 @@ follow-up periods of two weeks each.
 
 <h3>Source</h3>
 
-
 <p>Thall, P.F. and Vail S.C. (1990)
 Some covariance models for longitudinal count data with overdispersion.
 <EM>Biometrics</EM> <B>46</B>, 657&ndash;671.
@@ -84,7 +82,6 @@ Some covariance models for longitudinal count data with overdispersion.
 
 
 <h3>References</h3>
-
 
 <p>Diggle, P.J., Liang, K.Y., and Zeger, S.L. (1994)
 <EM>Analysis of Longitudinal Data</EM>; Clarendon Press.
@@ -106,10 +103,11 @@ pairs(epilepsy[,c("Ysum","Base4","Trt","Age10")])
 Efit1 &lt;- glm(Ysum ~ Age10 + Base4*Trt, family=poisson, data=epilepsy)
 summary(Efit1)
 
-## Robust Fit : %%&gt;&gt;&gt;&gt;&gt; FIXME &lt;&lt;&lt;&lt;
-
-
-
+## Robust Fit :
+Efit2 &lt;- glmrob(Ysum ~ Age10 + Base4*Trt, family=poisson, data=epilepsy,
+                method = "Mqle",
+                tcc=1.2, maxit=100)
+summary(Efit2)
 </pre>
 
 

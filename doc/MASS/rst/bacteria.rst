@@ -57,7 +57,7 @@ Source
 ~~~~~~
 
 Menzies School of Health Research 1999–2000 Annual Report pp. 18–21
-(`http://www.menzies.edu.au/publications/anreps/MSHR00.pdf <http://www.menzies.edu.au/publications/anreps/MSHR00.pdf>`_).
+(`http://www.menzies.edu.au/publications/anreps/MSHR00.pdf <http://www.menzies.edu.au/publications/anreps/MSHR00.pdf>`__).
 
 References
 ~~~~~~~~~~

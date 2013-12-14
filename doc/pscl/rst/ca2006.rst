@@ -69,9 +69,9 @@ Source
 ~~~~~~
 
 2006 data from the California Secretary of State's web site,
-`http://vote2006.sos.ca.gov/Returns/usrep/all.htm <http://vote2006.sos.ca.gov/Returns/usrep/all.htm>`_;
+`http://vote2006.sos.ca.gov/Returns/usrep/all.htm <http://vote2006.sos.ca.gov/Returns/usrep/all.htm>`__;
 Excel data at
-`http://www.sos.ca.gov/elections/sov/2006\_general/congress.xls <http://www.sos.ca.gov/elections/sov/2006_general/congress.xls>`_.
+`http://www.sos.ca.gov/elections/sov/2006\_general/congress.xls <http://www.sos.ca.gov/elections/sov/2006_general/congress.xls>`__.
 2004 and 2000 presidential vote in congressional districts from the 2006
 *Almanac of American Politics*.
 

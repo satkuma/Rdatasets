@@ -12,7 +12,6 @@ Effect of Calcium Chloride on Muscle Contraction in Rat Hearts
 
 <h3>Description</h3>
 
-
 <p>The purpose of this experiment was to assess the influence of
 calcium in solution on the contraction of heart muscle in rats.
 The left auricle of 21 rat hearts was isolated and on several
@@ -31,7 +30,6 @@ muscle
 
 
 <h3>Format</h3>
-
 
 <p>This data frame contains the following columns:
 </p>
@@ -55,7 +53,6 @@ muscle
 
 <h3>Source</h3>
 
-
 <p>Linder, A., Chakravarti, I. M. and Vuagnat, P. (1964)
 Fitting asymptotic regression curves with different asymptotes.  In
 <EM>Contributions to Statistics. Presented to Professor P. C. Mahalanobis
@@ -65,7 +62,6 @@ ed. C. R. Rao, pp. 221&ndash;228. Oxford: Pergamon Press.
 
 
 <h3>References</h3>
-
 
 <p>Venables, W. N. and Ripley, B. D. (2002)
 <EM>Modern Applied Statistics with S.</EM> Fourth Edition. Springer.
@@ -78,30 +74,28 @@ ed. C. R. Rao, pp. 221&ndash;228. Oxford: Pergamon Press.
 A &lt;- model.matrix(~ Strip - 1, data=muscle)
 rats.nls1 &lt;- nls(log(Length) ~ cbind(A, rho^Conc),
    data = muscle, start = c(rho=0.1), algorithm="plinear")
-B &lt;- coef(rats.nls1)
-B
+(B &lt;- coef(rats.nls1))
 
 st &lt;- list(alpha = B[2:22], beta = B[23], rho = B[1])
 (rats.nls2 &lt;- nls(log(Length) ~ alpha[Strip] + beta*rho^Conc,
                   data = muscle, start = st))
 
-attach(muscle)
+Muscle &lt;- with(muscle, {
 Muscle &lt;- expand.grid(Conc = sort(unique(Conc)), Strip = levels(Strip))
 Muscle$Yhat &lt;- predict(rats.nls2, Muscle)
 Muscle &lt;- cbind(Muscle, logLength = rep(as.numeric(NA), 126))
 ind &lt;- match(paste(Strip, Conc),
             paste(Muscle$Strip, Muscle$Conc))
 Muscle$logLength[ind] &lt;- log(Length)
-detach()
+Muscle})
 
-require(lattice)
-xyplot(Yhat ~ Conc | Strip, Muscle, as.table = TRUE,
+lattice::xyplot(Yhat ~ Conc | Strip, Muscle, as.table = TRUE,
    ylim = range(c(Muscle$Yhat, Muscle$logLength), na.rm = TRUE),
    subscripts = TRUE, xlab = "Calcium Chloride concentration (mM)",
    ylab = "log(Length in mm)", panel =
    function(x, y, subscripts, ...) {
-      lines(spline(x, y))
       panel.xyplot(x, Muscle$logLength[subscripts], ...)
+      llines(spline(x, y))
    })
 </pre>
 

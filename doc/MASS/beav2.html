@@ -12,7 +12,6 @@ Body Temperature Series of Beaver 2
 
 <h3>Description</h3>
 
-
 <p>Reynolds (1994) describes a small part of a study of the long-term
 temperature dynamics of beaver <EM>Castor canadensis</EM> in
 north-central Wisconsin.  Body temperature was measured by telemetry
@@ -29,7 +28,6 @@ beav2
 
 
 <h3>Format</h3>
-
 
 <p>The <code>beav2</code> data frame has 100 rows and 4 columns.
 This data frame contains the following columns:
@@ -59,7 +57,6 @@ November 3&ndash;4.
 
 <h3>Source</h3>
 
-
 <p>P. S. Reynolds (1994) Time-series analyses of beaver body temperatures.
 Chapter 11 of
 Lange, N., Ryan, L., Billard, L., Brillinger, D., Conquest, L.
@@ -70,14 +67,12 @@ and Greenhouse, J. eds (1994)
 
 <h3>References</h3>
 
-
 <p>Venables, W. N. and Ripley, B. D. (2002)
 <EM>Modern Applied Statistics with S.</EM> Fourth edition.  Springer.
 </p>
 
 
 <h3>See Also</h3>
-
 
 <p><code>beav1</code>
 </p>
@@ -102,7 +97,7 @@ arima(temp, order = c(1,0,0), xreg = activ)
 dreg &lt;- cbind(sin = sin(2*pi*beav2$hours/24), cos = cos(2*pi*beav2$hours/24))
 arima(temp, order = c(1,0,0), xreg = cbind(active=activ, dreg))
 
-library(nlme)
+library(nlme) # for gls and corAR1
 beav2.gls &lt;- gls(temp ~ activ, data = beav2, corr = corAR1(0.8),
                  method = "ML")
 summary(beav2.gls)

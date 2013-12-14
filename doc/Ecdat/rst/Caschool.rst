@@ -83,14 +83,14 @@ Source
 ~~~~~~
 
 California Department of Education
-`http://www.cde.ca.gov <http://www.cde.ca.gov>`_.
+`http://www.cde.ca.gov <http://www.cde.ca.gov>`__.
 
 References
 ~~~~~~~~~~
 
 Stock, James H. and Mark W. Watson (2003) *Introduction to
 Econometrics*, Addison-Wesley Educational Publishers,
-`http://wps.aw.com/aw\_stockwatsn\_economtrcs\_1 <http://wps.aw.com/aw_stockwatsn_economtrcs_1>`_,
+`http://wps.aw.com/aw\_stockwatsn\_economtrcs\_1 <http://wps.aw.com/aw_stockwatsn_economtrcs_1>`__,
 chapter 4–7.
 
 See Also

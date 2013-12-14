@@ -57,7 +57,7 @@ Source
 
 Journal of Business Economics and Statistics data archive:
 
-`http://www.amstat.org/publications/jbes/ <http://www.amstat.org/publications/jbes/>`_.
+`http://www.amstat.org/publications/jbes/ <http://www.amstat.org/publications/jbes/>`__.
 
 References
 ~~~~~~~~~~

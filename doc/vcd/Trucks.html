@@ -10,7 +10,6 @@
 
 <h3>Description</h3>
 
-
 <p>Data from a study in England in two periods from November 1969 to
 October 1971 and November 1971 to October 1973.  A new compulsory
 safety measure for trucks was introduced in October 1971.  Therefore,
@@ -27,7 +26,6 @@ data("Trucks")
 
 
 <h3>Format</h3>
-
 
 <p>A data frame with 24 observations on 5 variables.
 </p>
@@ -55,14 +53,12 @@ road (night, dark).</p>
 
 <h3>Source</h3>
 
-
 <p>E. B. Andersen (1991),
 The Statistical Analysis of Categorical Data, Table 6.8.
 </p>
 
 
 <h3>References</h3>
-
 
 <p>E. B. Andersen (1991),
 <EM>The Statistical Analysis of Categorical Data</EM>.
@@ -74,6 +70,7 @@ Springer-Verlag, Berlin.
 <h3>Examples</h3>
 
 <pre>
+library(MASS)
 data("Trucks")
 tab &lt;- xtabs(Freq ~ period + collision + light + parked, data = Trucks)
 loglm(~ (collision + period) * parked * light, data = tab)

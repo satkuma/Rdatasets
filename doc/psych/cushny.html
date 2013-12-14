@@ -23,7 +23,6 @@ A data set from Cushny and Peebles (1905) on the effect of three drugs on hours 
 
 <h3>Format</h3>
 
-
 <p>A data frame with 10 observations on the following 7 variables.
 </p>
 
@@ -71,7 +70,8 @@ A data set from Cushny and Peebles (1905) on the effect of three drugs on hours 
 data(cushny)
 with(cushny, t.test(drug1,drug2L,paired=TRUE)) #within subjects 
 
-error.bars(cushny[1:4],within=TRUE,ylab="Hours of sleep",xlab="Drug condition",main="95% confidence of within subject effects")
+error.bars(cushny[1:4],within=TRUE,ylab="Hours of sleep",xlab="Drug condition", 
+       main="95% confidence of within subject effects")
 </pre>
 
 

@@ -10,7 +10,6 @@
 
 <h3>Description</h3>
 
-
 <p>Data from a Danish study in 1983 and 1985 about sports activities and
 the opinion about joint sports with the other gender among 16&ndash;19 year
 old high school students.
@@ -25,7 +24,6 @@ data("JointSports")
 
 
 <h3>Format</h3>
-
 
 <p>A data frame with 40 observations and 5 variables.
 </p>
@@ -48,14 +46,12 @@ other gender (very good, good, indifferent, bad, very bad).</p>
 
 <h3>Source</h3>
 
-
 <p>E. B. Andersen (1991),
 The Statistical Analysis of Categorical Data, page 210.
 </p>
 
 
 <h3>References</h3>
-
 
 <p>E. B. Andersen (1991),
 <EM>The Statistical Analysis of Categorical Data</EM>.
@@ -67,6 +63,7 @@ Springer-Verlag, Berlin.
 <h3>Examples</h3>
 
 <pre>
+library(MASS)
 data("JointSports")
 tab &lt;- xtabs(Freq ~ gender + opinion + grade + year, data = JointSports)
 doubledecker(opinion ~ gender + year + grade, data = tab)

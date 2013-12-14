@@ -44,8 +44,8 @@ Source
 
 J.C. Gower and D.J. Hand (1996) *Biplots*. Chapman & Hall, Table 4.6.
 
-Quoted as from:
- R.H.G. Jongman, C.J.F. ter Braak and O.F.R. van Tongeren (1987) *Data
+| Quoted as from:
+|  R.H.G. Jongman, C.J.F. ter Braak and O.F.R. van Tongeren (1987) *Data
 Analysis in Community and Landscape Ecology.* PUDOC, Wageningen.
 
 References

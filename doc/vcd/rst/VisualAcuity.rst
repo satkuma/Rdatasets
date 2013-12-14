@@ -40,7 +40,7 @@ Source
 ~~~~~~
 
 M. Friendly (2000), Visualizing Categorical Data:
-`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/vision.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/vision.sas>`_
+`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/vision.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/vision.sas>`__
 
 References
 ~~~~~~~~~~

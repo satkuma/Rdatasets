@@ -32,9 +32,9 @@ typically *fail*; however, e.g., ``rlm(*,     method="MM")`` “works”.
 Source
 ~~~~~~
 
-Antille, G. and El May, H. (1992) The use of slices in the LMS and the
+| Antille, G. and El May, H. (1992) The use of slices in the LMS and the
 method of density slices: Foundation and comparison.
- In Yadolah Dodge and Joe Whittaker, editors, *COMPSTAT: Proc. 10th
+|  In Yadolah Dodge and Joe Whittaker, editors, *COMPSTAT: Proc. 10th
 Symp. Computat. Statist., Neuchatel*, **1**, 441–445; Physica-Verlag.
 
 Examples
