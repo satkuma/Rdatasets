@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>R: An example pedigree data</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="R.css">
+</head><body>
+
+<table width="100%" summary="page for l51"><tr><td>l51</td><td align="right">R Documentation</td></tr></table>
+
+<h2>An example pedigree data</h2>
+
+<h3>Description</h3>
+
+<p>The data contains data on 51 individuals in a pedigree. Below it is used for comparing results from various packages.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>data(l51)</pre>
+
+
+<h3>Format</h3>
+
+<p>A data frame</p>
+
+
+<h3>Source</h3>
+
+<p>Morgan v3.</p>
+
+
+<h3>References</h3>
+
+<p>Morgan v3. <a href="http://www.stat.washington.edu/thompson/Genepi/MORGAN/Morgan.shtml">http://www.stat.washington.edu/thompson/Genepi/MORGAN/Morgan.shtml</a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>## Not run: 
+library(kinship2)
+library(regress)
+library(coxme)
+library(pls)
+library(POET)
+library(pedigreemm)
+N &lt;- dim(l51)[1]
+ped51 &lt;- within(l51, {
+     hist(qt)
+     pid &lt;- "51"
+     w &lt;- quantile(qt,probs=0.75,na.rm=TRUE)
+     r &lt;- rnorm(N)
+     bt=ifelse(qt&lt;=w,0,1)
+     }
+)
+ped &lt;- with(ped51,kinship2::pedigree(id,fid,mid,sex,aff=bt))
+plot(ped)
+kmat &lt;- with(ped51,kinship(id, fid, mid))
+k2 &lt;- as.matrix(2*kmat)
+I &lt;- diag(N)
+dimnames(I) &lt;- dimnames(k2)
+k3 &lt;- k2+I
+
+regress(qt ~ 1, ~I, data=ped51)
+regress(qt ~ 1, ~k2, data=ped51)
+regress(qt ~ 1, ~k2+I, data=ped51)
+regress(qt ~ 1, ~k3, data=ped51)
+
+lmekin(qt ~ 1 + (1|id), data=ped51)
+lmekin(qt ~ 1 + (1|id), data=ped51, varlist=list(k2))
+lmekin(qt ~ 1 + (1|id), data=ped51, varlist=list(k2,I))
+lmekin(qt ~ 1 + (1|id), data=ped51, varlist=list(k3))
+
+coxme(Surv(qt,bt)~1+(1|id),data=ped51)
+coxme(Surv(qt,bt)~1+(1|id),data=ped51,varlist=list(k2))
+coxme(Surv(qt,bt)~1+(1|id),data=ped51,varlist=list(k3))
+ped &lt;- with(ped51,pedigreemm::pedigree(fid,mid,id))
+U &lt;- relfactor(ped)
+A &lt;- as.matrix(t(U) 
+sum(A-k2)
+F &lt;- inbreeding(ped)
+pedigreemm(bt~(1|id),data=ped51, family="binomial"(link="logit"),
+           pedigree=list(id=ped))
+pedigreemm(bt~(1|id),data=ped51, family="binomial"(link="logit"),
+           REML=FALSE, pedigree=list(id=ped))
+
+with(ped51,summary(qt))
+m0 &lt;- lm(qt ~ 1, data=ped51)
+summary(m0)
+m1 &lt;- lm(qt ~ r, data=ped51)
+summary(m1)
+rawdata &lt;- function(){
+  pca &lt;- prcomp(k2)
+  screeplot(pca,25)
+  biplot(pca)
+  pred &lt;- predict(pca)
+  l1 &lt;- lm(qt~1+pred[,1:6],data=ped51)
+  summary(l1)
+  l2 &lt;- lm(qt~1+pred[,1:35],data=ped51)
+  summary(l2)
+  
+  p0 &lt;- pcr(qt ~ pred, 25, data=ped51, validation="CV")
+  summary(p0)
+  coef(p0)
+  coefplot(p0)
+  p1 &lt;- pcr(qt ~ k2, 35, data=ped51, validation="CV")
+  summary(p1)
+  coef(p0)
+  coefplot(p1)
+  scores(p1)
+  poet &lt;- POET(k2)
+  pred &lt;- k2
+  t0 &lt;- lm(qt~pred,data=ped51)
+  summary(t0)
+  poet &lt;- POET(k2,4)
+  pred &lt;- k2
+  t1 &lt;- lm(qt~pred,data=ped51)
+  summary(t1)
+}
+
+# GCTA
+
+k2l &lt;- matrix(0,N*(N+1)/2,4)
+p &lt;- matrix(0,N,4)
+k &lt;- 1
+for(i in 1:N)
+{
+  p[i,] &lt;- with(ped51[i,],c(i,i,qt,bt))
+  for(j in 1:i) 
+  {
+    k2l[k,] &lt;- c(i,j,51,k2[i,j])
+    k &lt;- k+1
+  }
+}
+write(t(p),file="51.txt",4,sep="\t")
+write(t(p[,-(3:4)]),file="51.grm.id",2,sep="\t")
+write(t(k2l),file="51.grm",4,sep="\t")
+
+# gzip -f 51.grm
+# gcta64 --grm 51 --pca 51 --out 51
+# gcta64 --reml --grm 51 --pheno 51.txt --out 51_qt
+# gcta64 --reml --grm 51 --pheno 51.txt --mpheno 2 --prevalence 0.25 --out 51_bt_25
+# gcta64 --reml --grm 51 --pheno 51.txt --mpheno 2 --out 51_bt
+
+# SOLAR
+
+solar_ped &lt;- ped51[,c("id","fid","mid","sex")]
+write.table(solar_ped,file="51.ped",col.names=c("id","fa","mo","sex"),
+          quote=FALSE, row.names=FALSE,sep=",",na="")
+solar_pheno &lt;- ped51[,c("id","qt","bt")]
+write.table(solar_pheno,file="51.phen",col.names=c("id","qt","bt"),
+          quote=FALSE, row.names=FALSE,sep=",",na="")
+
+# load pedigree 51.ped
+# load phenotypes 51.phen
+# model new
+# trait qt
+# polygenic -screen
+# trait qt
+# covariate sex
+# polygenic -screen -fix sex
+
+# The following is from experiments with GCTA on heritability estimates
+# involving a binary trait
+# 13-9-2013 MRC-Epid JHZ
+
+VG &lt;- 0.017974; VVG &lt;- 0.003988^2
+VGE &lt;- 0.002451; VVGE &lt;- 0.005247^2
+Ve &lt;- 0.198894; VVe &lt;- 0.005764^2
+
+cVGVGE &lt;- -7.93348e-06
+cVGVe &lt;- -5.54006e-06
+cVGEVe &lt;- -1.95297e-05
+
+Vp &lt;- VG + VGE + Ve
+s &lt;- VVG + VVGE + VVe
+s12 &lt;- 2*cVGVGE
+s13 &lt;- 2*cVGVe
+s23 &lt;- 2*cVGEVe
+VVp &lt;- s + s12 + s13 + s23
+cVpVG &lt;- VVG + cVGVGE + cVGVe
+cVpVGE &lt;- cVGVGE + VVGE + cVGEVe
+
+Vp
+sqrt(VVp)
+VG/Vp
+sqrt(VR(VG, VVG, Vp, VVp, cVpVG))
+VGE/Vp
+sqrt(VR(VGE,VVGE,Vp,VVp, cVpVGE))
+
+K &lt;- 0.05
+x &lt;- qnorm(1-K)
+z &lt;- dnorm(x)
+1/sqrt(2*pi)*exp(-x^2/2)
+P &lt;- 0.496404
+fK &lt;- (K*(1-K)/z)^2
+fP &lt;- P*(1-P)
+f &lt;- fK/fP
+ho &lt;- 0.274553
+vo &lt;- 0.067531
+f*ho
+f*vo
+hl &lt;- 0.232958
+vl &lt;- 0.057300
+r1 &lt;- hl/ho
+r2 &lt;- vl/vo
+r1==r2
+z2 &lt;- K^2*(1-K)^2/(f*fP)
+x2 &lt;- -log(2*pi*z2)
+sqrt(x2)
+
+V &lt;- c(0.017974, 0.002451, 0.198894)
+VCOV &lt;- matrix(0,3,3)
+diag(VCOV) &lt;- c(0.003988, 0.005247, 0.005764)^2
+VCOV[2,1] &lt;- -7.93348e-06
+VCOV[3,1] &lt;- -5.54006e-06
+VCOV[3,2] &lt;- -1.95297e-05
+z &lt;- h2GE(V,VCOV)
+
+h2 &lt;- 0.274553
+se &lt;- 0.067531
+P &lt;- 0.496404
+z &lt;- h2l(P=P,h2=h2,se=se)
+
+hl &lt;- 0.232958
+vl &lt;- 0.057300
+
+R &lt;- 50
+kk &lt;- h2all &lt;- seall &lt;- rep(0,R)
+for(i in 1:R)
+{
+  kk[i] &lt;- 0.4*i/R
+  z &lt;- h2l(kk[i],P=P,h2=h2,se=se)
+  h2all[i] &lt;- z$h2l
+  seall[i] &lt;- z$se
+}
+
+tiff("f.tiff",width=0.03937*189,height=0.03937*189/1.5,units="in",res=1200,compress="lzw")
+plot(kk,h2all,type="l",ylab="Adjusted heritability",xlab="Prevalence")
+lines(kk,h2all-seall,lty="dashed")
+lines(kk,h2all+seall,lty="dashed")
+title("Adjusted heritability for observed value of .23 and cases
+dev.off()
+
+## End(Not run)
+</pre>
+
+
+</body></html>

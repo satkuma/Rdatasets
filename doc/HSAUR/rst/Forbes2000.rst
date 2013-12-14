@@ -50,7 +50,7 @@ marketvalue
 Source
 ~~~~~~
 
-`http://www.forbes.com <http://www.forbes.com>`_, assessed on November
+`http://www.forbes.com <http://www.forbes.com>`__, assessed on November
 26th, 2004.
 
 Examples

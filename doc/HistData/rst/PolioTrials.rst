@@ -82,7 +82,7 @@ Source
 ~~~~~~
 
 Kyle Siegrist, "Virtual Laboratories in Probability and Statistics",
-`http://www.math.uah.edu/stat/data/Polio.xhtml <http://www.math.uah.edu/stat/data/Polio.xhtml>`_
+`http://www.math.uah.edu/stat/data/Polio.xhtml <http://www.math.uah.edu/stat/data/Polio.xhtml>`__
 
 Thomas Francis, Robert Korn, et al. (1955). "An Evaluation of the 1954
 Poliomyelitis Vaccine Trials", *American Journal of Public Health*, 45,

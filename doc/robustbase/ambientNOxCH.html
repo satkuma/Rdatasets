@@ -10,7 +10,6 @@
 
 <h3>Description</h3>
 
-
 <p>This dataset contains daily means (from midnight to midnight) of NOx,
 i.e., mono-nitrogen oxides, in [ppb] at 13 sites in central
 Switzerland and Aarau for the year 2004.
@@ -23,7 +22,6 @@ Switzerland and Aarau for the year 2004.
 
 
 <h3>Format</h3>
-
 
 <p>A data frame with 366 observations on the following 14 variables.
 </p>
@@ -88,7 +86,6 @@ inLuft).</p>
 
 <h3>Details</h3>
 
-
 <p>The 13 sites are part of one of the three air quality monitoring networks:
 inLuft (regional authorities of central Switzerland and canton Aargau)
 <br>
@@ -116,7 +113,6 @@ is above the inversion boundary between December 10th and 12th.
 
 
 <h3>Source</h3>
-
 
 <p>http://www.in-luft.ch/ <br>
 http://www.empa.ch/plugin/template/empa/*/6794 <br>
@@ -191,7 +187,7 @@ arrows(C.cf[lrg,1], C.cf[lrg,2],
 points(R.cf, col=2)
 
 ## All robustness weights
-aW &lt;- t(sapply(R, weights))
+aW &lt;- t(sapply(R, weights, type="robustness"))
 colnames(aW) &lt;- names(yearly)
 summary(aW)
 sort(colSums(aW &lt; 0.05, na.rm = TRUE)) # how often "clear outlier":

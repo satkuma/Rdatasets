@@ -69,9 +69,9 @@ Playfair, W. (1821). *Letter on our Agricultural Distresses, Their
 Causes and Remedies*. London: W. Sams, 1821
 
 Data values: originally digitized from
-`http://www.math.yorku.ca/SCS/Gallery/images/playfair-wheat1.gif <http://www.math.yorku.ca/SCS/Gallery/images/playfair-wheat1.gif>`_
+`http://www.math.yorku.ca/SCS/Gallery/images/playfair-wheat1.gif <http://www.math.yorku.ca/SCS/Gallery/images/playfair-wheat1.gif>`__
 now taken from
-`http://mbostock.github.com/protovis/ex/wheat.js <http://mbostock.github.com/protovis/ex/wheat.js>`_
+`http://mbostock.github.com/protovis/ex/wheat.js <http://mbostock.github.com/protovis/ex/wheat.js>`__
 
 References
 ~~~~~~~~~~
@@ -102,9 +102,10 @@ Examples
     # For best results, this graph should be viewed with width ~ 2 * height
     # Note use of type='s' to plot a step function for Wheat
     #   and panel.first to provide a background grid()
-    #   The curve for Wages is plotted after the polygon below it is filled
+    #     The curve for Wages is plotted after the polygon below it is filled
     with(Wheat, {
-        plot(Year, Wheat, type="s", ylim=c(0,105), ylab="Price of the Quarter of Wheat (shillings)", 
+        plot(Year, Wheat, type="s", ylim=c(0,105), 
+            ylab="Price of the Quarter of Wheat (shillings)", 
             panel.first=grid(col=gray(.9), lty=1))
         fillpoly(Year, Wages, low=0, col="lightskyblue", border=NA)
         lines(Year, Wages, lwd=3, col="red")

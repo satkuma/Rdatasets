@@ -10,7 +10,6 @@
 
 <h3>Description</h3>
 
-
 <p>Education Expenditure Data, from Chatterjee and Price (1977,
 p.108).  This data set, representing the education expenditure
 variables in the 50 US states, providing an interesting example of
@@ -24,7 +23,6 @@ heteroscedacity.
 
 
 <h3>Format</h3>
-
 
 <p>A data frame with 50 observations on the following 6 variables.
 </p>
@@ -49,7 +47,6 @@ state, projected for 1975</p>
 
 <h3>Source</h3>
 
-
 <p>P. J. Rousseeuw and A. M. Leroy (1987)
 <EM>Robust Regression and Outlier Detection</EM>;
 Wiley, p.110, table 16.
@@ -65,6 +62,8 @@ education.x &lt;- data.matrix(education[, 3:5])
 
 summary(lm.education &lt;- lm(Y ~ Region + X1+X2+X3, data=education))
 
+
+## See  example(lmrob.M.S) # for how robust regression is used
 </pre>
 
 

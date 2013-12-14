@@ -26,12 +26,17 @@ A 1-way table giving the frequency of a 5 or a 6 in 26,306 throws of 12
 dice where 10 indicates ‘10 or more’ 5s or 6s. The variable and its
 levels are
 
-+------+--------+-----------------+
-| No   | Name   | Levels          |
-+------+--------+-----------------+
-| 1    | n56    | 0, 1, ..., 10   |
-+------+--------+-----------------+
-+------+--------+-----------------+
+No
+
+Name
+
+Levels
+
+1
+
+n56
+
+0, 1, ..., 10
 
 Source
 ~~~~~~

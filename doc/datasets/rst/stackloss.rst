@@ -25,16 +25,29 @@ Format
 
 ``stackloss`` is a data frame with 21 observations on 4 variables.
 
-+--------+------------------+-----------------------------------------------+
-| [,1]   | ``Air Flow``     | Flow of cooling air                           |
-+--------+------------------+-----------------------------------------------+
-| [,2]   | ``Water Temp``   | Cooling Water Inlet Temperature               |
-+--------+------------------+-----------------------------------------------+
-| [,3]   | ``Acid Conc.``   | Concentration of acid [per 1000, minus 500]   |
-+--------+------------------+-----------------------------------------------+
-| [,4]   | ``stack.loss``   | Stack loss                                    |
-+--------+------------------+-----------------------------------------------+
-+--------+------------------+-----------------------------------------------+
+[,1]
+
+``Air Flow``
+
+Flow of cooling air
+
+[,2]
+
+``Water Temp``
+
+Cooling Water Inlet Temperature
+
+[,3]
+
+``Acid Conc.``
+
+Concentration of acid [per 1000, minus 500]
+
+[,4]
+
+``stack.loss``
+
+Stack loss
 
 For compatibility with S-PLUS, the data sets ``stack.x``, a matrix with
 the first three (independent) variables of the data frame, and

@@ -81,7 +81,7 @@ Michigan: Ann Arbor, Michigan.
 
 Inter-University Consortium for Political and Social Research. Study
 Number 1112.
-`http://dx.doi.org/10.3886/ICPSR01112 <http://dx.doi.org/10.3886/ICPSR01112>`_.
+`http://dx.doi.org/10.3886/ICPSR01112 <http://dx.doi.org/10.3886/ICPSR01112>`__.
 
 References
 ~~~~~~~~~~

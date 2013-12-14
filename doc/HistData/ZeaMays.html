@@ -12,7 +12,6 @@ Darwin's Heights of Cross- and Self-fertilized Zea May Pairs
 
 <h3>Description</h3>
 
-
 <p>Darwin (1876) studied the growth of pairs of zea may (aka corn)
 seedlings, one produced by cross-fertilization and the other
 produced by self-fertilization, but otherwise grown under identical 
@@ -34,7 +33,6 @@ test, treating each paired difference as having (randomly) either a positive or 
 
 <h3>Format</h3>
 
-
 <p>A data frame with 15 observations on the following 4 variables.
 </p>
 
@@ -54,7 +52,6 @@ test, treating each paired difference as having (randomly) either a positive or 
 
 
 <h3>Details</h3>
-
 
 <p>In addition to the standard paired t-test,
 several types of non-parametric tests can be contemplated:
@@ -76,7 +73,6 @@ or that the distribution of <code>diff</code> is symmetric about 0, vs. a locati
 
 <h3>Source</h3>
 
-
 <p>Darwin, C. (1876). <EM>The Effect of Cross- and Self-fertilization in the Vegetable Kingdom</EM>,
 2nd Ed. London: John Murray.
 </p>
@@ -88,13 +84,11 @@ New York: Springer. Data retrieved from: <a href="http://lib.stat.cmu.edu/datase
 
 <h3>References</h3>
 
-
 <p>Fisher, R. A. (1935). <EM>The Design of Experiments</EM>. London: Oliver &amp; Boyd.
 </p>
 
 
 <h3>See Also</h3>
-
 
 <p><code>wilcox.test</code>
 </p>
@@ -140,7 +134,8 @@ mean(ZeaMays$diff)
 # complete permutation distribution of diff, for all 2^15 ways of assigning
 # one value to cross and the other to self (thx: Bert Gunter)
 N &lt;- nrow(ZeaMays)
-allmeans &lt;- as.matrix(expand.grid(as.data.frame(matrix(rep(c(-1,1),N), nr =2)))) %*% abs(ZeaMays$diff) / N
+allmeans &lt;- as.matrix(expand.grid(as.data.frame(
+                         matrix(rep(c(-1,1),N), nr =2))))  %*% abs(ZeaMays$diff) / N
 
 # upper-tail p-value
 sum(allmeans &gt; mean(ZeaMays$diff)) / 2^N

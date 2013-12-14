@@ -24,12 +24,17 @@ Format
 A 1-way table giving the number of tokens for 501 species of
 butterflies. The variable and its levels are
 
-+------+-----------+-----------------+
-| No   | Name      | Levels          |
-+------+-----------+-----------------+
-| 1    | nTokens   | 0, 1, ..., 24   |
-+------+-----------+-----------------+
-+------+-----------+-----------------+
+No
+
+Name
+
+Levels
+
+1
+
+nTokens
+
+0, 1, ..., 24
 
 Source
 ~~~~~~

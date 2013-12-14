@@ -43,14 +43,14 @@ Source
 ~~~~~~
 
 most of the above data are from Kenneth French's data library
-at\ `http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data\\\_Library <%20http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data\_Library>`_.
+at\ `http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data\\\_Library <%20http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data\_Library>`__.
 
 References
 ~~~~~~~~~~
 
 Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley and
 Sons,
-`http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`_,
+`http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`__,
 chapter 2.
 
 See Also

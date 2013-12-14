@@ -60,7 +60,7 @@ References
 ~~~~~~~~~~
 
 Hayashi, F. (2000) *Econometrics*, Princeton University Press,
-`http://www.e.u-tokyo.ac.jp/~hayashi/hayashi\_econometrics.htm <http://www.e.u-tokyo.ac.jp/~hayashi/hayashi_econometrics.htm>`_,
+`http://www.e.u-tokyo.ac.jp/~hayashi/hayashi\_econometrics.htm <http://www.e.u-tokyo.ac.jp/~hayashi/hayashi_econometrics.htm>`__,
 chapter 5, 358-363.
 
 See Also

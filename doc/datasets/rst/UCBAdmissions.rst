@@ -53,7 +53,7 @@ This data set can also be used for illustrating methods for graphical
 display of categorical data, such as the general-purpose mosaic plot or
 the fourfold display for 2-by-2-by-*k* tables. See the home page of
 Michael Friendly
-(`http://www.math.yorku.ca/SCS/friendly.html <http://www.math.yorku.ca/SCS/friendly.html>`_)
+(`http://www.math.yorku.ca/SCS/friendly.html <http://www.math.yorku.ca/SCS/friendly.html>`__)
 for further information.
 
 References

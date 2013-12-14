@@ -33,52 +33,89 @@ Usage
 Format
 ~~~~~~
 
-+-------------+-----------------------------------------------------------------+
-| age:        | in years                                                        |
-+-------------+-----------------------------------------------------------------+
-| albumin:    | serum albumin (g/dl)                                            |
-+-------------+-----------------------------------------------------------------+
-| alk.phos:   | alkaline phosphotase (U/liter)                                  |
-+-------------+-----------------------------------------------------------------+
-| ascites:    | presence of ascites                                             |
-+-------------+-----------------------------------------------------------------+
-| ast:        | aspartate aminotransferase, once called SGOT (U/ml)             |
-+-------------+-----------------------------------------------------------------+
-| bili:       | serum bilirunbin (mg/dl)                                        |
-+-------------+-----------------------------------------------------------------+
-| chol:       | serum cholesterol (mg/dl)                                       |
-+-------------+-----------------------------------------------------------------+
-| copper:     | urine copper (ug/day)                                           |
-+-------------+-----------------------------------------------------------------+
-| edema:      | 0 no edema, 0.5 untreated or successfully treated               |
-+-------------+-----------------------------------------------------------------+
-|             | 1 edema despite diuretic therapy                                |
-+-------------+-----------------------------------------------------------------+
-| hepato:     | presence of hepatomegaly or enlarged liver                      |
-+-------------+-----------------------------------------------------------------+
-| id:         | case number                                                     |
-+-------------+-----------------------------------------------------------------+
-| platelet:   | platelet count                                                  |
-+-------------+-----------------------------------------------------------------+
-| protime:    | standardised blood clotting time                                |
-+-------------+-----------------------------------------------------------------+
-| sex:        | m/f                                                             |
-+-------------+-----------------------------------------------------------------+
-| spiders:    | blood vessel malformations in the skin                          |
-+-------------+-----------------------------------------------------------------+
-| stage:      | histologic stage of disease (needs biopsy)                      |
-+-------------+-----------------------------------------------------------------+
-| status:     | status at endpoint, 0/1/2 for censored, transplant, dead        |
-+-------------+-----------------------------------------------------------------+
-| time:       | number of days between registration and the earlier of death,   |
-+-------------+-----------------------------------------------------------------+
-|             | transplantion, or study analysis in July, 1986                  |
-+-------------+-----------------------------------------------------------------+
-| trt:        | 1/2/NA for D-penicillmain, placebo, not randomised              |
-+-------------+-----------------------------------------------------------------+
-| trig:       | triglycerides (mg/dl)                                           |
-+-------------+-----------------------------------------------------------------+
-+-------------+-----------------------------------------------------------------+
+age:
+
+in years
+
+albumin:
+
+serum albumin (g/dl)
+
+alk.phos:
+
+alkaline phosphotase (U/liter)
+
+ascites:
+
+presence of ascites
+
+ast:
+
+aspartate aminotransferase, once called SGOT (U/ml)
+
+bili:
+
+serum bilirunbin (mg/dl)
+
+chol:
+
+serum cholesterol (mg/dl)
+
+copper:
+
+urine copper (ug/day)
+
+edema:
+
+0 no edema, 0.5 untreated or successfully treated
+
+1 edema despite diuretic therapy
+
+hepato:
+
+presence of hepatomegaly or enlarged liver
+
+id:
+
+case number
+
+platelet:
+
+platelet count
+
+protime:
+
+standardised blood clotting time
+
+sex:
+
+m/f
+
+spiders:
+
+blood vessel malformations in the skin
+
+stage:
+
+histologic stage of disease (needs biopsy)
+
+status:
+
+status at endpoint, 0/1/2 for censored, transplant, dead
+
+time:
+
+number of days between registration and the earlier of death,
+
+transplantion, or study analysis in July, 1986
+
+trt:
+
+1/2/NA for D-penicillmain, placebo, not randomised
+
+trig:
+
+triglycerides (mg/dl)
 
 Source
 ~~~~~~

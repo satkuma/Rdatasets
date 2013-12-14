@@ -72,7 +72,7 @@ far south.
 Source
 ~~~~~~
 
-`http://www.timeanddate.com/worldclock/distance.html <http://www.timeanddate.com/worldclock/distance.html>`_
+`http://www.timeanddate.com/worldclock/distance.html <http://www.timeanddate.com/worldclock/distance.html>`__
 
 Examples
 ~~~~~~~~
@@ -91,7 +91,8 @@ Examples
     #title("MultiDimensional Scaling of US cities")
     #points(city.location)
 
-    plot(city.location, xlab="Dimension 1", ylab="Dimension 2",main ="Multidimensional scaling of US cities")
+    plot(city.location, xlab="Dimension 1", ylab="Dimension 2",
+       main ="Multidimensional scaling of US cities")
     city.loc <- cmdscale(cities, k=2) #ask for a 2 dimensional solution  round(city.loc,0) 
     city.loc <- -city.loc 
      city.loc <- rescale(city.loc,apply(city.location,2,mean),apply(city.location,2,sd))

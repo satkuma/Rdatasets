@@ -14,7 +14,7 @@ The data from 1525 subjects are included here as a demonstration set for
 scoring multiple choice inventories and doing basic item statistics. For
 more information on the development of an open source measure of
 cognitive ability, consult the readings available at the
-`personality-project.org <personality-project.org>`_.
+`personality-project.org <personality-project.org>`__.
 
 Usage
 ~~~~~
@@ -80,8 +80,9 @@ number following the name is the item number from SAPA.
 Details
 ~~~~~~~
 
-16 items were sampled from 80 items given as part of the SAPA project
-(Revelle, Wilt and Rosenthal, 2009; Condon and Revelle, 2012) to develop
+16 items were sampled from 80 items given as part of the SAPA
+(`http://sapa-project.org <http://sapa-project.org>`__) project
+(Revelle, Wilt and Rosenthal, 2009; Condon and Revelle, 2013) to develop
 online measures of ability. These 16 items reflect four lower order
 factors (verbal reasoning, letter series, matrix reasoning, and spatial
 rotations. These lower level factors all share a higher level factor
@@ -104,8 +105,8 @@ Source
 
 The example data set is taken from the Synthetic Aperture Personality
 Assessment personality and ability test at
-`http://test.personality-project.org <http://test.personality-project.org>`_.
-The data were collected with David Condon from 8/08/12 to 8/31/12.
+`http://sapa-project.org <http://sapa-project.org>`__. The data were
+collected with David Condon from 8/08/12 to 8/31/12.
 
 References
 ~~~~~~~~~~
@@ -116,7 +117,7 @@ Matthews, Gerald and Szymura, Blazej (Eds.) Handbook of Individual
 Differences in Cognition: Attention, Memory and Executive Control,
 Springer.
 
-Condon, David and Revelle, William, (2012) The development of an open
+Condon, David and Revelle, William, (2013) The development of an open
 source measure of cognitive ability. (in prep, Northwestern University).
 
 Examples
@@ -130,7 +131,8 @@ Examples
     score.multiple.choice(iq.keys,iqitems)   #this just gives summary statisics
     #convert them to true false 
     iq.scrub <- scrub(iqitems,isvalue=0)  #first get rid of the zero responses
-    iq.tf <-  score.multiple.choice(iq.keys,iq.scrub,score=FALSE) #convert to wrong (0) and correct (1) for analysis
+    iq.tf <-  score.multiple.choice(iq.keys,iq.scrub,score=FALSE) 
+                  #convert to wrong (0) and correct (1) for analysis
     describe(iq.tf) 
     #now, for some item analysis
     iq.irt <- irt.fa(iq.tf)  #do a basic irt

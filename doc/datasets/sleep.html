@@ -10,7 +10,6 @@
 
 <h3>Description</h3>
 
-
 <p>Data which show the effect of two soporific drugs (increase in hours
 of sleep compared to control) on 10 patients.
 </p>
@@ -22,7 +21,6 @@ of sleep compared to control) on 10 patients.
 
 
 <h3>Format</h3>
-
 
 <p>A data frame with 20 observations on 3 variables.
 </p>
@@ -48,7 +46,6 @@ of sleep compared to control) on 10 patients.
 
 <h3>Details</h3>
 
-
 <p>The <code>group</code> variable name may be misleading about the data:
 They represent measurements on 10 persons, not in groups.
 
@@ -56,7 +53,6 @@ They represent measurements on 10 persons, not in groups.
 
 
 <h3>Source</h3>
-
 
 <p>Cushny, A. R. and Peebles, A. R. (1905)
 The action of optical isomers: II hyoscines.
@@ -69,7 +65,6 @@ The probable error of the mean.
 
 
 <h3>References</h3>
-
 
 <p>Scheffé, Henry (1959)
 <EM>The Analysis of Variance</EM>.
@@ -85,6 +80,14 @@ require(stats)
 with(sleep,
      t.test(extra[group == 1],
             extra[group == 2], paired = TRUE))
+
+## The sleep *prolongations*
+sleep1 &lt;- with(sleep, extra[group == 2] - extra[group == 1])
+summary(sleep1)
+stripchart(sleep1, method = "stack", xlab = "hours",
+           main = "Sleep prolongation (n = 10)")
+boxplot(sleep1, horizontal = TRUE, add = TRUE,
+        at = .6, pars = list(boxwex = 0.5, staplewex = 0.25))
 </pre>
 
 

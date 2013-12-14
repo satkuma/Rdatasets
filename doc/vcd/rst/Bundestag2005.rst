@@ -54,13 +54,14 @@ Source
 ~~~~~~
 
 Der Bundeswahlleiter, Statistisches Bundesamt.
-`http://www.bundeswahlleiter.de/bundestagswahl2005/ <http://www.bundeswahlleiter.de/bundestagswahl2005/>`_
+`http://www.bundeswahlleiter.de/bundestagswahl2005/ <http://www.bundeswahlleiter.de/bundestagswahl2005/>`__
 
 Examples
 ~~~~~~~~
 
 ::
 
+    library(colorspace)
     ## The outcome of the election in terms of seats in the
     ## parliament was:
     seats <- structure(c(226, 61, 54, 51, 222),

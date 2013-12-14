@@ -12,7 +12,6 @@ Risk Factors Associated with Low Infant Birth Weight
 
 <h3>Description</h3>
 
-
 <p>The <code>birthwt</code> data frame has 189 rows and 10 columns.
 The data were collected at Baystate Medical Center, Springfield, Mass
 during 1986.
@@ -27,7 +26,6 @@ birthwt
 
 
 <h3>Format</h3>
-
 
 <p>This data frame contains the following columns:
 </p>
@@ -60,14 +58,12 @@ birthwt
 
 <h3>Source</h3>
 
-
 <p>Hosmer, D.W. and Lemeshow, S. (1989)
 <EM>Applied Logistic Regression.</EM> New York: Wiley
 </p>
 
 
 <h3>References</h3>
-
 
 <p>Venables, W. N. and Ripley, B. D. (2002)
 <EM>Modern Applied Statistics with S.</EM> Fourth edition.  Springer.
@@ -77,14 +73,14 @@ birthwt
 <h3>Examples</h3>
 
 <pre>
-attach(birthwt)
+bwt &lt;- with(birthwt, {
 race &lt;- factor(race, labels = c("white", "black", "other"))
 ptd &lt;- factor(ptl &gt; 0)
 ftv &lt;- factor(ftv)
 levels(ftv)[-(1:2)] &lt;- "2+"
-bwt &lt;- data.frame(low = factor(low), age, lwt, race,
-    smoke = (smoke &gt; 0), ptd, ht = (ht &gt; 0), ui = (ui &gt; 0), ftv)
-detach("birthwt")
+data.frame(low = factor(low), age, lwt, race, smoke = (smoke &gt; 0),
+           ptd, ht = (ht &gt; 0), ui = (ui &gt; 0), ftv)
+})
 options(contrasts = c("contr.treatment", "contr.poly"))
 glm(low ~ ., binomial, bwt)
 </pre>

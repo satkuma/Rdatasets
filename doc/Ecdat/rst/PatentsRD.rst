@@ -65,9 +65,9 @@ References
 ~~~~~~~~~~
 
 Journal of Applied Econometrics data archive :
-`http://jae.wiley.com/jae/ <http://jae.wiley.com/jae/>`_. Verbeek, Marno
-(2004) *A guide to modern econometrics*, John Wiley and Sons,
-`http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`_,
+`http://jae.wiley.com/jae/ <http://jae.wiley.com/jae/>`__. Verbeek,
+Marno (2004) *A guide to modern econometrics*, John Wiley and Sons,
+`http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`__,
 chapter 7.
 
 See Also

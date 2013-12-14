@@ -61,4 +61,4 @@ Census Bureau Current Population Survey
 References
 ~~~~~~~~~~
 
-`http://www.census.gov/cps <http://www.census.gov/cps>`_
+`http://www.census.gov/cps <http://www.census.gov/cps>`__

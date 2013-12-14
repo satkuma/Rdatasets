@@ -51,7 +51,7 @@ Source
 ~~~~~~
 
 M. Friendly (2000), Visualizing Categorical Data:
-`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/lifeboat.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/lifeboat.sas>`_
+`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/lifeboat.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/lifeboat.sas>`__
 
 References
 ~~~~~~~~~~

@@ -10,7 +10,6 @@
 
 <h3>Description</h3>
 
-
 <p>This famous (Fisher's or Anderson's) iris data set gives the
 measurements in centimeters of the variables sepal length and width
 and petal length and width, respectively, for 50 flowers from each
@@ -29,7 +28,6 @@ iris3
 
 <h3>Format</h3>
 
-
 <p><code>iris</code> is a data frame with 150 cases (rows) and 5 variables
 (columns) named <code>Sepal.Length</code>, <code>Sepal.Width</code>,
 <code>Petal.Length</code>, <code>Petal.Width</code>, and <code>Species</code>.
@@ -43,7 +41,6 @@ measurements with names <code>Sepal L.</code>, <code>Sepal W.</code>,
 
 
 <h3>Source</h3>
-
 
 <p>Fisher, R. A. (1936)
 The use of multiple measurements in taxonomic problems.
@@ -60,7 +57,6 @@ The irises of the Gaspe Peninsula,
 
 <h3>References</h3>
 
-
 <p>Becker, R. A., Chambers, J. M. and Wilks, A. R. (1988)
 <EM>The New S Language</EM>.
 Wadsworth &amp; Brooks/Cole. (has <code>iris3</code> as <code>iris</code>.)
@@ -68,7 +64,6 @@ Wadsworth &amp; Brooks/Cole. (has <code>iris3</code> as <code>iris</code>.)
 
 
 <h3>See Also</h3>
-
 
 <p><code>matplot</code> some examples of which use
 <code>iris</code>.
@@ -79,10 +74,10 @@ Wadsworth &amp; Brooks/Cole. (has <code>iris3</code> as <code>iris</code>.)
 
 <pre>
 dni3 &lt;- dimnames(iris3)
-ii &lt;- data.frame(matrix(aperm(iris3, c(1,3,2)), ncol=4,
+ii &lt;- data.frame(matrix(aperm(iris3, c(1,3,2)), ncol = 4,
                         dimnames = list(NULL, sub(" L.",".Length",
                                         sub(" W.",".Width", dni3[[2]])))),
-    Species = gl(3, 50, labels=sub("S", "s", sub("V", "v", dni3[[3]]))))
+    Species = gl(3, 50, labels = sub("S", "s", sub("V", "v", dni3[[3]]))))
 all.equal(ii, iris) # TRUE
 </pre>
 

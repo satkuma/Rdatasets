@@ -34,7 +34,7 @@ Source
 ~~~~~~
 
 United Nations (1998) Social indicators.
-`http://www.un.org/Depts/unsd/social/main.htm <http://www.un.org/Depts/unsd/social/main.htm>`_.
+`http://www.un.org/Depts/unsd/social/main.htm <http://www.un.org/Depts/unsd/social/main.htm>`__.
 
 References
 ~~~~~~~~~~

@@ -42,9 +42,10 @@ block
 Source
 ~~~~~~
 
-Phelps, K. (1982). Use of the complementary log-log function to describe
-doseresponse relationships in insecticide evaluation field trials.
- In R. Gilchrist (Ed.), *Lecture Notes in Statistics, No. 14. GLIM.82:
+| Phelps, K. (1982). Use of the complementary log-log function to
+describe doseresponse relationships in insecticide evaluation field
+trials.
+|  In R. Gilchrist (Ed.), *Lecture Notes in Statistics, No. 14. GLIM.82:
 Proceedings of the International Conference on Generalized Linear
 Models*; Springer-Verlag.
 
@@ -54,8 +55,8 @@ References
 McCullagh P. and Nelder, J. A. (1989) *Generalized Linear Models.*
 London: Chapman and Hall.
 
-Eva Cantoni and Elvezio Ronchetti (2001); JASA, and
- Eva Cantoni (2004); JSS, see ``glmrob``
+| Eva Cantoni and Elvezio Ronchetti (2001); JASA, and
+|  Eva Cantoni (2004); JSS, see ``glmrob``
 
 Examples
 ~~~~~~~~

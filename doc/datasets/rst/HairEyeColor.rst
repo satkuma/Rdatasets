@@ -48,7 +48,7 @@ mosaic plots, sieve diagrams or association plots.
 Source
 ~~~~~~
 
-`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/haireye.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/haireye.sas>`_
+`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/haireye.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/haireye.sas>`__
 
 Snee (1974) gives the two-way table aggregated over ``Sex``. The Sex
 split of the ‘Brown hair, Brown eye’ cell was changed in **R** 2.6.0 to
@@ -62,12 +62,12 @@ American Statistician*, **28**, 9–12.
 
 Friendly, M. (1992a) Graphical methods for categorical data. *SAS User
 Group International Conference Proceedings*, **17**, 190–200.
-`http://www.math.yorku.ca/SCS/sugi/sugi17-paper.html <http://www.math.yorku.ca/SCS/sugi/sugi17-paper.html>`_
+`http://www.math.yorku.ca/SCS/sugi/sugi17-paper.html <http://www.math.yorku.ca/SCS/sugi/sugi17-paper.html>`__
 
 Friendly, M. (1992b) Mosaic displays for loglinear models. *Proceedings
 of the Statistical Graphics Section*, American Statistical Association,
 pp. 61–68.
-`http://www.math.yorku.ca/SCS/Papers/asa92.html <http://www.math.yorku.ca/SCS/Papers/asa92.html>`_
+`http://www.math.yorku.ca/SCS/Papers/asa92.html <http://www.math.yorku.ca/SCS/Papers/asa92.html>`__
 
 Friendly, M. (2000) *Visualizing Categorical Data.* SAS Institute, ISBN
 1-58025-660-0.

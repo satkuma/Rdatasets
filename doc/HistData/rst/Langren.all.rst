@@ -121,11 +121,11 @@ Friendly, M., Valero-Mora, P. and Ulargui, J. I. (2010). The First
 (Known) Statistical Graph: Michael Florent van Langren and the "Secret"
 of Longitude. *The American Statistician*, **64** (2), 185-191.
 Supplementary materials:
-`http://datavis.ca/gallery/langren/ <http://datavis.ca/gallery/langren/>`_.
+`http://datavis.ca/gallery/langren/ <http://datavis.ca/gallery/langren/>`__.
 
 Langren, M. F. van. (1644). *La Verdadera Longitud por Mar y Tierra*.
 Antwerp: (n.p.), 1644. English translation available at
-`http://www.math.yorku.ca/SCS/Gallery/langren/verdadera.pdf <http://www.math.yorku.ca/SCS/Gallery/langren/verdadera.pdf>`_.
+`http://www.math.yorku.ca/SCS/Gallery/langren/verdadera.pdf <http://www.math.yorku.ca/SCS/Gallery/langren/verdadera.pdf>`__.
 
 Lelewel, J. (1851). *G?ographie du Moyen ?ge*. Paris: Pilliet, 1851.
 
@@ -179,9 +179,10 @@ Examples
       text(xlate(8), 17, "Grados de la Longitud", cex=1.7)
 
       # label the observations with the names
-      points(x=xlate(Langren1644$Longitude), y=rep(57, nrow(Langren1644)), pch=25, col="blue", bg="blue")
-      text(x=xlate(Langren1644$Longitude), y=rep(57, nrow(Langren1644)), labels=Langren1644$Name, srt=90, adj=c(-.1, .5), cex=0.8)
-
+      points(x=xlate(Langren1644$Longitude), y=rep(57, nrow(Langren1644)), 
+             pch=25, col="blue", bg="blue")
+      text(x=xlate(Langren1644$Longitude), y=rep(57, nrow(Langren1644)), 
+           labels=Langren1644$Name, srt=90, adj=c(-.1, .5), cex=0.8)
       par(op)
     }
 
@@ -206,8 +207,10 @@ Examples
       xlate <- function(x) {
         130+x*726/30    
       }
-      points(x=xlate(Langren1644$Longitude), y=rep(57, nrow(Langren1644)), pch=25, col="blue")
-      text(x=xlate(Langren1644$Longitude), y=rep(57, nrow(Langren1644)), labels=Langren1644$Name, srt=90, adj=c(0, 0.5), cex=0.8)
+      points(x=xlate(Langren1644$Longitude), y=rep(57, nrow(Langren1644)), 
+             pch=25, col="blue")
+      text(x=xlate(Langren1644$Longitude), y=rep(57, nrow(Langren1644)), 
+             labels=Langren1644$Name, srt=90, adj=c(0, 0.5), cex=0.8)
     }
 
     ## End(Not run)

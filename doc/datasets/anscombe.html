@@ -10,7 +10,6 @@
 
 <h3>Description</h3>
 
-
 <p>Four <i>x</i>-<i>y</i> datasets which have the same traditional
 statistical properties (mean, variance, correlation, regression line,
 etc.), yet are quite different.
@@ -23,7 +22,6 @@ etc.), yet are quite different.
 
 
 <h3>Format</h3>
-
 
 <p>A data frame with 11 observations on 8 variables.
 </p>
@@ -48,7 +46,6 @@ etc.), yet are quite different.
 
 <h3>Source</h3>
 
-
 <p>Tufte, Edward R. (1989)
 <EM>The Visual Display of Quantitative Information</EM>, 13&ndash;14.
 Graphics Press.
@@ -56,7 +53,6 @@ Graphics Press.
 
 
 <h3>References</h3>
-
 
 <p>Anscombe, Francis J. (1973)  Graphs in statistical analysis.
 <EM>American Statistician</EM>, <B>27</B>, 17&ndash;21.
@@ -76,7 +72,7 @@ for(i in 1:4) {
   ff[2:3] &lt;- lapply(paste0(c("y","x"), i), as.name)
   ## or   ff[[2]] &lt;- as.name(paste0("y", i))
   ##      ff[[3]] &lt;- as.name(paste0("x", i))
-  mods[[i]] &lt;- lmi &lt;- lm(ff, data= anscombe)
+  mods[[i]] &lt;- lmi &lt;- lm(ff, data = anscombe)
   print(anova(lmi))
 }
 
@@ -85,14 +81,14 @@ sapply(mods, coef)
 lapply(mods, function(fm) coef(summary(fm)))
 
 ## Now, do what you should have done in the first place: PLOTS
-op &lt;- par(mfrow=c(2,2), mar=.1+c(4,4,1,1), oma= c(0,0,2,0))
+op &lt;- par(mfrow = c(2, 2), mar = 0.1+c(4,4,1,1), oma =  c(0, 0, 2, 0))
 for(i in 1:4) {
   ff[2:3] &lt;- lapply(paste0(c("y","x"), i), as.name)
-  plot(ff, data=anscombe, col="red", pch=21, bg = "orange", cex = 1.2,
-       xlim=c(3,19), ylim=c(3,13))
-  abline(mods[[i]], col="blue")
+  plot(ff, data = anscombe, col = "red", pch = 21, bg = "orange", cex = 1.2,
+       xlim = c(3, 19), ylim = c(3, 13))
+  abline(mods[[i]], col = "blue")
 }
-mtext("Anscombe's 4 Regression data sets", outer = TRUE, cex=1.5)
+mtext("Anscombe's 4 Regression data sets", outer = TRUE, cex = 1.5)
 par(op)
 </pre>
 

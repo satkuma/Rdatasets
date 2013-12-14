@@ -43,7 +43,7 @@ Source
 ~~~~~~
 
 David Leip's Atlas of U.S. Presidential Elections
-`http://uselectionsatlas.org <http://uselectionsatlas.org>`_
+`http://uselectionsatlas.org <http://uselectionsatlas.org>`__
 
 Examples
 ~~~~~~~~

@@ -10,7 +10,6 @@
 
 <h3>Description</h3>
 
-
 <p>Possum diversity data: As issued from a study of the diversity
 of possum (arboreal marsupials) in the Montane ash forest (Australia),
 this dataset was collected in view of the management of hardwood
@@ -32,7 +31,6 @@ other variables.
 
 
 <h3>Format</h3>
-
 
 <p>Two different representations of the same data are available:
 </p>
@@ -102,7 +100,6 @@ variables.</p>
 
 <h3>Source</h3>
 
-
 <p>Eva Cantoni (2004)
 Analysis of Robust Quasi-deviances for Generalized Linear Models.
 <EM>Journal of Statistical Software</EM> <B>10</B>, 04,
@@ -111,7 +108,6 @@ Analysis of Robust Quasi-deviances for Generalized Linear Models.
 
 
 <h3>References</h3>
-
 
 <p>Lindenmayer, D. B., Cunningham, R. B., Tanton, M. T., Nix, H. A. and
 Smith, A. P. (1991)
@@ -141,6 +137,29 @@ str(possumDiv)
 ## summarize all variables as multilevel factors:
 summary(as.data.frame(lapply(possumDiv, function(v)
                              if(is.integer(v)) factor(v) else v)))
+
+## Following Cantoni &amp; Ronchetti (2001), JASA, p.1026 f.:% cf. ../tests/poisson-ex.R
+pdFit &lt;- glmrob(Diversity ~ . , data = possumDiv,
+                family=poisson, tcc = 1.6, weights.on.x = "hat", acc = 1e-15)
+summary(pdFit)
+summary(pdF2 &lt;- update(pdFit, ~ . -Shrubs))
+summary(pdF3 &lt;- update(pdF2,  ~ . -eucalyptus))
+summary(pdF4 &lt;- update(pdF3,  ~ . -Stumps))
+summary(pdF5 &lt;- update(pdF4,  ~ . -BAcacia))
+summary(pdF6 &lt;- update(pdF5,  ~ . -aspect))# too much ..
+anova(pdFit, pdF3, pdF4, pdF5, pdF6, test = "QD") # indeed,
+## indeed, the last simplification is too much
+possumD.2 &lt;- within(possumDiv, levels(aspect)[1:3] &lt;- rep("other", 3))
+## and use this binary 'aspect' instead of the 4-level one:
+summary(pdF5.1 &lt;- update(pdF5, data = possumD.2))
+
+if(FALSE) # not ok, as formually not nested.
+anova(pdF5, pdF5.1)
+
+summarizeRobWeights(weights(pdF5.1, type="rob"), eps = 0.73)
+##-&gt;  "outliers"  (1, 59, 110)
+wrob &lt;- setNames(weights(pdF5.1, type="rob"), rownames(possumDiv))
+head(sort(wrob))
 </pre>
 
 

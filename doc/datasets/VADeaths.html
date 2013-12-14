@@ -10,7 +10,6 @@
 
 <h3>Description</h3>
 
-
 <p>Death rates per 1000 in Virginia in 1940.
 </p>
 
@@ -27,7 +26,6 @@
 
 <h3>Details</h3>
 
-
 <p>The death rates are measured per 1000 population per year.  They
 are cross-classified by age group (rows) and
 population group (columns).  The age groups are: 50&ndash;54, 55&ndash;59,
@@ -40,7 +38,6 @@ Rural/Female, Urban/Male and Urban/Female.
 
 <h3>Source</h3>
 
-
 <p>Molyneaux, L.,  Gilliam, S. K., and  Florant, L. C.(1947)
 Differences in Virginia death rates by color, sex, age,
 and rural or urban residence.
@@ -49,7 +46,6 @@ and rural or urban residence.
 
 
 <h3>References</h3>
-
 
 <p>McNeil, D. R. (1977)
 <EM>Interactive Data Analysis</EM>.
@@ -65,13 +61,13 @@ n &lt;- length(dr &lt;- c(VADeaths))
 nam &lt;- names(VADeaths)
 d.VAD &lt;- data.frame(
  Drate = dr,
- age = rep(ordered(rownames(VADeaths)),length.out=n),
- gender= gl(2,5,n, labels= c("M", "F")),
- site =  gl(2,10,  labels= c("rural", "urban")))
+ age = rep(ordered(rownames(VADeaths)), length.out = n),
+ gender = gl(2, 5, n, labels = c("M", "F")),
+ site =  gl(2, 10, labels = c("rural", "urban")))
 coplot(Drate ~ as.numeric(age) | gender * site, data = d.VAD,
        panel = panel.smooth, xlab = "VADeaths data - Given: gender")
 summary(aov.VAD &lt;- aov(Drate ~ .^2, data = d.VAD))
-opar &lt;- par(mfrow = c(2,2), oma = c(0, 0, 1.1, 0))
+opar &lt;- par(mfrow = c(2, 2), oma = c(0, 0, 1.1, 0))
 plot(aov.VAD)
 par(opar)
 </pre>

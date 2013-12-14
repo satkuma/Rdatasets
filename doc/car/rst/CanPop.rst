@@ -38,7 +38,7 @@ Statistics of Canada*. Macmillan, p. 1369.
 Canada (1994) *Canada Year Book*. Statistics Canada, Table 3.2.
 
 Statistics Canada:
-`http://www12.statcan.ca/english/census01/products/standard/popdwell/Table-PR.cfm <http://www12.statcan.ca/english/census01/products/standard/popdwell/Table-PR.cfm>`_.
+`http://www12.statcan.ca/english/census01/products/standard/popdwell/Table-PR.cfm <http://www12.statcan.ca/english/census01/products/standard/popdwell/Table-PR.cfm>`__.
 
 References
 ~~~~~~~~~~

@@ -2,8 +2,8 @@
 | vaso   | R Documentation   |
 +--------+-------------------+
 
-Vaso Constriction Data Set
---------------------------
+Vaso Constriction Skin Data Set
+-------------------------------
 
 Description
 ~~~~~~~~~~~

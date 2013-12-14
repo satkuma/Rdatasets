@@ -23,4 +23,4 @@ A data frame with 1155 rows and 4 variables
 References
 ~~~~~~~~~~
 
-`http://www.stat.berkeley.edu/~brill/Papers/jspifinal.pdf <http://www.stat.berkeley.edu/~brill/Papers/jspifinal.pdf>`_
+`http://www.stat.berkeley.edu/~brill/Papers/jspifinal.pdf <http://www.stat.berkeley.edu/~brill/Papers/jspifinal.pdf>`__

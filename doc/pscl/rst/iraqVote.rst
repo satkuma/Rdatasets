@@ -53,11 +53,11 @@ Source
 ~~~~~~
 
 Keith Poole, 107th Senate Roll Call Data.
-`ftp://voteview.com/sen107kh.ord <ftp://voteview.com/sen107kh.ord>`_ The
-Iraq vote is vote number 617.
+`ftp://voteview.com/sen107kh.ord <ftp://voteview.com/sen107kh.ord>`__
+The Iraq vote is vote number 617.
 
 David Leip's Atlas of U.S. Presidential Elections.
-`http://uselectionatlas.org <http://uselectionatlas.org>`_
+`http://uselectionatlas.org <http://uselectionatlas.org>`__
 
 References
 ~~~~~~~~~~

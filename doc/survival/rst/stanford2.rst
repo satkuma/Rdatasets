@@ -21,18 +21,25 @@ Usage
 Format
 ~~~~~~
 
-+-----------+------------------------------+
-| id:       | ID number                    |
-+-----------+------------------------------+
-| time:     | survival or censoring time   |
-+-----------+------------------------------+
-| status:   | censoring status             |
-+-----------+------------------------------+
-| age:      | in years                     |
-+-----------+------------------------------+
-| t5:       | T5 mismatch score            |
-+-----------+------------------------------+
-+-----------+------------------------------+
+id:
+
+ID number
+
+time:
+
+survival or censoring time
+
+status:
+
+censoring status
+
+age:
+
+in years
+
+t5:
+
+T5 mismatch score
 
 Source
 ~~~~~~

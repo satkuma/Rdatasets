@@ -99,7 +99,7 @@ Source
 ~~~~~~
 
 Australian Electoral Commission.
-`http://www.aec.gov.au <http://www.aec.gov.au>`_.
+`http://www.aec.gov.au <http://www.aec.gov.au>`__.
 
 References
 ~~~~~~~~~~

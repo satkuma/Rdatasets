@@ -10,7 +10,7 @@ Description
 
 A small sample from the militarized interstate disputes database,
 available at
-`http://pss.la.psu.edu/MID\_DATA.HTM <http://pss.la.psu.edu/MID_DATA.HTM>`_.
+`http://pss.la.psu.edu/MID\_DATA.HTM <http://pss.la.psu.edu/MID_DATA.HTM>`__.
 
 Usage
 ~~~~~

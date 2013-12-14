@@ -10,7 +10,6 @@
 
 <h3>Description</h3>
 
-
 <p>Data of 3000 male criminals over 20 years old undergoing their
 sentences in the chief prisons of England and Wales.
 </p>
@@ -22,7 +21,6 @@ sentences in the chief prisons of England and Wales.
 
 
 <h3>Format</h3>
-
 
 <p>A <code>table</code> object of  <code>integer</code> counts, of dimension
 <i>42 * 22</i> with a total count, <code>sum(crimtab)</code> of
@@ -37,7 +35,6 @@ of 3000 criminals, see also below.
 
 
 <h3>Details</h3>
-
 
 <p>Student is the pseudonym of William Sealy Gosset.
 In his 1908 paper he wrote (on page 13) at the beginning of section VI
@@ -76,14 +73,12 @@ random sampling.</EM>
 
 <h3>Source</h3>
 
-
 <p><a href="http://pbil.univ-lyon1.fr/R/donnees/criminals1902.txt">http://pbil.univ-lyon1.fr/R/donnees/criminals1902.txt</a>
 thanks to Jean R. Lobry and Anne-Béatrice Dufour.
 </p>
 
 
 <h3>References</h3>
-
 
 <p>Garson, J.G. (1900)
 The metric system of identification of criminals, as used in in Great
@@ -108,7 +103,7 @@ dim(crimtab)
 utils::str(crimtab)
 ## for nicer printing:
 local({cT &lt;- crimtab
-       colnames(cT) &lt;- substring(colnames(cT), 2,3)
+       colnames(cT) &lt;- substring(colnames(cT), 2, 3)
        print(cT, zero.print = " ")
 })
 

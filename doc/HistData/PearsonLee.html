@@ -12,7 +12,6 @@ Pearson and Lee's  data on the heights of parents and children classified by gen
 
 <h3>Description</h3>
 
-
 <p>Wachsmuth et. al (2003) noticed that a loess smooth through Galton's data
 on heights of mid-parents and their offspring exhibited a slightly non-linear
 trend, and asked whether this might be due to Galton having pooled the heights of
@@ -30,7 +29,6 @@ of parents and children were each classified by gender of the parent.
 
 
 <h3>Format</h3>
-
 
 <p>A frequency data frame with 746 observations on the following 6 variables.
 </p>
@@ -54,14 +52,12 @@ of parents and children were each classified by gender of the parent.
 
 <h3>Details</h3>
 
-
 <p>The variables <code>gp</code>, <code>par</code> and <code>chl</code> are provided to allow stratifying
 the data according to the gender of the father/mother and son/daughter.
 </p>
 
 
 <h3>Source</h3>
-
 
 <p>Pearson, K. and Lee, A. (1896). Mathematical contributions to the theory
 of evolution. On telegony in man, etc. <EM>Proceedings of the Royal Society of
@@ -75,7 +71,6 @@ On the laws of inheritance in man: I. Inheritance of physical characters. <EM>Bi
 
 <h3>References</h3>
 
-
 <p>Wachsmuth, A.W., Wilkinson L., Dallal G.E. (2003). 
 Galton's bend: A previously undiscovered nonlinearity in Galton's family stature regression data. 
 <EM>The American Statistician</EM>, 57, 190-192. 
@@ -84,7 +79,6 @@ Galton's bend: A previously undiscovered nonlinearity in Galton's family stature
 
 
 <h3>See Also</h3>
-
 
 <p><code>Galton</code>
 </p>
@@ -97,16 +91,17 @@ data(PearsonLee)
 str(PearsonLee)
 
 with(PearsonLee, 
-	{
-	lim &lt;- c(55,80)
-	xv &lt;- seq(55,80, .5)
-	sunflowerplot(parent,child, number=frequency, xlim=lim, ylim=lim, seg.col="gray", size=.1)
-	abline(lm(child ~ parent, weights=frequency), col="blue", lwd=2)
-	lines(xv, predict(loess(child ~ parent, weights=frequency), data.frame(parent=xv)), col="blue", lwd=2)
-	# NB: dataEllipse doesn't take frequency into account
-	if(require(car)) {
-	dataEllipse(parent,child, xlim=lim, ylim=lim, plot.points=FALSE)
-		}
+    {
+    lim &lt;- c(55,80)
+    xv &lt;- seq(55,80, .5)
+    sunflowerplot(parent,child, number=frequency, xlim=lim, ylim=lim, seg.col="gray", size=.1)
+    abline(lm(child ~ parent, weights=frequency), col="blue", lwd=2)
+    lines(xv, predict(loess(child ~ parent, weights=frequency), data.frame(parent=xv)), 
+          col="blue", lwd=2)
+    # NB: dataEllipse doesn't take frequency into account
+    if(require(car)) {
+    dataEllipse(parent,child, xlim=lim, ylim=lim, plot.points=FALSE)
+        }
   })
 
 ## separate plots for combinations of (chl, par)

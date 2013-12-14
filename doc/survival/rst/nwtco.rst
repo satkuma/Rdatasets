@@ -54,7 +54,7 @@ A data frame with 4028 observations on the following 9 variables.
 Source
 ~~~~~~
 
-`http://faculty.washington.edu/norm/software.html <http://faculty.washington.edu/norm/software.html>`_
+`http://faculty.washington.edu/norm/software.html <http://faculty.washington.edu/norm/software.html>`__
 
 References
 ~~~~~~~~~~

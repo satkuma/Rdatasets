@@ -43,66 +43,103 @@ Format
 
 bladder1
 
-+---------------+-------------------------------------------------------------+
-| id:           | Patient id                                                  |
-+---------------+-------------------------------------------------------------+
-| treatment:    | Placebo, pyridoxine (vitamin B6), or thiotepa               |
-+---------------+-------------------------------------------------------------+
-| number:       | Initial number of tumours (8=8 or more)                     |
-+---------------+-------------------------------------------------------------+
-| size:         | Size (cm) of largest initial tumour                         |
-+---------------+-------------------------------------------------------------+
-| recur:        | Number of recurrences                                       |
-+---------------+-------------------------------------------------------------+
-| start,stop:   | The start and end time of each time interval                |
-+---------------+-------------------------------------------------------------+
-| status:       | End of interval code, 0=censored, 1=recurrence,             |
-+---------------+-------------------------------------------------------------+
-|               | 2=death from bladder disease, 3=death other/unknown cause   |
-+---------------+-------------------------------------------------------------+
-| rtumor:       | Number of tumors found at the time of a recurrence          |
-+---------------+-------------------------------------------------------------+
-| rsize:        | Size of largest tumor at a recurrence                       |
-+---------------+-------------------------------------------------------------+
-| enum:         | Event number (observation number within patient)            |
-+---------------+-------------------------------------------------------------+
-+---------------+-------------------------------------------------------------+
+id:
+
+Patient id
+
+treatment:
+
+Placebo, pyridoxine (vitamin B6), or thiotepa
+
+number:
+
+Initial number of tumours (8=8 or more)
+
+size:
+
+Size (cm) of largest initial tumour
+
+recur:
+
+Number of recurrences
+
+start,stop:
+
+The start and end time of each time interval
+
+status:
+
+End of interval code, 0=censored, 1=recurrence,
+
+2=death from bladder disease, 3=death other/unknown cause
+
+rtumor:
+
+Number of tumors found at the time of a recurrence
+
+rsize:
+
+Size of largest tumor at a recurrence
+
+enum:
+
+Event number (observation number within patient)
 
 bladder
 
-+-----------+-------------------------------------------+
-| id:       | Patient id                                |
-+-----------+-------------------------------------------+
-| rx:       | Treatment 1=placebo 2=thiotepa            |
-+-----------+-------------------------------------------+
-| number:   | Initial number of tumours (8=8 or more)   |
-+-----------+-------------------------------------------+
-| size:     | size (cm) of largest initial tumour       |
-+-----------+-------------------------------------------+
-| stop:     | recurrence or censoring time              |
-+-----------+-------------------------------------------+
-| enum:     | which recurrence (up to 4)                |
-+-----------+-------------------------------------------+
-+-----------+-------------------------------------------+
+id:
+
+Patient id
+
+rx:
+
+Treatment 1=placebo 2=thiotepa
+
+number:
+
+Initial number of tumours (8=8 or more)
+
+size:
+
+size (cm) of largest initial tumour
+
+stop:
+
+recurrence or censoring time
+
+enum:
+
+which recurrence (up to 4)
 
 bladder2
 
-+-----------+-----------------------------------------------------+
-| id:       | Patient id                                          |
-+-----------+-----------------------------------------------------+
-| rx:       | Treatment 1=placebo 2=thiotepa                      |
-+-----------+-----------------------------------------------------+
-| number:   | Initial number of tumours (8=8 or more)             |
-+-----------+-----------------------------------------------------+
-| size:     | size (cm) of largest initial tumour                 |
-+-----------+-----------------------------------------------------+
-| start:    | start of interval (0 or previous recurrence time)   |
-+-----------+-----------------------------------------------------+
-| stop:     | recurrence or censoring time                        |
-+-----------+-----------------------------------------------------+
-| enum:     | which recurrence (up to 4)                          |
-+-----------+-----------------------------------------------------+
-+-----------+-----------------------------------------------------+
+id:
+
+Patient id
+
+rx:
+
+Treatment 1=placebo 2=thiotepa
+
+number:
+
+Initial number of tumours (8=8 or more)
+
+size:
+
+size (cm) of largest initial tumour
+
+start:
+
+start of interval (0 or previous recurrence time)
+
+stop:
+
+recurrence or censoring time
+
+enum:
+
+which recurrence (up to 4)
 
 Source
 ~~~~~~

@@ -46,10 +46,10 @@ This data frame contains 60 rows and the following variables:
 Source
 ~~~~~~
 
-J. Ludbrook (1994) Repeated measurements and multiple comparisons in
+| J. Ludbrook (1994) Repeated measurements and multiple comparisons in
 cardiovascular research. *Cardiovascular Research* **28**, 303–311.
- [The numerical data are not in the paper but were supplied by Professor
-Ludbrook]
+|  [The numerical data are not in the paper but were supplied by
+Professor Ludbrook]
 
 References
 ~~~~~~~~~~

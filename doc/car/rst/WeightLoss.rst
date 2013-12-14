@@ -55,5 +55,5 @@ Source
 ~~~~~~
 
 Originally taken from
-`http://www.csun.edu/~ata20315/psy524/main.htm <http://www.csun.edu/~ata20315/psy524/main.htm>`_,
+`http://www.csun.edu/~ata20315/psy524/main.htm <http://www.csun.edu/~ata20315/psy524/main.htm>`__,
 but modified slightly. Courtesy of Michael Friendly.

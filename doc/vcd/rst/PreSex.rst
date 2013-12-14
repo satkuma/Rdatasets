@@ -40,7 +40,7 @@ Source
 ~~~~~~
 
 Michael Friendly (2000), Visualizing Categorical Data:
-`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/marital.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/marital.sas>`_
+`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/marital.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/marital.sas>`__
 
 References
 ~~~~~~~~~~

@@ -85,7 +85,7 @@ Details
 Source
 ~~~~~~
 
-`http://www.cs.uic.edu/~wilkinson/TheGrammarOfGraphics/minard.txt <http://www.cs.uic.edu/~wilkinson/TheGrammarOfGraphics/minard.txt>`_
+`http://www.cs.uic.edu/~wilkinson/TheGrammarOfGraphics/minard.txt <http://www.cs.uic.edu/~wilkinson/TheGrammarOfGraphics/minard.txt>`__
 
 References
 ~~~~~~~~~~
@@ -94,7 +94,7 @@ Friendly, M. (2002). Visions and Re-visions of Charles Joseph Minard,
 *Journal of Educational and Behavioral Statistics*, 27, No. 1, 31-51.
 
 Friendly, M. (2003). Re-Visions of Minard.
-`http://www.math.yorku.ca/SCS/Gallery/re-minard.html <http://www.math.yorku.ca/SCS/Gallery/re-minard.html>`_
+`http://www.math.yorku.ca/SCS/Gallery/re-minard.html <http://www.math.yorku.ca/SCS/Gallery/re-minard.html>`__
 
 Examples
 ~~~~~~~~

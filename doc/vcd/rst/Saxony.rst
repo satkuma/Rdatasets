@@ -24,12 +24,17 @@ Format
 A 1-way table giving the number of male children in 6115 families of
 size 12. The variable and its levels are
 
-+------+----------+-----------------+
-| No   | Name     | Levels          |
-+------+----------+-----------------+
-| 1    | nMales   | 0, 1, ..., 12   |
-+------+----------+-----------------+
-+------+----------+-----------------+
+No
+
+Name
+
+Levels
+
+1
+
+nMales
+
+0, 1, ..., 12
 
 Source
 ~~~~~~

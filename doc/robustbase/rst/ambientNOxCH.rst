@@ -90,14 +90,14 @@ A data frame with 366 observations on the following 14 variables.
 Details
 ~~~~~~~
 
-The 13 sites are part of one of the three air quality monitoring
+| The 13 sites are part of one of the three air quality monitoring
 networks: inLuft (regional authorities of central Switzerland and canton
 Aargau)
- NABEL (Swiss federal network)
- MFM-U (Monitoring flankierende Massnahmen Umwelt), special Swiss
+|  NABEL (Swiss federal network)
+|  MFM-U (Monitoring flankierende Massnahmen Umwelt), special Swiss
 federal network along transit motorways A2 and A13 from Germany to Italy
 through Switzerland
- The information within the brackets means: Swiss coordinates km east,
+|  The information within the brackets means: Swiss coordinates km east,
 km north; m above sea level; network
 
 When the measuring sites are exposed to the same atmospheric condition
@@ -115,9 +115,9 @@ December 10th and 12th.
 Source
 ~~~~~~
 
-http://www.in-luft.ch/
- http://www.empa.ch/plugin/template/empa/\*/6794
- http://www.bafu.admin.ch/umweltbeobachtung/02272/02280
+| http://www.in-luft.ch/
+|  http://www.empa.ch/plugin/template/empa/\*/6794
+|  http://www.bafu.admin.ch/umweltbeobachtung/02272/02280
 
 See Also
 ~~~~~~~~
@@ -187,7 +187,7 @@ Examples
     points(R.cf, col=2)
 
     ## All robustness weights
-    aW <- t(sapply(R, weights))
+    aW <- t(sapply(R, weights, type="robustness"))
     colnames(aW) <- names(yearly)
     summary(aW)
     sort(colSums(aW < 0.05, na.rm = TRUE)) # how often "clear outlier":
