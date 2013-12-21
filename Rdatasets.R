@@ -20,8 +20,12 @@ for (i in 1:nrow(index)) {
     cmd = paste('data(', dataset, ', envir=e)', sep='')
     eval(parse(text=cmd))
     d = e[[dataset]]
-    if(class(d) %in% c('data.frame', 'matrix', 'numeric', 'table')){
+    if(class(d) %in% c('data.frame', 'matrix', 'numeric', 'table', 'ts')){
         cat("Processing data set: ", dataset, "\n")
+        if(class(d)=='ts'){
+            d = data.frame(time(d), d)
+            colnames(d) = c('time', dataset)
+        }
         try(dir.create(paste('csv/', package, sep='')))
         try(dir.create(paste('doc/', package, sep='')))
         dest_csv = paste('csv/', package, '/', dataset, '.csv', sep='')
