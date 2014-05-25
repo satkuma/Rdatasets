@@ -62,7 +62,7 @@ abortions is omitted.
 Source
 ~~~~~~
 
-Trichopoulos et al. (1976) *Br. J. of Obst. and Gynaec.* **83**,
+Trichopoulos *et al* (1976) *Br. J. of Obst. and Gynaec.* **83**,
 645–650.
 
 Examples

@@ -79,5 +79,5 @@ References
 Fox, J. and Weisberg, S. (2011) *An R Companion to Applied Regression*,
 Second Edition, Sage.
 
-Weisberg, S. (2005) *Applied Linear Regression*, Third Edition. Wiley,
+Weisberg, S. (2014) *Applied Linear Regression*, Fourth Edition, Wiley,
 Section 7.2.

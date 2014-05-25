@@ -13,6 +13,13 @@ State University in 2004. The investigators were interested in the
 effect of using three different fryer oils had on the taste of the
 fries.
 
+Usage
+~~~~~
+
+::
+
+    data(french_fries)
+
 Format
 ~~~~~~
 

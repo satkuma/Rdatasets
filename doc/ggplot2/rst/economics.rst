@@ -12,6 +12,13 @@ This dataset was produced from US economic time series data available
 from
 `http://research.stlouisfed.org/fred2 <http://research.stlouisfed.org/fred2>`__.
 
+Usage
+~~~~~
+
+::
+
+    data(economics)
+
 Format
 ~~~~~~
 

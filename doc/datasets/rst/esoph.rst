@@ -66,8 +66,8 @@ Source
 ~~~~~~
 
 Breslow, N. E. and Day, N. E. (1980) *Statistical Methods in Cancer
-Research. 1: The Analysis of Case-Control Studies.* IARC Lyon / Oxford
-University Press.
+Research. Volume 1: The Analysis of Case-Control Studies.* IARC Lyon /
+Oxford University Press.
 
 Examples
 ~~~~~~~~

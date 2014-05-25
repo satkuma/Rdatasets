@@ -15,6 +15,13 @@ and Inference 122 (2004), 43-63, using the methods of Brillinger, D.R.,
 "Learning a potential function from a trajectory", Signal Processing
 Letters. December (2007).
 
+Usage
+~~~~~
+
+::
+
+    data(seals)
+
 Format
 ~~~~~~
 

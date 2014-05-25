@@ -38,7 +38,13 @@ Eruption time in mins
 
 numeric
 
-Waiting time to next eruption
+Waiting time for this eruption
+
+Note
+~~~~
+
+The ``waiting`` time was incorrectly described as the time to the next
+eruption in the original files, and corrected for MASS version 7.3-30.
 
 References
 ~~~~~~~~~~
@@ -52,4 +58,6 @@ S.* Fourth edition. Springer.
 See Also
 ~~~~~~~~
 
-``faithful``
+``faithful``.
+
+CRAN package sm.

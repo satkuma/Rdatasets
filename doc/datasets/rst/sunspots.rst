@@ -34,7 +34,9 @@ York: Springer-Verlag.
 See Also
 ~~~~~~~~
 
-``sunspot.month`` has a longer (and a bit different) series.
+``sunspot.month`` has a longer (and a bit different) series,
+``sunspot.year`` is a much shorter one. See there for getting more
+current sunspot numbers.
 
 Examples
 ~~~~~~~~

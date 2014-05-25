@@ -30,28 +30,28 @@ Format
 A data frame with 9 observations on the following 8 variables.
 
 ``16.5``
-    Cubit length of lowest category
+    Cubit length < 16.5
 
 ``16.75``
-    a numeric vector
+    16.5 <= Cubit length < 17.0
 
 ``17.25``
-    a numeric vector
+    17.0 <= Cubit length < 17.5
 
 ``17.75``
-    a numeric vector
+    17.5 <= Cubit length < 18.0
 
 ``18.25``
-    a numeric vector
+    18.0 <= Cubit length < 18.5
 
 ``18.75``
-    a numeric vector
+    18.5 <= Cubit length < 19.0
 
 ``19.25``
-    a numeric vector
+    19.0 <= Cubit length < 19.5
 
 ``19.75``
-    a numeric vector
+    19.5 <= Cubit length
 
 Details
 ~~~~~~~
@@ -90,6 +90,8 @@ Examples
     cubits
     heights <- table2df(cubits,labs = c("height","cubit"))
     ellipses(heights,n=1,main="Galton's co-relation data set")
-    ellipses(jitter(heights$cubit,3),jitter(heights$height,3),pch=".",
-         main="Galton's co-relation data set") #add in some noise to see the points
+    ellipses(jitter(heights$height,3),jitter(heights$cubit,3),pch=".",
+         main="Galton's co-relation data set",xlab="height",
+         ylab="Forearm (cubit)") #add in some noise to see the points
+    pairs.panels(heights,jiggle=TRUE,main="Galton's cubits data set")
 

@@ -414,16 +414,17 @@ Examples
 ::
 
     data(msq)
+    if(FALSE){ #not run in the interests of time
     #basic descriptive statistics
     describe(msq)
-
+    }
     #score them for 12 short scales
      
     keys <- make.keys(colnames(msq)[1:75], list(
      EA = c("active", "energetic", "vigorous", "wakeful", "wide.awake", "full.of.pep",
            "lively", "-sleepy", "-tired", "-drowsy"),
       TA =c("intense", "jittery", "fearful", "tense", "clutched.up", "-quiet", "-still", 
-           "-placid", "-calm", "at.rest") ,
+           "-placid", "-calm", "-at.rest") ,
       PA =c("active", "excited", "strong", "inspired", "determined", "attentive", 
               "interested", "enthusiastic", "proud", "alert"),
      NAf =c("jittery", "nervous", "scared", "afraid", "guilty", "ashamed", "distressed",  
@@ -438,11 +439,12 @@ Examples
      aNA = c("jittery", "anxious", "nervous", "fearful", "distressed"))
            )
            
-    msq.scores <- score.items(keys,msq[1:75])
+    msq.scores <- scoreItems(keys,msq[1:75])
 
     #show a circumplex structure 
     fcirc <- fa(msq.scores$scores[,5:12],2)  
     fa.plot(fcirc,labels=colnames(msq.scores$scores)[5:12])
+    if(FALSE) {
     #extend this solution to EA/TA  NA/PA space
     fe  <- fa.extension(cor(msq.scores$scores[,5:12],msq.scores$scores[,1:4]),fcirc)
     fa.diagram(fcirc,fe=fe,main="Extending the circumplex structure to  EA/TA and PA/NA ")
@@ -453,5 +455,6 @@ Examples
 
     #sort them by polar coordinates
     round(polar(f2),2)
+    }
                 
 

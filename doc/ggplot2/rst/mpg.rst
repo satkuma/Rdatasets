@@ -13,6 +13,13 @@ makes available on `http://fueleconomy.gov <http://fueleconomy.gov>`__.
 It contains only models which had a new release every year between 1999
 and 2008 - this was used as a proxy for the popularity of the car.
 
+Usage
+~~~~~
+
+::
+
+    data(mpg)
+
 Format
 ~~~~~~
 
