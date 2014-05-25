@@ -27,21 +27,21 @@
 </p>
 
 <dl>
-<dt><code>16.5</code></dt><dd><p>Cubit length of lowest category</p>
+<dt><code>16.5</code></dt><dd><p>Cubit length &lt; 16.5</p>
 </dd>
-<dt><code>16.75</code></dt><dd><p>a numeric vector</p>
+<dt><code>16.75</code></dt><dd><p>16.5 &lt;= Cubit length &lt; 17.0</p>
 </dd>
-<dt><code>17.25</code></dt><dd><p>a numeric vector</p>
+<dt><code>17.25</code></dt><dd><p>17.0 &lt;= Cubit length &lt; 17.5</p>
 </dd>
-<dt><code>17.75</code></dt><dd><p>a numeric vector</p>
+<dt><code>17.75</code></dt><dd><p>17.5 &lt;= Cubit length &lt; 18.0</p>
 </dd>
-<dt><code>18.25</code></dt><dd><p>a numeric vector</p>
+<dt><code>18.25</code></dt><dd><p>18.0 &lt;= Cubit length &lt; 18.5</p>
 </dd>
-<dt><code>18.75</code></dt><dd><p>a numeric vector</p>
+<dt><code>18.75</code></dt><dd><p>18.5 &lt;= Cubit length &lt; 19.0</p>
 </dd>
-<dt><code>19.25</code></dt><dd><p>a numeric vector</p>
+<dt><code>19.25</code></dt><dd><p>19.0 &lt;= Cubit length &lt; 19.5</p>
 </dd>
-<dt><code>19.75</code></dt><dd><p>a numeric vector</p>
+<dt><code>19.75</code></dt><dd><p>19.5 &lt;= Cubit length  </p>
 </dd>
 </dl>
 
@@ -77,9 +77,10 @@ data(cubits)
 cubits
 heights &lt;- table2df(cubits,labs = c("height","cubit"))
 ellipses(heights,n=1,main="Galton's co-relation data set")
-ellipses(jitter(heights$cubit,3),jitter(heights$height,3),pch=".",
-     main="Galton's co-relation data set") #add in some noise to see the points
-
+ellipses(jitter(heights$height,3),jitter(heights$cubit,3),pch=".",
+     main="Galton's co-relation data set",xlab="height",
+     ylab="Forearm (cubit)") #add in some noise to see the points
+pairs.panels(heights,jiggle=TRUE,main="Galton's cubits data set")
 </pre>
 
 

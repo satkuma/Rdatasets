@@ -11,6 +11,13 @@ Description
 The names of each president, the start and end date of their term, and
 their party of 10 US presidents from Eisenhower to Bush W.
 
+Usage
+~~~~~
+
+::
+
+    data(presidential)
+
 Format
 ~~~~~~
 

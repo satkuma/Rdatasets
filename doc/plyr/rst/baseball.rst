@@ -14,6 +14,13 @@ collected from
 There are a total of 21,699 records, covering 1,228 players from 1871 to
 2007. Only players with more 15 seasons of play are included.
 
+Usage
+~~~~~
+
+::
+
+    baseball
+
 Format
 ~~~~~~
 

@@ -16,6 +16,13 @@ amazon. More about information imdb.com can be found online,
 including information about the data collection process,
 `http://imdb.com/help/show\_leaf?infosource <http://imdb.com/help/show_leaf?infosource>`__.
 
+Usage
+~~~~~
+
+::
+
+    data(movies)
+
 Format
 ~~~~~~
 

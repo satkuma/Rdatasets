@@ -50,9 +50,9 @@ Source
 
 `http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/haireye.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/haireye.sas>`__
 
-Snee (1974) gives the two-way table aggregated over ``Sex``. The Sex
-split of the ‘Brown hair, Brown eye’ cell was changed in **R** 2.6.0 to
-agree with that used by Friendly (2000).
+Snee (1974) gives the two-way table aggregated over ``Sex``. The ``Sex``
+split of the ‘Brown hair, Brown eye’ cell was changed to agree with that
+used by Friendly (2000).
 
 References
 ~~~~~~~~~~

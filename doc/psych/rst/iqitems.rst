@@ -82,13 +82,15 @@ Details
 
 16 items were sampled from 80 items given as part of the SAPA
 (`http://sapa-project.org <http://sapa-project.org>`__) project
-(Revelle, Wilt and Rosenthal, 2009; Condon and Revelle, 2013) to develop
+(Revelle, Wilt and Rosenthal, 2009; Condon and Revelle, 2014) to develop
 online measures of ability. These 16 items reflect four lower order
 factors (verbal reasoning, letter series, matrix reasoning, and spatial
 rotations. These lower level factors all share a higher level factor
 ('g').
 
-This data set may be used to demonstrate item response functions,
+This data set and the associated data set (``ability`` based upon
+scoring these multiple choice items and converting them to
+correct/incorrect may be used to demonstrate item response functions,
 ``tetrachoric`` correlations, or ``irt.fa`` as well as ``omega``
 estimates of of reliability and hierarchical structure.
 
@@ -117,8 +119,9 @@ Matthews, Gerald and Szymura, Blazej (Eds.) Handbook of Individual
 Differences in Cognition: Attention, Memory and Executive Control,
 Springer.
 
-Condon, David and Revelle, William, (2013) The development of an open
-source measure of cognitive ability. (in prep, Northwestern University).
+Condon, David and Revelle, William, (2014) The International Cognitive
+Ability Resource: Development and initial validation of a public-domain
+measure. Intelligence, 43, 52-64.
 
 Examples
 ~~~~~~~~
@@ -134,12 +137,13 @@ Examples
     iq.tf <-  score.multiple.choice(iq.keys,iq.scrub,score=FALSE) 
                   #convert to wrong (0) and correct (1) for analysis
     describe(iq.tf) 
+    #see the ability data set for these analyses
     #now, for some item analysis
-    iq.irt <- irt.fa(iq.tf)  #do a basic irt
-    iq.sc <-score.irt(iq.irt,iq.tf)  #find the scores
-    op <- par(mfrow=c(4,4))
-    irt.responses(iq.sc[,1], iq.tf)  
-    op <- par(mfrow=c(1,1))
+    #iq.irt <- irt.fa(iq.tf)  #do a basic irt
+    #iq.sc <-score.irt(iq.irt,iq.tf)  #find the scores
+    #op <- par(mfrow=c(4,4))
+    #irt.responses(iq.sc[,1], iq.tf)  
+    #op <- par(mfrow=c(1,1))
 
     ## End(Not run)
 

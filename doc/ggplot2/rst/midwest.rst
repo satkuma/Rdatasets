@@ -10,6 +10,13 @@ Description
 
 Demographic information of midwest counties
 
+Usage
+~~~~~
+
+::
+
+    data(midwest)
+
 Format
 ~~~~~~
 

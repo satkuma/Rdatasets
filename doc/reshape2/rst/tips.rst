@@ -12,6 +12,13 @@ One waiter recorded information about each tip he received over a period
 of a few months working in one restaurant. He collected several
 variables:
 
+Usage
+~~~~~
+
+::
+
+    data(tips)
+
 Format
 ~~~~~~
 

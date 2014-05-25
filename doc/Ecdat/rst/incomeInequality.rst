@@ -11,7 +11,7 @@ Description
 Data on quantiles of the distributions of family incomes in the United
 States. This combines three data sources:
 
-(1) US Census Table F-1 for the central qualitiles
+(1) US Census Table F-1 for the central quantiles
 
 (2) Piketty and Saez for the 95th and higher quantiles
 
@@ -31,7 +31,7 @@ Format
 A ``data.frame`` containing:
 
 Year
-    numeric year 1947:2011
+    numeric year 1947:2012
 
 Number.thousands
     number of families in the US
@@ -84,7 +84,7 @@ For details on how this ``data.frame`` was created, see
 provides links for files to download and R commands to read those files
 and convert them into an updated version of ``incomeInequality``. This
 is a reasonable thing to do if it is more than 2 years since
-``max(incomeInequality$year)``.
+``max(incomeInequality$year)``. All data are in constant 2012 dollars.
 
 Author(s)
 ~~~~~~~~~
@@ -97,17 +97,17 @@ Source
 United States Census Bureau, Table F-1. Income Limits for Each Fifth and
 Top 5 Percent of Families, All Races,
 `http://www.census.gov/hhes/www/income/data/historical/families <http://www.census.gov/hhes/www/income/data/historical/families>`__,
-accessed January 9, 2013.
+accessed March 25, 2014.
 
 Thomas Piketty and Emmanuel Saez (2003) "Income Inequality in the United
 States, 1913-1998", Quarterly Journal of Economics, 118(1) 1-39,
 `http://elsa.berkeley.edu/~saez <http://elsa.berkeley.edu/~saez>`__,
-accessed January 9, 2013.
+update accessed February 28, 2014.
 
 Louis Johnston and Samuel H. Williamson (2011) "What Was the U.S. GDP
 Then?" MeasuringWorth,
 `http://www.measuringworth.org/usgdp <http://www.measuringworth.org/usgdp>`__,
-accessed January 9, 2013.
+accessed February 28, 2014.
 
 Examples
 ~~~~~~~~

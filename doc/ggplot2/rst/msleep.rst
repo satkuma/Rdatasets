@@ -14,6 +14,13 @@ West. A quantitative, theoretical framework for understanding mammalian
 sleep. Proceedings of the National Academy of Sciences, 104
 (3):1051-1056, 2007.
 
+Usage
+~~~~~
+
+::
+
+    data(msleep)
+
 Format
 ~~~~~~
 

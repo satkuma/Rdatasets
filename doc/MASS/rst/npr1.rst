@@ -23,8 +23,11 @@ Format
 
 This data frame contains the following columns:
 
-``x, y``
-    x and y coordinates, in miles from an arbitrary origin.
+``x``
+    x coordinates, in miles (origin unspecified)..
+
+``y``
+    y coordinates, in miles.
 
 ``perm``
     permeability in milli-Darcies.
