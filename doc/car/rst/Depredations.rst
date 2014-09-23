@@ -1,6 +1,7 @@
-+----------------+-------------------+
-| Depredations   | R Documentation   |
-+----------------+-------------------+
++--------------------------------------+--------------------------------------+
+| Depredations                         |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Minnesota Wolf Depredation Data
 -------------------------------
@@ -46,5 +47,4 @@ Second Edition, Sage.
 Harper, Elizabeth K. and Paul, William J. and Mech, L. David and
 Weisberg, Sanford (2008), Effectiveness of Lethal, Directed
 Wolf-Depredation Control in Minnesota, *Journal of Wildlife Management*,
-72, 3, 778-784.
-`http://pinnacle.allenpress.com/doi/abs/10.2193/2007-273 <http://pinnacle.allenpress.com/doi/abs/10.2193/2007-273>`__
+72, 3, 778-784. http://pinnacle.allenpress.com/doi/abs/10.2193/2007-273

@@ -1,6 +1,7 @@
-+--------+-------------------+
-| Mofa   | R Documentation   |
-+--------+-------------------+
++--------------------------------------+--------------------------------------+
+| Mofa                                 |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 International Expansion of U.S. Mofa's (majority–owned Foreign Affiliates in Fire (finance, Insurance and Real Estate)
 ----------------------------------------------------------------------------------------------------------------------
@@ -66,7 +67,7 @@ References
 ~~~~~~~~~~
 
 Journal of Business Economics and Statistics web site :
-`http://www.amstat.org/publications/jbes/ <http://www.amstat.org/publications/jbes/>`__.
+http://www.amstat.org/publications/jbes/.
 
 See Also
 ~~~~~~~~

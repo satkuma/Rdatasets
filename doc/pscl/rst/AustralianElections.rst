@@ -1,6 +1,7 @@
-+-----------------------+-------------------+
-| AustralianElections   | R Documentation   |
-+-----------------------+-------------------+
++--------------------------------------+--------------------------------------+
+| AustralianElections                  |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 elections to Australian House of Representatives, 1949-2007
 -----------------------------------------------------------
@@ -98,8 +99,7 @@ A data frame with the following variables:
 Source
 ~~~~~~
 
-Australian Electoral Commission.
-`http://www.aec.gov.au <http://www.aec.gov.au>`__.
+Australian Electoral Commission. http://www.aec.gov.au.
 
 References
 ~~~~~~~~~~

@@ -1,6 +1,7 @@
-+---------+-------------------+
-| Metal   | R Documentation   |
-+---------+-------------------+
++--------------------------------------+--------------------------------------+
+| Metal                                |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Production for SIC 33
 ---------------------
@@ -51,8 +52,7 @@ References
 ~~~~~~~~~~
 
 Greene, W.H. (2003) *Econometric Analysis*, Prentice Hall,
-`http://www.prenhall.com/greene/greene1.html <http://www.prenhall.com/greene/greene1.html>`__,
-Table F6.1.
+http://www.prenhall.com/greene/greene1.html, Table F6.1.
 
 See Also
 ~~~~~~~~

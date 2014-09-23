@@ -1,6 +1,7 @@
-+--------------+-------------------+
-| Somerville   | R Documentation   |
-+--------------+-------------------+
++--------------------------------------+--------------------------------------+
+| Somerville                           |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Visits to Lake Somerville
 -------------------------
@@ -71,11 +72,9 @@ References
 ~~~~~~~~~~
 
 Journal of Business Economics and Statistics web site :
-`http://www.amstat.org/publications/jbes/ <http://www.amstat.org/publications/jbes/>`__.
-Cameron, A.C. and Trivedi P.K. (1998) *Regression analysis of count
-data*, Cambridge University Press,
-`http://cameron.econ.ucdavis.edu/racd/racddata.html <http://cameron.econ.ucdavis.edu/racd/racddata.html>`__,
-chapter 6.
+http://www.amstat.org/publications/jbes/. Cameron, A.C. and Trivedi P.K.
+(1998) *Regression analysis of count data*, Cambridge University Press,
+http://cameron.econ.ucdavis.edu/racd/racddata.html, chapter 6.
 
 See Also
 ~~~~~~~~

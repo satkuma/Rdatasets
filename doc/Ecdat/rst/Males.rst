@@ -1,6 +1,7 @@
-+---------+-------------------+
-| Males   | R Documentation   |
-+---------+-------------------+
++--------------------------------------+--------------------------------------+
+| Males                                |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Wages and Education of Young Males
 ----------------------------------
@@ -78,12 +79,10 @@ References
 ~~~~~~~~~~
 
 Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley and
-Sons,
-`http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`__,
-chapter 10.
+Sons, http://www.econ.kuleuven.ac.be/GME, chapter 10.
 
 Journal of Applied Econometrics data archive :
-`http://jae.wiley.com/jae/ <http://jae.wiley.com/jae/>`__.
+http://jae.wiley.com/jae/.
 
 See Also
 ~~~~~~~~

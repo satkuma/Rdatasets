@@ -6,12 +6,9 @@
 
 <table width="100%" summary="page for fasttrakg"><tr><td>fasttrakg</td><td align="right">R Documentation</td></tr></table>
 
-<h2>
-fasttrakg
-</h2>
+<h2>fasttrakg</h2>
 
 <h3>Description</h3>
-
 
 <p>Data are from the Canadian National Cardiovascular Disease registry 
 called, FASTRAK. years covered at 1996-1998. They have been grouped 
@@ -38,8 +35,11 @@ by covariate patterns from individual observations.
 </dd>
 <dt><code>hcabg</code></dt><dd><p>1=history of CABG; 0=no history of CABG</p>
 </dd>
-<dt><code>killip</code></dt><dd><p>Killip level of cardiac event severity (1-4)</p>
-</dd>
+<dt><code>killip</code></dt><dd><p>Killip level of cardiac event severity (1-4)age75</p>
+</dd></dl>
+<p>1= Age&gt;75; 0=Age&lt;=75
+</p>
+<dl>
 <dt><code>kk1</code></dt><dd><p>(1/0) angina; not MI</p>
 </dd>
 <dt><code>kk2</code></dt><dd><p>(1/0) moderate severity cardiac event</p>
@@ -54,14 +54,12 @@ by covariate patterns from individual observations.
 
 <h3>Details</h3>
 
-
 <p>fasttrakg is saved as a data frame.
 Count models use died as response numerator and cases as the demoninator  
 </p>
 
 
 <h3>Source</h3>
-
 
 <p>1996-1998 FASTRAK data, Hoffman-LaRoche Canada,
 National Health Economics &amp; Research Co.
@@ -70,22 +68,21 @@ National Health Economics &amp; Research Co.
 
 <h3>References</h3>
 
-
 <p>Hilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge University Press
 Hilbe, Joseph M (2009), Logistic Regression Models, Chapman &amp; Hall/CRC
+Hilbe, Joseph M (2014), Modeling Count Data, Cambridge University Press
 </p>
 
 
 <h3>Examples</h3>
 
 <pre>
- data(fasttrakg)
+library(MASS)
+data(fasttrakg)
 glmfp &lt;- glm(die ~ anterior + factor(killip) + offset(log(cases)), family=poisson, data=fasttrakg)
 summary(glmfp)
 exp(coef(glmfp))
-#glmfnb &lt; -glm.nb(die ~ anterior + factor(killip) + offset(log(cases)), data=fasttrakg)
-#summary(glmfnb)
-#exp(coef(glmfnb))
+
 </pre>
 
 

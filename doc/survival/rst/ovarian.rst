@@ -1,6 +1,7 @@
-+-----------+-------------------+
-| ovarian   | R Documentation   |
-+-----------+-------------------+
++--------------------------------------+--------------------------------------+
+| ovarian                              |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Ovarian Cancer Survival Data
 ----------------------------
@@ -59,5 +60,4 @@ Sensitivities and Host Factors Affecting Prognosis in Advanced Ovarian
 Carcinoma vs. Minimal Residual Disease. Cancer Treatment Reports,
 63:241-47, 1979.
 
-for ECOG performance status:
-`http://ecog.org/general/perf\_stat.html <http://ecog.org/general/perf_stat.html>`__
+for ECOG performance status: http://ecog.org/general/perf_stat.html

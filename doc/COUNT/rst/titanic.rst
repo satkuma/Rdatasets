@@ -1,6 +1,7 @@
-+-----------+-------------------+
-| titanic   | R Documentation   |
-+-----------+-------------------+
++--------------------------------------+--------------------------------------+
+| titanic                              |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 titanic
 -------
@@ -8,7 +9,8 @@ titanic
 Description
 ~~~~~~~~~~~
 
-Passenger survival data from 1912 Titanic shipping accident.
+The data is an observation-based version of the 1912 Titanic passenger
+survival log,
 
 Usage
 ~~~~~
@@ -22,23 +24,23 @@ Format
 
 A data frame with 1316 observations on the following 4 variables.
 
-``survived``
-    1=survived; 0=died
+``class``
+    a factor with levels ``1st class`` ``2nd class`` ``3rd class``
+    ``crew``
 
 ``age``
-    1=adult; 0=child
+    a factor with levels ``child`` ``adults``
 
 ``sex``
-    1=Male; 0=female
+    a factor with levels ``women`` ``man``
 
-``class``
-    ticket class 1= 1st class; 2= second class; 3= third class
+``survived``
+    a factor with levels ``no`` ``yes``
 
 Details
 ~~~~~~~
 
-titanic is saved as a data frame. Used to assess risk ratio; not
-stardard count model; good binary response model.
+titanic is saved as a data frame. Used to assess risk ratios
 
 Source
 ~~~~~~
@@ -48,6 +50,7 @@ Found in many other texts
 References
 ~~~~~~~~~~
 
+Hilbe, Joseph M (2014), Modeling Count Data, Cambridge University Press
 Hilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge
 University Press Hilbe, Joseph M (2009), Logistic Regression Models,
 Chapman & Hall/CRC
@@ -57,8 +60,9 @@ Examples
 
 ::
 
+
     data(titanic)
-    glmlr <- glm(survived ~ age + sex + factor(class), family=binomial, data=titanic)
+    titanic$survival <- titanic$survived == "yes"
+    glmlr <- glm(survival ~ age + sex + factor(class), family=binomial, data=titanic)
     summary(glmlr)
-    exp(coef(glmlr))
 

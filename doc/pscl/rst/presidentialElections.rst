@@ -1,15 +1,16 @@
-+-------------------------+-------------------+
-| presidentialElections   | R Documentation   |
-+-------------------------+-------------------+
++--------------------------------------+--------------------------------------+
+| presidentialElections                |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
-elections for U.S. President, 1932-2008, by state
+elections for U.S. President, 1932-2012, by state
 -------------------------------------------------
 
 Description
 ~~~~~~~~~~~
 
-Data from states and the District of Columbia, Democratic share of the
-presidential vote, 1932-2008.
+Democratic share of the presidential vote, 1932-2012, in each state and
+the District of Columbia.
 
 Usage
 ~~~~~
@@ -21,10 +22,10 @@ Usage
 Format
 ~~~~~~
 
--  statename of state, character
+-  statecharacter, name of state
 
--  demVotepercent of the vote for president won by the Democratic
-   candidate
+-  demVotenumeric, percent of the vote for president won by the
+   Democratic candidate
 
 -  yearnumeric, integer
 
@@ -34,16 +35,16 @@ Format
 Note
 ~~~~
 
-996 observations, unbalanced panel data: (a) Hawaii and Alaska
-contribute data from 1960 onwards; (b) the District of Columbia
-contributes data from 1964 onward; (c) Alabama has missing data for 1948
-and 1964.
+1,047 observations, unbalanced panel data in long format. Hawaii and
+Alaska contribute data from 1960 onwards the District of Columbia
+contributes data from 1964 onward; Alabama has missing data for 1948 and
+1964.
 
 Source
 ~~~~~~
 
 David Leip's Atlas of U.S. Presidential Elections
-`http://uselectionsatlas.org <http://uselectionsatlas.org>`__
+http://uselectionsatlas.org
 
 Examples
 ~~~~~~~~
@@ -51,7 +52,6 @@ Examples
 ::
 
     data(presidentialElections)
-    library(lattice)
     xyplot(demVote ~ year | state,
            panel=panel.lines,
            ylab="Democratic Vote for President (percent)",

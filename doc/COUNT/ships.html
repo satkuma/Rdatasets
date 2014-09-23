@@ -73,17 +73,19 @@ McCullagh, P.A, and J. Nelder (1989), Generalized Linear Models, Chapman &amp; H
 
 <pre>
 data(ships)
-glmshp &lt;- glm(accident ~ op + co.70.74 + co.75.79 + offset(log(service)), family=poisson, data=ships)
+glmshp &lt;- glm(accident ~ op + co.70.74 + co.75.79 + offset(log(service)),
+              family=poisson, data=ships)
 summary(glmshp)
 exp(coef(glmshp))
 library(MASS)
-glmshnb &lt;- glm.nb(accident ~ op + co.70.74 + co.75.79 + offset(log(service)), data=ships)
+glmshnb &lt;- glm.nb(accident ~ op + co.70.74 + co.75.79 + offset(log(service)),
+                   data=ships)
 summary(glmshnb)
 exp(coef(glmshnb))
 ## Not run: 
 library(gee)
-shipgee &lt;- gee(accident ~ op + co.70.74 + co.75.79 + offset(log(service)), data=ships, 
-   family=poisson, corstr="exchangeable", id=ship)
+shipgee &lt;- gee(accident ~ op + co.70.74 + co.75.79 + offset(log(service)),
+              data=ships, family=poisson, corstr="exchangeable", id=ship)
 summary(shipgee)
 
 ## End(Not run)

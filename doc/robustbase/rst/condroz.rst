@@ -1,6 +1,7 @@
-+-----------+-------------------+
-| condroz   | R Documentation   |
-+-----------+-------------------+
++--------------------------------------+--------------------------------------+
+| condroz                              |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Condroz Data
 ------------
@@ -50,8 +51,7 @@ of Applied Science, 5, p. 1092-1102.
 
 Hubert, M. and Vandervieren, E. (2006). An Adjusted Boxplot for Skewed
 Distributions, Technical Report TR-06-11, KULeuven, Section of
-Statistics, Leuven.
-`http://wis.kuleuven.be/stat/robust/Papers/TR0611.pdf <http://wis.kuleuven.be/stat/robust/Papers/TR0611.pdf>`__
+Statistics, Leuven. http://wis.kuleuven.be/stat/robust/Papers/TR0611.pdf
 
 Vandewalle, B., Beirlant, J., Hubert, M. (2004). A robust estimator of
 the tail index based on an exponential regression model, in Hubert, M.,

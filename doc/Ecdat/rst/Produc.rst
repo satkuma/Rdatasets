@@ -1,6 +1,7 @@
-+----------+-------------------+
-| Produc   | R Documentation   |
-+----------+-------------------+
++--------------------------------------+--------------------------------------+
+| Produc                               |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Us States Production
 --------------------
@@ -72,8 +73,7 @@ References
 ~~~~~~~~~~
 
 Baltagi, Badi H. (2003) *Econometric analysis of panel data*, John Wiley
-and sons,
-`http://www.wiley.com/legacy/wileychi/baltagi/ <http://www.wiley.com/legacy/wileychi/baltagi/>`__.
+and sons, http://www.wiley.com/legacy/wileychi/baltagi/.
 
 See Also
 ~~~~~~~~

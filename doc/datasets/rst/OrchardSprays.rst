@@ -1,6 +1,7 @@
-+-----------------+-------------------+
-| OrchardSprays   | R Documentation   |
-+-----------------+-------------------+
++--------------------------------------+--------------------------------------+
+| OrchardSprays                        |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Potency of Orchard Sprays
 -------------------------
@@ -24,15 +25,13 @@ Format
 
 A data frame with 64 observations on 4 variables.
 
-+--------+-------------+-----------+------------------------+
-| [,1]   | rowpos      | numeric   | Row of the design      |
-+--------+-------------+-----------+------------------------+
-| [,2]   | colpos      | numeric   | Column of the design   |
-+--------+-------------+-----------+------------------------+
-| [,3]   | treatment   | factor    | Treatment level        |
-+--------+-------------+-----------+------------------------+
-| [,4]   | decrease    | numeric   | Response               |
-+--------+-------------+-----------+------------------------+
++--------------------+--------------------+--------------------+--------------------+
+| [,1]               | [,2]               | [,3]               | [,4]               |
+| rowpos             | colpos             | treatment          | decrease           |
+| numeric            | numeric            | factor             | numeric            |
+| Row of the design  | Column of the      | Treatment level    | Response           |
+|                    | design             |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
 
 Details
 ~~~~~~~
@@ -50,21 +49,27 @@ volume of the solutions in the various cells.
 An *8 x 8* Latin square design was used and the treatments were coded as
 follows:
 
-+-----+--------------------------------------+
-| A   | highest level of lime sulphur        |
-+-----+--------------------------------------+
-| B   | next highest level of lime sulphur   |
-+-----+--------------------------------------+
-| .   |                                      |
-+-----+--------------------------------------+
-| .   |                                      |
-+-----+--------------------------------------+
-| .   |                                      |
-+-----+--------------------------------------+
-| G   | lowest level of lime sulphur         |
-+-----+--------------------------------------+
-| H   | no lime sulphur                      |
-+-----+--------------------------------------+
+A
+
+highest level of lime sulphur
+
+B
+
+next highest level of lime sulphur
+
+.
+
+.
+
+.
+
+G
+
+lowest level of lime sulphur
+
+H
+
+no lime sulphur
 
 Source
 ~~~~~~

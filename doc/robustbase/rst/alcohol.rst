@@ -1,6 +1,7 @@
-+-----------+-------------------+
-| alcohol   | R Documentation   |
-+-----------+-------------------+
++--------------------------------------+--------------------------------------+
+| alcohol                              |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Alcohol Solubility in Water Data
 --------------------------------
@@ -51,7 +52,7 @@ Source
 ~~~~~~
 
 The website accompanying the MMY-book:
-`http://www.wiley.com/legacy/wileychi/robust\_statistics <http://www.wiley.com/legacy/wileychi/robust_statistics>`__
+http://www.wiley.com/legacy/wileychi/robust_statistics
 
 References
 ~~~~~~~~~~

@@ -1,6 +1,7 @@
-+-------------+-------------------+
-| Arbuthnot   | R Documentation   |
-+-------------+-------------------+
++--------------------------------------+--------------------------------------+
+| Arbuthnot                            |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Arbuthnot's data on male and female birth ratios in London from 1629-1710.
 --------------------------------------------------------------------------
@@ -74,7 +75,7 @@ References
 ~~~~~~~~~~
 
 Campbell, R. B., Arbuthnot and the Human Sex Ratio,
-`http://www.math.uni.edu/~campbell/arbuth.html <http://www.math.uni.edu/~campbell/arbuth.html>`__
+http://www.math.uni.edu/~campbell/arbuth.html
 
 Creighton, C. (1965). A History of Epidemics in Britain, 2nd edition,
 vol. 1 and 2. NY: Barnes and Noble.

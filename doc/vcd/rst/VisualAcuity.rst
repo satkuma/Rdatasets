@@ -1,6 +1,7 @@
-+----------------+-------------------+
-| VisualAcuity   | R Documentation   |
-+----------------+-------------------+
++--------------------------------------+--------------------------------------+
+| VisualAcuity                         |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Visual Acuity in Left and Right Eyes
 ------------------------------------
@@ -40,7 +41,7 @@ Source
 ~~~~~~
 
 M. Friendly (2000), Visualizing Categorical Data:
-`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/vision.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/vision.sas>`__
+http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/vision.sas
 
 References
 ~~~~~~~~~~

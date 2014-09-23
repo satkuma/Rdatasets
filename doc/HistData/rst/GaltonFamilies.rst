@@ -1,6 +1,7 @@
-+------------------+-------------------+
-| GaltonFamilies   | R Documentation   |
-+------------------+-------------------+
++--------------------------------------+--------------------------------------+
+| GaltonFamilies                       |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Galton's data on the heights of parents and their children, by child
 --------------------------------------------------------------------
@@ -69,7 +70,7 @@ Source
 ~~~~~~
 
 Galton's notebook,
-`http://www.medicine.mcgill.ca/epidemiology/hanley/galton/notebook/ <http://www.medicine.mcgill.ca/epidemiology/hanley/galton/notebook/>`__,
+http://www.medicine.mcgill.ca/epidemiology/hanley/galton/notebook/,
 transcribed by Beverley Shipley in 2001.
 
 References
@@ -80,12 +81,12 @@ Galton, F. (1886). Regression Towards Mediocrity in Hereditary Stature
 
 Hanley, J. A. (2004). "Transmuting" Women into Men: Galton's Family Data
 on Human Stature. *The American Statistician*, 58, 237-243. See:
-`http://www.medicine.mcgill.ca/epidemiology/hanley/galton/ <http://www.medicine.mcgill.ca/epidemiology/hanley/galton/>`__
-for source materials.
+http://www.medicine.mcgill.ca/epidemiology/hanley/galton/ for source
+materials.
 
 Keen, K. J. (2010). *Graphics for Statistics and Data Analysis with R*,
 Boca Raton: CRC Press,
-`http://www.unbc.ca/keen/graphics-for-statistics-and-data-analysis-with-r <http://www.unbc.ca/keen/graphics-for-statistics-and-data-analysis-with-r>`__.
+http://www.unbc.ca/keen/graphics-for-statistics-and-data-analysis-with-r.
 
 See Also
 ~~~~~~~~

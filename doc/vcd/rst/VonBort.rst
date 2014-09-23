@@ -1,6 +1,7 @@
-+-----------+-------------------+
-| VonBort   | R Documentation   |
-+-----------+-------------------+
++--------------------------------------+--------------------------------------+
+| VonBort                              |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Von Bortkiewicz Horse Kicks Data
 --------------------------------
@@ -41,7 +42,7 @@ Source
 ~~~~~~
 
 Michael Friendly (2000), Visualizing Categorical Data:
-`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/vonbort.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/vonbort.sas>`__
+http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/vonbort.sas
 
 References
 ~~~~~~~~~~

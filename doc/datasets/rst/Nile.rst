@@ -1,6 +1,7 @@
-+--------+-------------------+
-| Nile   | R Documentation   |
-+--------+-------------------+
++--------------------------------------+--------------------------------------+
+| Nile                                 |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Flow of the River Nile
 ----------------------
@@ -27,7 +28,7 @@ Source
 
 Durbin, J. and Koopman, S. J. (2001) *Time Series Analysis by State
 Space Methods.* Oxford University Press.
-`http://www.ssfpack.com/DKbook.html <http://www.ssfpack.com/DKbook.html>`__
+http://www.ssfpack.com/DKbook.html
 
 References
 ~~~~~~~~~~

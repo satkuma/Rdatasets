@@ -1,6 +1,7 @@
-+------------+-------------------+
-| toxicity   | R Documentation   |
-+------------+-------------------+
++--------------------------------------+--------------------------------------+
+| toxicity                             |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Toxicity of Carboxylic Acids Data
 ---------------------------------
@@ -62,7 +63,7 @@ Source
 ~~~~~~
 
 The website accompanying the MMY-book:
-`http://www.wiley.com/legacy/wileychi/robust\_statistics <http://www.wiley.com/legacy/wileychi/robust_statistics>`__
+http://www.wiley.com/legacy/wileychi/robust_statistics
 
 References
 ~~~~~~~~~~

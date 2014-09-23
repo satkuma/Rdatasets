@@ -1,6 +1,7 @@
-+------------+-------------------+
-| iraqVote   | R Documentation   |
-+------------+-------------------+
++--------------------------------------+--------------------------------------+
+| iraqVote                             |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 U.S. Senate vote on the use of force against Iraq, 2002.
 --------------------------------------------------------
@@ -53,11 +54,10 @@ Source
 ~~~~~~
 
 Keith Poole, 107th Senate Roll Call Data.
-`ftp://voteview.com/sen107kh.ord <ftp://voteview.com/sen107kh.ord>`__
-The Iraq vote is vote number 617.
+ftp://voteview.com/sen107kh.ord The Iraq vote is vote number 617.
 
 David Leip's Atlas of U.S. Presidential Elections.
-`http://uselectionatlas.org <http://uselectionatlas.org>`__
+http://uselectionatlas.org
 
 References
 ~~~~~~~~~~
@@ -75,14 +75,4 @@ Examples
     glm1 <- glm(y ~ gorevote + rep,
                 data=iraqVote,
                 family=binomial(link=probit))
-    ## Not run: 
-    require(MCMCpack)
-    albertChib <- MCMCprobit(y ~ gorevote + rep,
-                             data=iraqVote,
-                             burnin=0,
-                             B0=1e-3,
-                             mcmc=1e4,
-                             verbose=0)
-
-    ## End(Not run)
 

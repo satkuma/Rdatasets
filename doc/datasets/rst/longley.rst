@@ -1,6 +1,7 @@
-+-----------+-------------------+
-| longley   | R Documentation   |
-+-----------+-------------------+
++--------------------------------------+--------------------------------------+
+| longley                              |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Longley's Economic Regression Data
 ----------------------------------
@@ -24,25 +25,25 @@ Format
 A data frame with 7 economical variables, observed yearly from 1947 to
 1962 (*n=16*).
 
-GNP.deflator:
+``GNP.deflator``
     GNP implicit price deflator (*1954=100*)
 
-GNP:
+``GNP``
     Gross National Product.
 
-Unemployed:
+``Unemployed``
     number of unemployed.
 
-Armed.Forces:
+``Armed.Forces``
     number of people in the armed forces.
 
-Population:
+``Population``
     ‘noninstitutionalized’ population *≥* 14 years of age.
 
-Year:
+``Year``
     the year (time).
 
-Employed:
+``Employed``
     number of people employed.
 
 The regression ``lm(Employed ~ .)`` is known to be highly collinear.

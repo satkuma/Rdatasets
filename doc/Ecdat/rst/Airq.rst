@@ -1,6 +1,7 @@
-+--------+-------------------+
-| Airq   | R Documentation   |
-+--------+-------------------+
++--------------------------------------+--------------------------------------+
+| Airq                                 |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Air Quality for Californian Metropolitan Areas
 ----------------------------------------------
@@ -50,9 +51,7 @@ References
 ~~~~~~~~~~
 
 Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley and
-Sons,
-`http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`__,
-chapter 4.
+Sons, http://www.econ.kuleuven.ac.be/GME, chapter 4.
 
 See Also
 ~~~~~~~~

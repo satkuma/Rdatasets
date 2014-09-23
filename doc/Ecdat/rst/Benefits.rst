@@ -1,6 +1,7 @@
-+------------+-------------------+
-| Benefits   | R Documentation   |
-+------------+-------------------+
++--------------------------------------+--------------------------------------+
+| Benefits                             |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Unemployement of Blue Collar Workers
 ------------------------------------
@@ -94,12 +95,10 @@ References
 ~~~~~~~~~~
 
 Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley and
-Sons,
-`http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`__,
-chapter 7.
+Sons, http://www.econ.kuleuven.ac.be/GME, chapter 7.
 
 Journal of Business Economics and Statistics web site :
-`http://www.amstat.org/publications/jbes/ <http://www.amstat.org/publications/jbes/>`__.
+http://www.amstat.org/publications/jbes/.
 
 See Also
 ~~~~~~~~

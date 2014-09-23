@@ -1,6 +1,7 @@
-+-----------+-------------------+
-| Suicide   | R Documentation   |
-+-----------+-------------------+
++--------------------------------------+--------------------------------------+
+| Suicide                              |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Suicide Rates in Germany
 ------------------------
@@ -46,7 +47,7 @@ Source
 ~~~~~~
 
 Michael Friendly (2000), Visualizing Categorical Data:
-`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/suicide.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/suicide.sas>`__
+http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/suicide.sas
 
 References
 ~~~~~~~~~~

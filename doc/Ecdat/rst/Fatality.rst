@@ -1,6 +1,7 @@
-+------------+-------------------+
-| Fatality   | R Documentation   |
-+------------+-------------------+
++--------------------------------------+--------------------------------------+
+| Fatality                             |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Drunk Driving Laws and Traffic Deaths
 -------------------------------------
@@ -69,8 +70,7 @@ References
 
 Stock, James H. and Mark W. Watson (2003) *Introduction to
 Econometrics*, Addison-Wesley Educational Publishers,
-`http://wps.aw.com/aw\_stockwatsn\_economtrcs\_1 <http://wps.aw.com/aw_stockwatsn_economtrcs_1>`__,
-chapter 8.
+http://wps.aw.com/aw_stockwatsn_economtrcs_1, chapter 8.
 
 See Also
 ~~~~~~~~

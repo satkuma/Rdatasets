@@ -1,6 +1,7 @@
-+-------------+-------------------+
-| fasttrakg   | R Documentation   |
-+-------------+-------------------+
++--------------------------------------+--------------------------------------+
+| fasttrakg                            |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 fasttrakg
 ---------
@@ -37,7 +38,9 @@ A data frame with 15 observations on the following 9 variables.
     1=history of CABG; 0=no history of CABG
 
 ``killip``
-    Killip level of cardiac event severity (1-4)
+    Killip level of cardiac event severity (1-4)age75
+
+1= Age>75; 0=Age<=75
 
 ``kk1``
     (1/0) angina; not MI
@@ -68,18 +71,17 @@ References
 
 Hilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge
 University Press Hilbe, Joseph M (2009), Logistic Regression Models,
-Chapman & Hall/CRC
+Chapman & Hall/CRC Hilbe, Joseph M (2014), Modeling Count Data,
+Cambridge University Press
 
 Examples
 ~~~~~~~~
 
 ::
 
-     data(fasttrakg)
+    library(MASS)
+    data(fasttrakg)
     glmfp <- glm(die ~ anterior + factor(killip) + offset(log(cases)), family=poisson, data=fasttrakg)
     summary(glmfp)
     exp(coef(glmfp))
-    #glmfnb < -glm.nb(die ~ anterior + factor(killip) + offset(log(cases)), data=fasttrakg)
-    #summary(glmfnb)
-    #exp(coef(glmfnb))
 

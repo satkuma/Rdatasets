@@ -1,6 +1,7 @@
-+---------+-------------------+
-| UKgas   | R Documentation   |
-+---------+-------------------+
++--------------------------------------+--------------------------------------+
+| UKgas                                |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 UK Quarterly Gas Consumption
 ----------------------------
@@ -27,8 +28,7 @@ Source
 ~~~~~~
 
 Durbin, J. and Koopman, S. J. (2001) *Time Series Analysis by State
-Space Methods.* Oxford University Press.
-`http://www.ssfpack.com/dkbook/ <http://www.ssfpack.com/dkbook/>`__
+Space Methods.* Oxford University Press. http://www.ssfpack.com/dkbook/
 
 Examples
 ~~~~~~~~

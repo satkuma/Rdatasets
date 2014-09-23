@@ -1,6 +1,7 @@
-+-------------+-------------------+
-| FriendFoe   | R Documentation   |
-+-------------+-------------------+
++--------------------------------------+--------------------------------------+
+| FriendFoe                            |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Data from the Television Game Show Friend Or Foe ?
 --------------------------------------------------
@@ -82,7 +83,7 @@ References
 ~~~~~~~~~~
 
 Journal of Statistics Education's data archive :
-`http://www.amstat.org/publications/jse/jse\_data\_archive.html <http://www.amstat.org/publications/jse/jse_data_archive.html>`__.
+http://www.amstat.org/publications/jse/jse_data_archive.html.
 
 See Also
 ~~~~~~~~

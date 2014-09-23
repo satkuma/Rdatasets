@@ -6,14 +6,12 @@
 
 <table width="100%" summary="page for titanic"><tr><td>titanic</td><td align="right">R Documentation</td></tr></table>
 
-<h2>
-titanic
-</h2>
+<h2>titanic</h2>
 
 <h3>Description</h3>
 
-
-<p>Passenger survival data from 1912 Titanic shipping accident. 
+<p>The data is an observation-based version of the 1912 Titanic passenger survival 
+log, 
 </p>
 
 
@@ -28,13 +26,13 @@ titanic
 </p>
 
 <dl>
-<dt><code>survived</code></dt><dd><p>1=survived; 0=died</p>
+<dt><code>class</code></dt><dd><p>a factor with levels <code>1st class</code> <code>2nd class</code> <code>3rd class</code> <code>crew</code></p>
 </dd>
-<dt><code>age</code></dt><dd><p>1=adult; 0=child</p>
+<dt><code>age</code></dt><dd><p>a factor with levels <code>child</code> <code>adults</code></p>
 </dd>
-<dt><code>sex</code></dt><dd><p>1=Male; 0=female</p>
+<dt><code>sex</code></dt><dd><p>a factor with levels <code>women</code> <code>man</code></p>
 </dd>
-<dt><code>class</code></dt><dd><p>ticket class 1= 1st class; 2= second class; 3= third class</p>
+<dt><code>survived</code></dt><dd><p>a factor with levels <code>no</code> <code>yes</code></p>
 </dd>
 </dl>
 
@@ -42,14 +40,12 @@ titanic
 
 <h3>Details</h3>
 
-
 <p>titanic is saved as a data frame.
-Used to assess risk ratio; not stardard count model; good binary response model.  
+Used to assess risk ratios   
 </p>
 
 
 <h3>Source</h3>
-
 
 <p>Found in many other texts
 </p>
@@ -57,8 +53,8 @@ Used to assess risk ratio; not stardard count model; good binary response model.
 
 <h3>References</h3>
 
-
-<p>Hilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge University Press
+<p>Hilbe, Joseph M (2014), Modeling Count Data, Cambridge University Press
+Hilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge University Press
 Hilbe, Joseph M (2009), Logistic Regression Models, Chapman &amp; Hall/CRC
 </p>
 
@@ -66,10 +62,12 @@ Hilbe, Joseph M (2009), Logistic Regression Models, Chapman &amp; Hall/CRC
 <h3>Examples</h3>
 
 <pre>
+
 data(titanic)
-glmlr &lt;- glm(survived ~ age + sex + factor(class), family=binomial, data=titanic)
+titanic$survival &lt;- titanic$survived == "yes"
+glmlr &lt;- glm(survival ~ age + sex + factor(class), family=binomial, data=titanic)
 summary(glmlr)
-exp(coef(glmlr))
+
 </pre>
 
 

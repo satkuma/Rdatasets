@@ -1,6 +1,7 @@
-+------------+-------------------+
-| attitude   | R Documentation   |
-+------------+-------------------+
++--------------------------------------+--------------------------------------+
+| attitude                             |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 The Chatterjee–Price Attitude Data
 ----------------------------------
@@ -28,21 +29,14 @@ A data frame with 30 observations on 7 variables. The first column are
 the short names from the reference, the second one the variable names in
 the data frame:
 
-+--------+--------------+-----------+-------------------------------------+
-| Y      | rating       | numeric   | Overall rating                      |
-+--------+--------------+-----------+-------------------------------------+
-| X[1]   | complaints   | numeric   | Handling of employee complaints     |
-+--------+--------------+-----------+-------------------------------------+
-| X[2]   | privileges   | numeric   | Does not allow special privileges   |
-+--------+--------------+-----------+-------------------------------------+
-| X[3]   | learning     | numeric   | Opportunity to learn                |
-+--------+--------------+-----------+-------------------------------------+
-| X[4]   | raises       | numeric   | Raises based on performance         |
-+--------+--------------+-----------+-------------------------------------+
-| X[5]   | critical     | numeric   | Too critical                        |
-+--------+--------------+-----------+-------------------------------------+
-| X[6]   | advancel     | numeric   | Advancement                         |
-+--------+--------------+-----------+-------------------------------------+
++--------------------+--------------------+--------------------+--------------------+
+| Y                  | X[1]               | X[2]               | X[3]               |
+| rating             | complaints         | privileges         | learning           |
+| numeric            | numeric            | numeric            | numeric            |
+| Overall rating     | Handling of        | Does not allow     | Opportunity to     |
+|                    | employee           | special privileges | learn              |
+|                    | complaints         |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
 
 Source
 ~~~~~~

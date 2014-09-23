@@ -1,6 +1,7 @@
-+----------+-------------------+
-| medpar   | R Documentation   |
-+----------+-------------------+
++--------------------------------------+--------------------------------------+
+| medpar                               |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 medpar
 ------
@@ -73,6 +74,7 @@ Source
 References
 ~~~~~~~~~~
 
+Hilbe, Joseph M (2014), Modeling Count Data, Cambridge University Press
 Hilbe, Joseph M (2007, 2011), Negative Binomial Regression, Cambridge
 University Press Hilbe, Joseph M (2009), Logistic Regression Models,
 Chapman & Hall/CRC first used in Hardin, JW and JM Hilbe (2001, 2007),
@@ -83,11 +85,15 @@ Examples
 
 ::
 
+    library(MASS)
+    library(msme)
     data(medpar)
     glmp <- glm(los ~ hmo + white + factor(type), family=poisson, data=medpar)
     summary(glmp)
     exp(coef(glmp))
-    library(MASS)
+    nb2 <- nbinomial(los ~ hmo + white + factor(type), data=medpar)
+    summary(nb2)
+    exp(coef(nb2))
     glmnb <- glm.nb(los ~ hmo + white + factor(type), data=medpar)
     summary(glmnb)
     exp(coef(glmnb))

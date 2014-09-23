@@ -1,6 +1,7 @@
-+--------------+-------------------+
-| voteincome   | R Documentation   |
-+--------------+-------------------+
++--------------------------------------+--------------------------------------+
+| voteincome                           |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Sample Turnout and Demographic Data from the 2000 Current Population Survey
 ---------------------------------------------------------------------------
@@ -61,4 +62,4 @@ Census Bureau Current Population Survey
 References
 ~~~~~~~~~~
 
-`http://www.census.gov/cps <http://www.census.gov/cps>`__
+http://www.census.gov/cps

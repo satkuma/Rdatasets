@@ -1,6 +1,7 @@
-+----------+-------------------+
-| MedExp   | R Documentation   |
-+----------+-------------------+
++--------------------------------------+--------------------------------------+
+| MedExp                               |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Structure of Demand for Medical Care
 ------------------------------------
@@ -8,8 +9,7 @@ Structure of Demand for Medical Care
 Description
 ~~~~~~~~~~~
 
-Journal of Applied Econometrics data archive :
-`http://jae.wiley.com/jae/ <http://jae.wiley.com/jae/>`__
+Journal of Applied Econometrics data archive : http://jae.wiley.com/jae/
 
 *number of observations* : 5574
 

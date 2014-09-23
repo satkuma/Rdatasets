@@ -1,6 +1,7 @@
-+----------+-------------------+
-| morley   | R Documentation   |
-+----------+-------------------+
++--------------------------------------+--------------------------------------+
+| morley                               |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Michelson Speed of Light Data
 -----------------------------
@@ -24,7 +25,7 @@ Usage
 Format
 ~~~~~~
 
-A data frame contains the following components:
+A data frame with 100 observations on the following 3 variables.
 
 ``Expt``
     The experiment number, from 1 to 5.

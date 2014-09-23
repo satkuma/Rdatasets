@@ -1,6 +1,7 @@
-+-----------------+-------------------+
-| UCBAdmissions   | R Documentation   |
-+-----------------+-------------------+
++--------------------------------------+--------------------------------------+
+| UCBAdmissions                        |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Student Admissions at UC Berkeley
 ---------------------------------
@@ -24,15 +25,11 @@ Format
 A 3-dimensional array resulting from cross-tabulating 4526 observations
 on 3 variables. The variables and their levels are as follows:
 
-+------+----------+----------------------+
-| No   | Name     | Levels               |
-+------+----------+----------------------+
-| 1    | Admit    | Admitted, Rejected   |
-+------+----------+----------------------+
-| 2    | Gender   | Male, Female         |
-+------+----------+----------------------+
-| 3    | Dept     | A, B, C, D, E, F     |
-+------+----------+----------------------+
++--------------------------+--------------------------+--------------------------+
+| No                       | 1                        | 2                        |
+| Name                     | Admit                    | Gender                   |
+| Levels                   | Admitted, Rejected       | Male, Female             |
++--------------------------+--------------------------+--------------------------+
 
 Details
 ~~~~~~~
@@ -51,10 +48,9 @@ with higher rejection rates).
 
 This data set can also be used for illustrating methods for graphical
 display of categorical data, such as the general-purpose mosaic plot or
-the fourfold display for 2-by-2-by-*k* tables. See the home page of
-Michael Friendly
-(`http://www.math.yorku.ca/SCS/friendly.html <http://www.math.yorku.ca/SCS/friendly.html>`__)
-for further information.
+the fourfold display for 2-by-2-by-\ *k* tables. See the home page of
+Michael Friendly (http://www.math.yorku.ca/SCS/friendly.html) for
+further information.
 
 References
 ~~~~~~~~~~

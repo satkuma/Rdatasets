@@ -1,6 +1,7 @@
-+----------------+-------------------+
-| sunspot.year   | R Documentation   |
-+----------------+-------------------+
++--------------------------------------+--------------------------------------+
+| sunspot.year                         |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Yearly Sunspot Data, 1700–1988
 ------------------------------
@@ -38,8 +39,7 @@ See Also
 For *monthly* sunspot numbers, see ``sunspot.month`` and ``sunspots``.
 
 Regularly updated yearly sunspot numbers are available from WDC-SILSO,
-Royal Observatory of Belgium, at
-`http://www.sidc.be/silso/datafiles <http://www.sidc.be/silso/datafiles>`__
+Royal Observatory of Belgium, at http://www.sidc.be/silso/datafiles
 
 Examples
 ~~~~~~~~

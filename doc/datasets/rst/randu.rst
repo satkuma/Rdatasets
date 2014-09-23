@@ -1,6 +1,7 @@
-+---------+-------------------+
-| randu   | R Documentation   |
-+---------+-------------------+
++--------------------------------------+--------------------------------------+
+| randu                                |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Random Numbers from Congruential Generator RANDU
 ------------------------------------------------
@@ -48,7 +49,7 @@ Examples
 
 ::
 
-    ## Not run: ## We could re-generate the dataset by the following R code
+    ## We could re-generate the dataset by the following R code
     seed <- as.double(1)
     RANDU <- function() {
         seed <<- ((2^16 + 3) * seed) %% (2^31)
@@ -58,5 +59,4 @@ Examples
         U <- c(RANDU(), RANDU(), RANDU(), RANDU(), RANDU())
         print(round(U[1:3], 6))
     }
-    ## End(Not run)
 
