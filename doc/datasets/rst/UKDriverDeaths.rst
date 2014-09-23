@@ -1,6 +1,7 @@
-+------------------+-------------------+
-| UKDriverDeaths   | R Documentation   |
-+------------------+-------------------+
++--------------------------------------+--------------------------------------+
+| UKDriverDeaths                       |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Road Casualties in Great Britain 1969–84
 ----------------------------------------
@@ -58,8 +59,7 @@ Harvey, A.C. (1989) *Forecasting, Structural Time Series Models and the
 Kalman Filter.* Cambridge University Press, pp. 519–523.
 
 Durbin, J. and Koopman, S. J. (2001) *Time Series Analysis by State
-Space Methods.* Oxford University Press.
-`http://www.ssfpack.com/dkbook/ <http://www.ssfpack.com/dkbook/>`__
+Space Methods.* Oxford University Press. http://www.ssfpack.com/dkbook/
 
 References
 ~~~~~~~~~~

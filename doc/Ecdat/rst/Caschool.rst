@@ -1,6 +1,7 @@
-+------------+-------------------+
-| Caschool   | R Documentation   |
-+------------+-------------------+
++--------------------------------------+--------------------------------------+
+| Caschool                             |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 The California Test Score Data Set
 ----------------------------------
@@ -82,16 +83,14 @@ mathscr
 Source
 ~~~~~~
 
-California Department of Education
-`http://www.cde.ca.gov <http://www.cde.ca.gov>`__.
+California Department of Education http://www.cde.ca.gov.
 
 References
 ~~~~~~~~~~
 
 Stock, James H. and Mark W. Watson (2003) *Introduction to
 Econometrics*, Addison-Wesley Educational Publishers,
-`http://wps.aw.com/aw\_stockwatsn\_economtrcs\_1 <http://wps.aw.com/aw_stockwatsn_economtrcs_1>`__,
-chapter 4–7.
+http://wps.aw.com/aw_stockwatsn_economtrcs_1, chapter 4–7.
 
 See Also
 ~~~~~~~~

@@ -1,6 +1,7 @@
-+-----------------+-------------------+
-| Bundestag2005   | R Documentation   |
-+-----------------+-------------------+
++--------------------------------------+--------------------------------------+
+| Bundestag2005                        |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Votes in German Bundestag Election 2005
 ---------------------------------------
@@ -24,13 +25,13 @@ Format
 A 2-way ``"table"`` giving the number of votes for each party
 (``Fraktion``) in each of the 16 German provinces (``Bundesland``):
 
-+------+--------------+---------------------------------------------------+
-| No   | Name         | Levels                                            |
-+------+--------------+---------------------------------------------------+
-| 1    | Bundesland   | Schleswig-Holstein, Mecklenburg-Vorpommern, ...   |
-+------+--------------+---------------------------------------------------+
-| 2    | Fraktion     | SPD, CDU/CSU, Gruene, FDP, Linke                  |
-+------+--------------+---------------------------------------------------+
++--------------------------+--------------------------+--------------------------+
+| No                       | 1                        | 2                        |
+| Name                     | Bundesland               | Fraktion                 |
+| Levels                   | Schleswig-Holstein,      | SPD, CDU/CSU, Gruene,    |
+|                          | Mecklenburg-Vorpommern,  | FDP, Linke               |
+|                          | ...                      |                          |
++--------------------------+--------------------------+--------------------------+
 
 Details
 ~~~~~~~
@@ -54,7 +55,7 @@ Source
 ~~~~~~
 
 Der Bundeswahlleiter, Statistisches Bundesamt.
-`http://www.bundeswahlleiter.de/bundestagswahl2005/ <http://www.bundeswahlleiter.de/bundestagswahl2005/>`__
+http://www.bundeswahlleiter.de/bundestagswahl2005/
 
 Examples
 ~~~~~~~~

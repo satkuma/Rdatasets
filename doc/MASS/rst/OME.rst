@@ -1,6 +1,7 @@
-+-------+-------------------+
-| OME   | R Documentation   |
-+-------+-------------------+
++--------------------------------------+--------------------------------------+
+| OME                                  |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Tests of Auditory Perception in Children with OME
 -------------------------------------------------
@@ -170,23 +171,21 @@ Examples
                               t(cbind(Correct, Trials-Correct))))
     OMEf <- OMEf[, -match(c("Correct", "Trials"), names(OMEf))]
 
-    ## Not run: ## this fails in R on some platforms
+    ## Not run: ## these fail in R on most platforms
     fp2 <- deriv(~ 0.5 + 0.5/(1 + exp(-(x-L75)/exp(lsc))),
                  c("L75", "lsc"),
                  function(x, L75, lsc) NULL)
-    G1.nlme <- nlme(Resp ~ fp2(Loud, L75, lsc),
+    try(summary(nlme(Resp ~ fp2(Loud, L75, lsc),
          fixed = list(L75 ~ Age, lsc ~ 1),
          random = L75 + lsc ~ 1 | UID,
          data = OMEf[OMEf$Noise == "coherent",], method = "ML",
-         start = list(fixed=c(L75=c(48.7, -0.03), lsc=0.24)), verbose = TRUE)
-    summary(G1.nlme)
+         start = list(fixed=c(L75=c(48.7, -0.03), lsc=0.24)), verbose = TRUE)))
 
-    G2.nlme <- nlme(Resp ~ fp2(Loud, L75, lsc),
+    try(summary(nlme(Resp ~ fp2(Loud, L75, lsc),
          fixed = list(L75 ~ Age, lsc ~ 1),
          random = L75 + lsc ~ 1 | UID,
-         data = OMEf[OMEf$Noise == "incoherent",], method="ML",
-         start = list(fixed=c(L75=c(41.5, -0.1), lsc=0)), verbose = TRUE)
-    summary(G2.nlme)
+         data = OMEf[OMEf$Noise == "incoherent",], method = "ML",
+         start = list(fixed=c(L75=c(41.5, -0.1), lsc=0)), verbose = TRUE)))
 
     ## End(Not run)
 

@@ -1,6 +1,7 @@
-+--------+-------------------+
-| Tuna   | R Documentation   |
-+--------+-------------------+
++--------------------------------------+--------------------------------------+
+| Tuna                                 |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Choice of Brand for Tuna
 ------------------------
@@ -54,7 +55,7 @@ References
 ~~~~~~~~~~
 
 Journal of Business Economics and Statistics web site :
-`http://www.amstat.org/publications/jbes/ <http://www.amstat.org/publications/jbes/>`__.
+http://www.amstat.org/publications/jbes/.
 
 See Also
 ~~~~~~~~

@@ -1,6 +1,7 @@
-+---------+-------------------+
-| nwtco   | R Documentation   |
-+---------+-------------------+
++--------------------------------------+--------------------------------------+
+| nwtco                                |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Data from the National Wilm's Tumor Study
 -----------------------------------------
@@ -54,7 +55,7 @@ A data frame with 4028 observations on the following 9 variables.
 Source
 ~~~~~~
 
-`http://faculty.washington.edu/norm/software.html <http://faculty.washington.edu/norm/software.html>`__
+http://faculty.washington.edu/norm/software.html
 
 References
 ~~~~~~~~~~

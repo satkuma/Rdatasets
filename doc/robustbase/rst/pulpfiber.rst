@@ -1,6 +1,7 @@
-+-------------+-------------------+
-| pulpfiber   | R Documentation   |
-+-------------+-------------------+
++--------------------------------------+--------------------------------------+
+| pulpfiber                            |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Pulp Fiber and Paper Data
 -------------------------
@@ -73,7 +74,7 @@ Source
 Rousseeuw, P. J., Van Aelst, S., Van Driessen, K., and Agulló, J. (2004)
 Robust multivariate regression; *Technometrics* **46**, 293–305.
 
-`http://allserv.ugent.be/~svaelst/data/pulpfiber.txt <http://allserv.ugent.be/~svaelst/data/pulpfiber.txt>`__
+http://allserv.ugent.be/~svaelst/data/pulpfiber.txt
 
 References
 ~~~~~~~~~~

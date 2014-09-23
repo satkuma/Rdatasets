@@ -1,6 +1,7 @@
-+--------------------+-------------------+
-| incomeInequality   | R Documentation   |
-+--------------------+-------------------+
++--------------------------------------+--------------------------------------+
+| incomeInequality                     |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Income Inequality in the US
 ---------------------------
@@ -16,7 +17,7 @@ States. This combines three data sources:
 (2) Piketty and Saez for the 95th and higher quantiles
 
 (3) Gross Domestic Product and implicit price deflators from
-`MeasureingWorth.com <http://MeasuringWorth.com>`__
+`MeasuringWorth.com <http://MeasuringWorth.com>`__
 
 Usage
 ~~~~~
@@ -51,7 +52,7 @@ P90, P95, P99, P99.5, P99.9, P99.99
 realGDP.M, GDP.Deflator, PopulationK, realGDPperCap
     real GDP in millions, GDP implicit price deflators, US population in
     thousands, and real GDP per capita, according to
-    `MeasureingWorth.com <http://MeasuringWorth.com>`__.
+    `MeasuringWorth.com <http://MeasuringWorth.com>`__.
 
 P95IRSvsCensus
     ratio of the estimates of the 95th percentile of distributions of
@@ -67,7 +68,7 @@ P95IRSvsCensus
 personsPerFamily
     average number of persons per family using the number of families
     from US Census Table F-1 and the population from
-    `MeasureingWorth.com <http://MeasuringWorth.com>`__.
+    `MeasuringWorth.com <http://MeasuringWorth.com>`__.
 
 realGDPperFamily
     ``personsPerFamily * realGDPperCap``
@@ -96,18 +97,16 @@ Source
 
 United States Census Bureau, Table F-1. Income Limits for Each Fifth and
 Top 5 Percent of Families, All Races,
-`http://www.census.gov/hhes/www/income/data/historical/families <http://www.census.gov/hhes/www/income/data/historical/families>`__,
-accessed March 25, 2014.
+http://www.census.gov/hhes/www/income/data/historical/families, accessed
+March 25, 2014.
 
 Thomas Piketty and Emmanuel Saez (2003) "Income Inequality in the United
 States, 1913-1998", Quarterly Journal of Economics, 118(1) 1-39,
-`http://elsa.berkeley.edu/~saez <http://elsa.berkeley.edu/~saez>`__,
-update accessed February 28, 2014.
+http://elsa.berkeley.edu/~saez, update accessed February 28, 2014.
 
 Louis Johnston and Samuel H. Williamson (2011) "What Was the U.S. GDP
-Then?" MeasuringWorth,
-`http://www.measuringworth.org/usgdp <http://www.measuringworth.org/usgdp>`__,
-accessed February 28, 2014.
+Then?" MeasuringWorth, http://www.measuringworth.org/usgdp, accessed
+February 28, 2014.
 
 Examples
 ~~~~~~~~

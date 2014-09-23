@@ -1,6 +1,7 @@
-+-------------+-------------------+
-| Cavendish   | R Documentation   |
-+-------------+-------------------+
++--------------------------------------+--------------------------------------+
+| Cavendish                            |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Cavendish's Determinations of the Density of the Earth
 ------------------------------------------------------
@@ -61,7 +62,7 @@ Source
 ~~~~~~
 
 Kyle Siegrist, "Virtual Laboratories in Probability and Statistics",
-`http://www.math.uah.edu/stat/data/Cavendish.xhtml <http://www.math.uah.edu/stat/data/Cavendish.xhtml>`__
+http://www.math.uah.edu/stat/data/Cavendish.xhtml
 
 Stephen M. Stigler (1977), "Do robust estimators work with *real*
 data?", *Annals of Statistics*, 5, 1055-1098

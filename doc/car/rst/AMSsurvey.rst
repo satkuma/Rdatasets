@@ -1,6 +1,7 @@
-+-------------+-------------------+
-| AMSsurvey   | R Documentation   |
-+-------------+-------------------+
++--------------------------------------+--------------------------------------+
+| AMSsurvey                            |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 American Math Society Survey Data
 ---------------------------------
@@ -49,8 +50,8 @@ These data are produced yearly by the American Math Society.
 Source
 ~~~~~~
 
-`http://www.ams.org/employment/surveyreports.html <http://www.ams.org/employment/surveyreports.html>`__
-Supplementary Table 4 in the 2008-09 data.
+http://www.ams.org/employment/surveyreports.html Supplementary Table 4
+in the 2008-09 data.
 
 References
 ~~~~~~~~~~
@@ -60,5 +61,4 @@ Second Edition, Sage.
 
 Phipps, Polly, Maxwell, James W. and Rose, Colleen (2009), *2009 Annual
 Survey of the Mathematical Sciences*, 57, 250–259, Supplementary Table
-4,
-`http://www.ams/org/employment/2009Survey-First-Report-Supp-Table4.pdf <http://www.ams/org/employment/2009Survey-First-Report-Supp-Table4.pdf>`__
+4, http://www.ams/org/employment/2009Survey-First-Report-Supp-Table4.pdf

@@ -1,6 +1,7 @@
-+----------+-------------------+
-| Cars93   | R Documentation   |
-+----------+-------------------+
++--------------------------------------+--------------------------------------+
+| Cars93                               |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Data from 93 Cars on Sale in the USA in 1993
 --------------------------------------------
@@ -123,7 +124,7 @@ Source
 
 Lock, R. H. (1993) 1993 New Car Data. *Journal of Statistics Education*
 **1**\ (1).
-`http://www.amstat.org/publications/jse/v1n1/datasets.lock.html <http://www.amstat.org/publications/jse/v1n1/datasets.lock.html>`__.
+http://www.amstat.org/publications/jse/v1n1/datasets.lock.html.
 
 References
 ~~~~~~~~~~

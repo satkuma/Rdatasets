@@ -1,6 +1,7 @@
-+------------+-------------------+
-| Grunfeld   | R Documentation   |
-+------------+-------------------+
++--------------------------------------+--------------------------------------+
+| Grunfeld                             |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Grunfeld Investment Data
 ------------------------
@@ -52,12 +53,10 @@ References
 ~~~~~~~~~~
 
 Greene, W.H. (2003) *Econometric Analysis*, Prentice Hall,
-`http://www.prenhall.com/greene/greene1.html <http://www.prenhall.com/greene/greene1.html>`__,
-Table F13.1.
+http://www.prenhall.com/greene/greene1.html, Table F13.1.
 
 Baltagi, Badi H. (2003) *Econometric analysis of panel data*, John Wiley
-and sons,
-`http://www.wiley.com/legacy/wileychi/baltagi/ <http://www.wiley.com/legacy/wileychi/baltagi/>`__.
+and sons, http://www.wiley.com/legacy/wileychi/baltagi/.
 
 See Also
 ~~~~~~~~

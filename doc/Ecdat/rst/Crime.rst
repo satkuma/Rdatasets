@@ -1,6 +1,7 @@
-+---------+-------------------+
-| Crime   | R Documentation   |
-+---------+-------------------+
++--------------------------------------+--------------------------------------+
+| Crime                                |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Crime in North Carolina
 -----------------------
@@ -115,12 +116,10 @@ References
 ~~~~~~~~~~
 
 Baltagi, Badi H. (2003) *Econometric analysis of panel data*, John Wiley
-and sons,
-`http://www.wiley.com/legacy/wileychi/baltagi/ <http://www.wiley.com/legacy/wileychi/baltagi/>`__,
-.
+and sons, http://www.wiley.com/legacy/wileychi/baltagi/, .
 
 Journal of Applied Econometrics data archive :
-`http://jae.wiley.com/jae/ <http://jae.wiley.com/jae/>`__.
+http://jae.wiley.com/jae/.
 
 See Also
 ~~~~~~~~

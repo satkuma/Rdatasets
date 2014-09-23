@@ -1,6 +1,7 @@
-+-------------+-------------------+
-| possumDiv   | R Documentation   |
-+-------------+-------------------+
++--------------------------------------+--------------------------------------+
+| possumDiv                            |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Possum Diversity Data
 ---------------------
@@ -106,7 +107,7 @@ Source
 
 Eva Cantoni (2004) Analysis of Robust Quasi-deviances for Generalized
 Linear Models. *Journal of Statistical Software* **10**, 04,
-`http://www.jstatsoft.org/v10/i04 <http://www.jstatsoft.org/v10/i04>`__
+http://www.jstatsoft.org/v10/i04
 
 References
 ~~~~~~~~~~

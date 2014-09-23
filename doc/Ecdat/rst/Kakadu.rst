@@ -1,6 +1,7 @@
-+----------+-------------------+
-| Kakadu   | R Documentation   |
-+----------+-------------------+
++--------------------------------------+--------------------------------------+
+| Kakadu                               |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Willingness to Pay for the Preservation of the Kakadu National Park
 -------------------------------------------------------------------
@@ -125,7 +126,7 @@ References
 ~~~~~~~~~~
 
 Journal of Business Economics and Statistics web site :
-`http://www.amstat.org/publications/jbes/ <http://www.amstat.org/publications/jbes/>`__.
+http://www.amstat.org/publications/jbes/.
 
 See Also
 ~~~~~~~~

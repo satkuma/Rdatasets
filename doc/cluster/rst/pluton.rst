@@ -1,6 +1,7 @@
-+----------+-------------------+
-| pluton   | R Documentation   |
-+----------+-------------------+
++--------------------------------------+--------------------------------------+
+| pluton                               |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Isotopic Composition Plutonium Batches
 --------------------------------------
@@ -49,7 +50,7 @@ Source
 ~~~~~~
 
 Available as ‘pluton.dat’ from the archive currently
-`http://www.agoras.ua.ac.be/datasets/clusplot-examples.tar.gz <http://www.agoras.ua.ac.be/datasets/clusplot-examples.tar.gz>`__.
+http://www.agoras.ua.ac.be/datasets/clusplot-examples.tar.gz.
 
 References
 ~~~~~~~~~~

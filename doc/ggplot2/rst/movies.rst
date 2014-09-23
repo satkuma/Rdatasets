@@ -1,6 +1,7 @@
-+----------+-------------------+
-| movies   | R Documentation   |
-+----------+-------------------+
++--------------------------------------+--------------------------------------+
+| movies                               |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Movie information and user ratings from IMDB.com.
 -------------------------------------------------
@@ -8,13 +9,12 @@ Movie information and user ratings from IMDB.com.
 Description
 ~~~~~~~~~~~
 
-The internet movie database, `http://imdb.com/ <http://imdb.com/>`__, is
-a website devoted to collecting movie data supplied by studios and fans.
-It claims to be the biggest movie database on the web and is run by
-amazon. More about information imdb.com can be found online,
-`http://imdb.com/help/show\_leaf?about <http://imdb.com/help/show_leaf?about>`__,
-including information about the data collection process,
-`http://imdb.com/help/show\_leaf?infosource <http://imdb.com/help/show_leaf?infosource>`__.
+The internet movie database, http://imdb.com/, is a website devoted to
+collecting movie data supplied by studios and fans. It claims to be the
+biggest movie database on the web and is run by amazon. More about
+information imdb.com can be found online,
+http://imdb.com/help/show_leaf?about, including information about the
+data collection process, http://imdb.com/help/show_leaf?infosource.
 
 Usage
 ~~~~~
@@ -59,4 +59,4 @@ following fields:
 References
 ~~~~~~~~~~
 
-`http://had.co.nz/data/movies/ <http://had.co.nz/data/movies/>`__
+http://had.co.nz/data/movies/

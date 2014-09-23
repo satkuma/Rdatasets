@@ -1,6 +1,7 @@
-+---------+-------------------+
-| admit   | R Documentation   |
-+---------+-------------------+
++--------------------------------------+--------------------------------------+
+| admit                                |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Applications to a Political Science PhD Program
 -----------------------------------------------
@@ -60,7 +61,6 @@ Examples
 
     data(admit)
     summary(admit)
-    require(MASS)
     ## ordered probit model
     op1 <- polr(score ~ gre.quant + gre.verbal + ap + pt + female,
                 Hess=TRUE,

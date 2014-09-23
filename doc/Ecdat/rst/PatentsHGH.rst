@@ -1,6 +1,7 @@
-+--------------+-------------------+
-| PatentsHGH   | R Documentation   |
-+--------------+-------------------+
++--------------------------------------+--------------------------------------+
+| PatentsHGH                           |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Dynamic Relation Between Patents and R\\&D
 ------------------------------------------
@@ -97,8 +98,7 @@ References
 
 Cameron, A.C. and Trivedi P.K. (1998) *Regression analysis of count
 data*, Cambridge University Press,
-`http://cameron.econ.ucdavis.edu/racd/racddata.html <http://cameron.econ.ucdavis.edu/racd/racddata.html>`__,
-chapter 9.
+http://cameron.econ.ucdavis.edu/racd/racddata.html, chapter 9.
 
 Cameron, A.C. and P.K. Trivedi (2005) *Microeconometrics : methods and
 applications*, Cambridge, pp. 792–5.

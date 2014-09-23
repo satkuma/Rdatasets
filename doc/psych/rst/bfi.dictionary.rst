@@ -1,6 +1,7 @@
-+-------+-------------------+
-| bfi   | R Documentation   |
-+-------+-------------------+
++--------------------------------------+--------------------------------------+
+| bfi                                  |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 25 Personality items representing 5 factors
 -------------------------------------------
@@ -134,9 +135,8 @@ Inaccurate 2 Moderately Inaccurate 3 Slightly Inaccurate 4 Slightly
 Accurate 5 Moderately Accurate 6 Very Accurate
 
 as part of the Synthetic Apeture Personality Assessment (SAPA
-`http://sapa-project.org <http://sapa-project.org>`__) project. To see
-an example of the data collection technique, visit
-`http://SAPA-project.org <http://SAPA-project.org>`__. The items given
+http://sapa-project.org) project. To see an example of the data
+collection technique, visit http://SAPA-project.org. The items given
 were sampled from the International Personality Item Pool of Lewis
 Goldberg using the sampling technique of SAPA. This is a sample data set
 taken from the much larger SAPA data bank.
@@ -146,7 +146,7 @@ Source
 
 The items are from the ipip (Goldberg, 1999). The data are from the SAPA
 project (Revelle, Wilt and Rosenthal, 2010) , collected Spring, 2010 (
-`http://sapa-project.org <http://sapa-project.org>`__).
+http://sapa-project.org).
 
 References
 ~~~~~~~~~~

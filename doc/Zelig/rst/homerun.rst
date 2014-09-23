@@ -1,6 +1,7 @@
-+-----------+-------------------+
-| homerun   | R Documentation   |
-+-----------+-------------------+
++--------------------------------------+--------------------------------------+
+| homerun                              |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Sample Data on Home Runs Hit By Mark McGwire and Sammy Sosa in 1998.
 --------------------------------------------------------------------
@@ -45,7 +46,7 @@ A data frame containing 5 variables ("gameno", "month", "homeruns",
 Source
 ~~~~~~
 
-`http://www.amstat.org <http://www.amstat.org>`__
+http://www.amstat.org
 
 References
 ~~~~~~~~~~

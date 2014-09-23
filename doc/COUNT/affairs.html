@@ -97,11 +97,14 @@ Hilbe, Joseph M (2009), Logistic regression Models, Chapman &amp; Hall/CRC
 
 <pre>
 data(affairs)
-glmaffp &lt;- glm(naffairs ~ kids + yrsmarr2 + yrsmarr3 + yrsmarr4 + yrsmarr5, family=poisson, data=affairs)
+glmaffp &lt;- glm(naffairs ~ kids + yrsmarr2 + yrsmarr3 + yrsmarr4 + yrsmarr5,
+               family = poisson, data = affairs)
 summary(glmaffp)
 exp(coef(glmaffp))
+
 require(MASS)
-glmaffnb &lt;- glm.nb(naffairs ~ kids + yrsmarr2 + yrsmarr3 + yrsmarr4 + yrsmarr5, data=affairs)
+glmaffnb &lt;- glm.nb(naffairs ~ kids + yrsmarr2 + yrsmarr3 + yrsmarr4 + yrsmarr5,
+                   data=affairs)
 summary(glmaffnb)
 exp(coef(glmaffnb))
 </pre>

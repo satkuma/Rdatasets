@@ -1,6 +1,7 @@
-+------------------------+-------------------+
-| politicalInformation   | R Documentation   |
-+------------------------+-------------------+
++--------------------------------------+--------------------------------------+
+| politicalInformation                 |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Interviewer ratings of respondent levels of political information
 -----------------------------------------------------------------
@@ -77,7 +78,6 @@ Examples
 
     table(politicalInformation$y,exclude=NULL)
 
-    require(MASS)
     op <- polr(y ~ collegeDegree + female + log(age) + homeOwn + govt + log(length),
                data=politicalInformation,
                Hess=TRUE,

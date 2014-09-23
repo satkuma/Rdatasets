@@ -1,6 +1,7 @@
-+---------------+-------------------+
-| bioChemists   | R Documentation   |
-+---------------+-------------------+
++--------------------------------------+--------------------------------------+
+| bioChemists                          |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 article production by graduate students in biochemistry Ph.D. programs
 ----------------------------------------------------------------------
@@ -43,7 +44,7 @@ Source
 ~~~~~~
 
 found in Stata format at
-`http://www.indiana.edu/~jslsoc/stata/socdata/couart2.dta <http://www.indiana.edu/~jslsoc/stata/socdata/couart2.dta>`__
+http://www.indiana.edu/~jslsoc/stata/socdata/couart2.dta
 
 References
 ~~~~~~~~~~

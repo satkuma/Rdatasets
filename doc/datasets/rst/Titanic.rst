@@ -1,6 +1,7 @@
-+-----------+-------------------+
-| Titanic   | R Documentation   |
-+-----------+-------------------+
++--------------------------------------+--------------------------------------+
+| Titanic                              |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Survival of passengers on the Titanic
 -------------------------------------
@@ -25,17 +26,11 @@ Format
 A 4-dimensional array resulting from cross-tabulating 2201 observations
 on 4 variables. The variables and their levels are as follows:
 
-+------+------------+-----------------------+
-| No   | Name       | Levels                |
-+------+------------+-----------------------+
-| 1    | Class      | 1st, 2nd, 3rd, Crew   |
-+------+------------+-----------------------+
-| 2    | Sex        | Male, Female          |
-+------+------------+-----------------------+
-| 3    | Age        | Child, Adult          |
-+------+------------+-----------------------+
-| 4    | Survived   | No, Yes               |
-+------+------------+-----------------------+
++--------------------------+--------------------------+--------------------------+
+| No                       | 1                        | 2                        |
+| Name                     | Class                    | Sex                      |
+| Levels                   | 1st, 2nd, 3rd, Crew      | Male, Female             |
++--------------------------+--------------------------+--------------------------+
 
 Details
 ~~~~~~~
@@ -55,15 +50,14 @@ rescued, or lost.
 Due in particular to the very successful film ‘Titanic’, the last years
 saw a rise in public interest in the Titanic. Very detailed data about
 the passengers is now available on the Internet, at sites such as
-*Encyclopedia Titanica*
-(`http://www.rmplc.co.uk/eduweb/sites/phind <http://www.rmplc.co.uk/eduweb/sites/phind>`__).
+*Encyclopedia Titanica* (http://www.rmplc.co.uk/eduweb/sites/phind).
 
 Source
 ~~~~~~
 
 Dawson, Robert J. MacG. (1995), The ‘Unusual Episode’ Data Revisited.
 *Journal of Statistics Education*, **3**.
-`http://www.amstat.org/publications/jse/v3n3/datasets.dawson.html <http://www.amstat.org/publications/jse/v3n3/datasets.dawson.html>`__
+http://www.amstat.org/publications/jse/v3n3/datasets.dawson.html
 
 The source provides a data set recording class, sex, age, and survival
 status for each person on board of the Titanic, and is based on data

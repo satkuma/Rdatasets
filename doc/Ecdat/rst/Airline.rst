@@ -1,6 +1,7 @@
-+-----------+-------------------+
-| Airline   | R Documentation   |
-+-----------+-------------------+
++--------------------------------------+--------------------------------------+
+| Airline                              |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Cost for U.S. Airlines
 ----------------------
@@ -50,8 +51,7 @@ References
 ~~~~~~~~~~
 
 Greene, W.H. (2003) *Econometric Analysis*, Prentice Hall,
-`http://www.prenhall.com/greene/greene1.html <http://www.prenhall.com/greene/greene1.html>`__,
-Table F7.1.
+http://www.prenhall.com/greene/greene1.html, Table F7.1.
 
 See Also
 ~~~~~~~~

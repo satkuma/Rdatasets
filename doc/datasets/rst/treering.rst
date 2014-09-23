@@ -1,6 +1,7 @@
-+------------+-------------------+
-| treering   | R Documentation   |
-+------------+-------------------+
++--------------------------------------+--------------------------------------+
+| treering                             |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Yearly Treering Data, -6000–1979
 --------------------------------
@@ -35,13 +36,12 @@ Source
 ~~~~~~
 
 Time Series Data Library:
-`http://www-personal.buseco.monash.edu.au/~hyndman/TSDL/ <http://www-personal.buseco.monash.edu.au/~hyndman/TSDL/>`__,
-series ‘CA535.DAT’
+http://www-personal.buseco.monash.edu.au/~hyndman/TSDL/, series
+‘CA535.DAT’
 
 References
 ~~~~~~~~~~
 
 For background on Bristlecone pines and Methuselah Walk, see
-`http://www.sonic.net/bristlecone/ <http://www.sonic.net/bristlecone/>`__;
-for some photos see
-`http://www.ltrr.arizona.edu/~hallman/sitephotos/meth.html <http://www.ltrr.arizona.edu/~hallman/sitephotos/meth.html>`__
+http://www.sonic.net/bristlecone/; for some photos see
+http://www.ltrr.arizona.edu/~hallman/sitephotos/meth.html

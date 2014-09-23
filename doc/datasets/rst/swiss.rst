@@ -1,6 +1,7 @@
-+---------+-------------------+
-| swiss   | R Documentation   |
-+---------+-------------------+
++--------------------------------------+--------------------------------------+
+| swiss                                |
+| R Documentation                      |
++--------------------------------------+--------------------------------------+
 
 Swiss Fertility and Socioeconomic Indicators (1888) Data
 --------------------------------------------------------
@@ -24,34 +25,51 @@ Format
 A data frame with 47 observations on 6 variables, *each* of which is in
 percent, i.e., in *[0, 100]*.
 
-+-------------------------+-------------------------+-------------------------+
-| [,1]                    | Fertility               | *Ig*, ‘                 |
-|                         |                         | common standardized     |
-|                         |                         | fertility measure’      |
-+-------------------------+-------------------------+-------------------------+
-| [,2]                    | Agriculture             | % of males involved in  |
-|                         |                         | agriculture as          |
-|                         |                         | occupation              |
-+-------------------------+-------------------------+-------------------------+
-| [,3]                    | Examination             | % draftees receiving    |
-|                         |                         | highest mark on army    |
-|                         |                         | examination             |
-+-------------------------+-------------------------+-------------------------+
-| [,4]                    | Education               | % education beyond      |
-|                         |                         | primary school for      |
-|                         |                         | draftees.               |
-+-------------------------+-------------------------+-------------------------+
-| [,5]                    | Catholic                | % ‘                     |
-|                         |                         | catholic’               |
-|                         |                         |                         |
-|                         |                         | (as opposed to ‘        |
-|                         |                         | protestant’             |
-|                         |                         |                         |
-|                         |                         | ).                      |
-+-------------------------+-------------------------+-------------------------+
-| [,6]                    | Infant.Mortality        | live births who live    |
-|                         |                         | less than 1 year.       |
-+-------------------------+-------------------------+-------------------------+
+[,1]
+
+Fertility
+
+*Ig*, ‘
+
+common standardized fertility measure’
+
+[,2]
+
+Agriculture
+
+% of males involved in agriculture as occupation
+
+[,3]
+
+Examination
+
+% draftees receiving highest mark on army examination
+
+[,4]
+
+Education
+
+% education beyond primary school for draftees.
+
+[,5]
+
+Catholic
+
+% ‘
+
+catholic’
+
+(as opposed to ‘
+
+protestant’
+
+).
+
+[,6]
+
+Infant.Mortality
+
+live births who live less than 1 year.
 
 All variables but ‘Fertility’ give proportions of the population.
 
@@ -73,10 +91,8 @@ Note
 ~~~~
 
 Files for all 182 districts in 1888 and other years have been available
-at
-`http://opr.princeton.edu/archive/eufert/switz.html <http://opr.princeton.edu/archive/eufert/switz.html>`__
-or
-`http://opr.princeton.edu/archive/pefp/switz.asp <http://opr.princeton.edu/archive/pefp/switz.asp>`__.
+at http://opr.princeton.edu/archive/eufert/switz.html or
+http://opr.princeton.edu/archive/pefp/switz.asp.
 
 They state that variables ``Examination`` and ``Education`` are averages
 for 1887, 1888 and 1889.
