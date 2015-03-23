@@ -1,7 +1,10 @@
 library(R2HTML)
 
 packages = c("datasets", "boot", "KMsurv", "robustbase", "car", "cluster", "COUNT", "Ecdat", "gap", "ggplot2", "HistData", "lattice", "MASS", "plm", "plyr", "pscl", "reshape2", "rpart", "sandwich", "sem",  "survival", "vcd", "Zelig", "HSAUR", "psych", "quantreg", "geepack", "texmex", "multgee", "evir")
-#install.packages(packages)
+# Installed only packages that are not pre-installed.
+# Credits: http://stackoverflow.com/a/9345167/756986
+new.packages <- packages[!(packages %in% installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages, repos="http://cran.rstudio.com")
 index = data(package=packages)$results[,c(1,3,4)]
 index = data.frame(index, stringsAsFactors=FALSE)
 index_out = NULL
