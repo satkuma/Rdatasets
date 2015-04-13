@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| OFP                                  |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------+-------------------+
+| OFP   | R Documentation   |
++-------+-------------------+
 
 Visits to Physician Office
 --------------------------
@@ -98,10 +97,11 @@ References
 
 Cameron, A.C. and Trivedi P.K. (1998) *Regression analysis of count
 data*, Cambridge University Press,
-http://cameron.econ.ucdavis.edu/racd/racddata.html, chapter 6.
+`http://cameron.econ.ucdavis.edu/racd/racddata.html <http://cameron.econ.ucdavis.edu/racd/racddata.html>`__,
+chapter 6.
 
 Journal of Applied Econometrics data archive :
-http://jae.wiley.com/jae/.
+`http://jae.wiley.com/jae/ <http://jae.wiley.com/jae/>`__.
 
 See Also
 ~~~~~~~~

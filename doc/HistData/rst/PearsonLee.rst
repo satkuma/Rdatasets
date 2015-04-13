@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| PearsonLee                           |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------+-------------------+
+| PearsonLee   | R Documentation   |
++--------------+-------------------+
 
 Pearson and Lee's data on the heights of parents and children classified by gender
 ----------------------------------------------------------------------------------
@@ -75,7 +74,7 @@ References
 Wachsmuth, A.W., Wilkinson L., Dallal G.E. (2003). Galton's bend: A
 previously undiscovered nonlinearity in Galton's family stature
 regression data. *The American Statistician*, 57, 190-192.
-http://www.cs.uic.edu/~wilkinson/Publications/galton.pdf
+`http://www.cs.uic.edu/~wilkinson/Publications/galton.pdf <http://www.cs.uic.edu/~wilkinson/Publications/galton.pdf>`__
 
 See Also
 ~~~~~~~~

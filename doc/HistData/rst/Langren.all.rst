@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Langren                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| Langren   | R Documentation   |
++-----------+-------------------+
 
 van Langren's Data on Longitude Distance between Toledo and Rome
 ----------------------------------------------------------------
@@ -121,11 +120,12 @@ References
 Friendly, M., Valero-Mora, P. and Ulargui, J. I. (2010). The First
 (Known) Statistical Graph: Michael Florent van Langren and the "Secret"
 of Longitude. *The American Statistician*, **64** (2), 185-191.
-Supplementary materials: http://datavis.ca/gallery/langren/.
+Supplementary materials:
+`http://datavis.ca/gallery/langren/ <http://datavis.ca/gallery/langren/>`__.
 
 Langren, M. F. van. (1644). *La Verdadera Longitud por Mar y Tierra*.
 Antwerp: (n.p.), 1644. English translation available at
-http://www.math.yorku.ca/SCS/Gallery/langren/verdadera.pdf.
+`http://www.math.yorku.ca/SCS/Gallery/langren/verdadera.pdf <http://www.math.yorku.ca/SCS/Gallery/langren/verdadera.pdf>`__.
 
 Lelewel, J. (1851). *G?ographie du Moyen ?ge*. Paris: Pilliet, 1851.
 

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Fair                                 |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------+-------------------+
+| Fair   | R Documentation   |
++--------+-------------------+
 
 Extramarital Affairs Data
 -------------------------
@@ -63,13 +62,14 @@ Source
 Fair, R. (1977) “A note on the computation of the tobit estimator”,
 *Econometrica*, **45**, 1723-1727.
 
-http://fairmodel.econ.yale.edu/rayfair/pdf/1978A200.PDF.
+`http://fairmodel.econ.yale.edu/rayfair/pdf/1978A200.PDF <http://fairmodel.econ.yale.edu/rayfair/pdf/1978A200.PDF>`__.
 
 References
 ~~~~~~~~~~
 
 Greene, W.H. (2003) *Econometric Analysis*, Prentice Hall,
-http://www.prenhall.com/greene/greene1.html, Table F22.2.
+`http://www.prenhall.com/greene/greene1.html <http://www.prenhall.com/greene/greene1.html>`__,
+Table F22.2.
 
 See Also
 ~~~~~~~~

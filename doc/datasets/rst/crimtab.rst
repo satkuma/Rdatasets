@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| crimtab                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| crimtab   | R Documentation   |
++-----------+-------------------+
 
 Student's 3000 Criminals Data
 -----------------------------
@@ -67,8 +66,8 @@ the office shelves; we are therefore dealing with a random sampling.*
 Source
 ~~~~~~
 
-http://pbil.univ-lyon1.fr/R/donnees/criminals1902.txt thanks to Jean R.
-Lobry and Anne-Béatrice Dufour.
+`http://pbil.univ-lyon1.fr/R/donnees/criminals1902.txt <http://pbil.univ-lyon1.fr/R/donnees/criminals1902.txt>`__
+thanks to Jean R. Lobry and Anne-Béatrice Dufour.
 
 References
 ~~~~~~~~~~

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Mroz                                 |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------+-------------------+
+| Mroz   | R Documentation   |
++--------+-------------------+
 
 Labor Supply Data
 -----------------
@@ -97,7 +96,8 @@ References
 ~~~~~~~~~~
 
 Greene, W.H. (2003) *Econometric Analysis*, Prentice Hall,
-http://www.prenhall.com/greene/greene1.html, Table F4.1.
+`http://www.prenhall.com/greene/greene1.html <http://www.prenhall.com/greene/greene1.html>`__,
+Table F4.1.
 
 See Also
 ~~~~~~~~

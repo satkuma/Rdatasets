@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Vocab                                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------+-------------------+
+| Vocab   | R Documentation   |
++---------+-------------------+
 
 Vocabulary and Education
 ------------------------
@@ -40,7 +39,8 @@ Source
 ~~~~~~
 
 National Opinion Research Center *General Social Survey.* GSS Cumulative
-Datafile 1972-2004, downloaded from http://sda.berkeley.edu/archive.htm.
+Datafile 1972-2004, downloaded from
+`http://sda.berkeley.edu/archive.htm <http://sda.berkeley.edu/archive.htm>`__.
 
 References
 ~~~~~~~~~~

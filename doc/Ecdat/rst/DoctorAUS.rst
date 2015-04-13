@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| DoctorAUS                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| DoctorAUS   | R Documentation   |
++-------------+-------------------+
 
 Doctor Visits in Australia
 --------------------------
@@ -100,7 +99,8 @@ References
 
 Cameron, A.C. and Trivedi P.K. (1998) *Regression analysis of count
 data*, Cambridge University Press,
-http://cameron.econ.ucdavis.edu/racd/racddata.html, chapter 3.
+`http://cameron.econ.ucdavis.edu/racd/racddata.html <http://cameron.econ.ucdavis.edu/racd/racddata.html>`__,
+chapter 3.
 
 See Also
 ~~~~~~~~

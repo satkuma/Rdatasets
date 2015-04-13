@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| SumHes                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| SumHes   | R Documentation   |
++----------+-------------------+
 
 The Penn World Table, v. 5
 --------------------------
@@ -55,7 +54,7 @@ Source
 
 Online supplements to Hayashi (2000).
 
-http://fhayashi.fc2web.com/datasets.htm
+`http://fhayashi.fc2web.com/datasets.htm <http://fhayashi.fc2web.com/datasets.htm>`__
 
 References
 ~~~~~~~~~~

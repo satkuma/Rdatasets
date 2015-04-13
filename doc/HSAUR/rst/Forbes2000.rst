@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Forbes2000                           |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------+-------------------+
+| Forbes2000   | R Documentation   |
++--------------+-------------------+
 
 The Forbes 2000 Ranking of the World's Biggest Companies (Year 2004)
 --------------------------------------------------------------------
@@ -51,7 +50,8 @@ marketvalue
 Source
 ~~~~~~
 
-http://www.forbes.com, assessed on November 26th, 2004.
+`http://www.forbes.com <http://www.forbes.com>`__, assessed on November
+26th, 2004.
 
 Examples
 ~~~~~~~~

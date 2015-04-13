@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| MCAS                                 |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------+-------------------+
+| MCAS   | R Documentation   |
++--------+-------------------+
 
 The Massashusets Test Score Data Set
 ------------------------------------
@@ -91,7 +90,8 @@ References
 
 Stock, James H. and Mark W. Watson (2003) *Introduction to
 Econometrics*, Addison-Wesley Educational Publishers,
-http://wps.aw.com/aw_stockwatsn_economtrcs_1, chapter 7.
+`http://wps.aw.com/aw\_stockwatsn\_economtrcs\_1 <http://wps.aw.com/aw_stockwatsn_economtrcs_1>`__,
+chapter 7.
 
 See Also
 ~~~~~~~~

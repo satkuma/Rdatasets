@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Lifeboats                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| Lifeboats   | R Documentation   |
++-------------+-------------------+
 
 Lifeboats on the Titanic
 ------------------------
@@ -52,7 +51,7 @@ Source
 ~~~~~~
 
 M. Friendly (2000), Visualizing Categorical Data:
-http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/lifeboat.sas
+`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/lifeboat.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/lifeboat.sas>`__
 
 References
 ~~~~~~~~~~

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| ZeaMays                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| ZeaMays   | R Documentation   |
++-----------+-------------------+
 
 Darwin's Heights of Cross- and Self-fertilized Zea May Pairs
 ------------------------------------------------------------
@@ -79,7 +78,8 @@ Vegetable Kingdom*, 2nd Ed. London: John Murray.
 
 Andrews, D. and Herzberg, A. (1985) *Data: a collection of problems from
 many fields for the student and research worker*. New York: Springer.
-Data retrieved from: http://lib.stat.cmu.edu/datasets/Andrews/
+Data retrieved from:
+`http://lib.stat.cmu.edu/datasets/Andrews/ <http://lib.stat.cmu.edu/datasets/Andrews/>`__
 
 References
 ~~~~~~~~~~

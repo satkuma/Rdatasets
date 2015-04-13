@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Star                                 |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------+-------------------+
+| Star   | R Documentation   |
++--------+-------------------+
 
 Effects on Learning of Small Class Sizes
 ----------------------------------------
@@ -57,14 +56,16 @@ schidkn
 Source
 ~~~~~~
 
-Project STAR http://www.heros-inc.org/star.htm.
+Project STAR
+`http://www.heros-inc.org/star.htm <http://www.heros-inc.org/star.htm>`__.
 
 References
 ~~~~~~~~~~
 
 Stock, James H. and Mark W. Watson (2003) *Introduction to
 Econometrics*, Addison-Wesley Educational Publishers,
-http://wps.aw.com/aw_stockwatsn_economtrcs_1, chapter 11.
+`http://wps.aw.com/aw\_stockwatsn\_economtrcs\_1 <http://wps.aw.com/aw_stockwatsn_economtrcs_1>`__,
+chapter 11.
 
 See Also
 ~~~~~~~~

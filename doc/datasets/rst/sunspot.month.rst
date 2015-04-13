@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| sunspot.month                        |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------------+-------------------+
+| sunspot.month   | R Documentation   |
++-----------------+-------------------+
 
 Monthly Sunspot Data, from 1749 to "Present"
 --------------------------------------------
@@ -37,7 +36,7 @@ Source
 
 WDC-SILSO, Solar Influences Data Analysis Center (SIDC), Royal
 Observatory of Belgium, Av. Circulaire, 3, B-1180 BRUSSELS Currently at
-http://www.sidc.be/silso/datafiles
+`http://www.sidc.be/silso/datafiles <http://www.sidc.be/silso/datafiles>`__
 
 See Also
 ~~~~~~~~

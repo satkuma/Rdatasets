@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Klein                                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------+-------------------+
+| Klein   | R Documentation   |
++---------+-------------------+
 
 Klein's Model I
 ---------------
@@ -66,7 +65,8 @@ References
 ~~~~~~~~~~
 
 Greene, W.H. (2003) *Econometric Analysis*, Prentice Hall,
-http://www.prenhall.com/greene/greene1.html, Table F15.1.
+`http://www.prenhall.com/greene/greene1.html <http://www.prenhall.com/greene/greene1.html>`__,
+Table F15.1.
 
 See Also
 ~~~~~~~~

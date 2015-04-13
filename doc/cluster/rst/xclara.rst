@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| xclara                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| xclara   | R Documentation   |
++----------+-------------------+
 
 Bivariate Data Set with 3 Clusters
 ----------------------------------
@@ -35,4 +34,4 @@ References
 
 Anja Struyf, Mia Hubert & Peter J. Rousseeuw (1996) Clustering in an
 Object-Oriented Environment. *Journal of Statistical Software* **1**.
-http://www.jstatsoft.org/v01/i04
+`http://www.jstatsoft.org/v01/i04 <http://www.jstatsoft.org/v01/i04>`__

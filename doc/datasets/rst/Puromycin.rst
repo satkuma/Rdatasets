@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Puromycin                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| Puromycin   | R Documentation   |
++-------------+-------------------+
 
 Reaction Velocity of an Enzymatic Reaction
 ------------------------------------------
@@ -25,13 +24,13 @@ Format
 
 This data frame contains the following columns:
 
-``conc``
+conc
     a numeric vector of substrate concentrations (ppm)
 
-``rate``
+rate
     a numeric vector of instantaneous reaction rates (counts/min/min)
 
-``state``
+state
     a factor with levels ``treated`` ``untreated``
 
 Details

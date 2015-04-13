@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| USPop                                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------+-------------------+
+| USPop   | R Documentation   |
++---------+-------------------+
 
 Population of the United States
 -------------------------------
@@ -34,7 +33,7 @@ Source
 ~~~~~~
 
 U.S.~Census Bureau:
-http://www.census-charts.com/Population/pop-us-1790-2000.html,
+`http://www.census-charts.com/Population/pop-us-1790-2000.html <http://www.census-charts.com/Population/pop-us-1790-2000.html>`__,
 downloaded 1 May 2008.
 
 References

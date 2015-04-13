@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| SexualFun                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| SexualFun   | R Documentation   |
++-------------+-------------------+
 
 Sex is Fun
 ----------
@@ -27,12 +26,13 @@ Format
 A 2-dimensional array resulting from cross-tabulating the ratings of 91
 married couples. The variables and their levels are as follows:
 
-+--------------------------+--------------------------+--------------------------+
-| No                       | 1                        | 2                        |
-| Name                     | Husband                  | Wife                     |
-| Levels                   | Never Fun, Fairly Often, | Never Fun, Fairly Often, |
-|                          | Very Often, Always Fun   | Very Often, Always Fun   |
-+--------------------------+--------------------------+--------------------------+
++------+-----------+---------------------------------------------------+
+| No   | Name      | Levels                                            |
++------+-----------+---------------------------------------------------+
+| 1    | Husband   | Never Fun, Fairly Often, Very Often, Always Fun   |
++------+-----------+---------------------------------------------------+
+| 2    | Wife      | Never Fun, Fairly Often, Very Often, Always Fun   |
++------+-----------+---------------------------------------------------+
 
 Source
 ~~~~~~

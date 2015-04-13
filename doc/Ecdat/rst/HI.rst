@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| HI                                   |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------+-------------------+
+| HI   | R Documentation   |
++------+-------------------+
 
 Health Insurance and Hours Worked By Wives
 ------------------------------------------
@@ -81,7 +80,7 @@ References
 ~~~~~~~~~~
 
 Journal of Applied Econometrics data archive :
-http://jae.wiley.com/jae/.
+`http://jae.wiley.com/jae/ <http://jae.wiley.com/jae/>`__.
 
 See Also
 ~~~~~~~~

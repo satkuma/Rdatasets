@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Schooling                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| Schooling   | R Documentation   |
++-------------+-------------------+
 
 Wages and Schooling
 -------------------
@@ -127,7 +126,9 @@ References
 ~~~~~~~~~~
 
 Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley and
-Sons, http://www.econ.kuleuven.ac.be/GME, chapter 5.
+Sons,
+`http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`__,
+chapter 5.
 
 See Also
 ~~~~~~~~

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Hdma                                 |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------+-------------------+
+| Hdma   | R Documentation   |
++--------+-------------------+
 
 The Boston HDMA Data Set
 ------------------------
@@ -82,7 +81,8 @@ References
 
 Stock, James H. and Mark W. Watson (2003) *Introduction to
 Econometrics*, Addison-Wesley Educational Publishers,
-http://wps.aw.com/aw_stockwatsn_economtrcs_1, chapter 9.
+`http://wps.aw.com/aw\_stockwatsn\_economtrcs\_1 <http://wps.aw.com/aw_stockwatsn_economtrcs_1>`__,
+chapter 9.
 
 See Also
 ~~~~~~~~

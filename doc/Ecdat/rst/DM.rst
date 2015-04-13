@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| DM                                   |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------+-------------------+
+| DM   | R Documentation   |
++------+-------------------+
 
 DM Dollar Exchange Rate
 -----------------------
@@ -55,8 +54,8 @@ References
 ~~~~~~~~~~
 
 Hayashi, F. (2000) *Econometrics*, Princeton University Press,
-http://www.e.u-tokyo.ac.jp/~hayashi/hayashi_econometrics.htm, chapter 6,
-438-443.
+`http://www.e.u-tokyo.ac.jp/~hayashi/hayashi\_econometrics.htm <http://www.e.u-tokyo.ac.jp/~hayashi/hayashi_econometrics.htm>`__,
+chapter 6, 438-443.
 
 See Also
 ~~~~~~~~

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Cigar                                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------+-------------------+
+| Cigar   | R Documentation   |
++---------+-------------------+
 
 Cigarette Consumption
 ---------------------
@@ -61,7 +60,7 @@ Source
 
 Online complements to Baltagi (2001).
 
-http://www.wiley.com/legacy/wileychi/baltagi/.
+`http://www.wiley.com/legacy/wileychi/baltagi/ <http://www.wiley.com/legacy/wileychi/baltagi/>`__.
 
 References
 ~~~~~~~~~~

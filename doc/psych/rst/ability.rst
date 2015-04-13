@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| ability                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| ability   | R Documentation   |
++-----------+-------------------+
 
 16 ability items scored as correct or incorrect.
 ------------------------------------------------
@@ -82,11 +81,12 @@ Details
 ~~~~~~~
 
 16 items were sampled from 80 items given as part of the SAPA
-(http://sapa-project.org) project (Revelle, Wilt and Rosenthal, 2009;
-Condon and Revelle, 2014) to develop online measures of ability. These
-16 items reflect four lower order factors (verbal reasoning, letter
-series, matrix reasoning, and spatial rotations. These lower level
-factors all share a higher level factor ('g').
+(`http://sapa-project.org <http://sapa-project.org>`__) project
+(Revelle, Wilt and Rosenthal, 2009; Condon and Revelle, 2014) to develop
+online measures of ability. These 16 items reflect four lower order
+factors (verbal reasoning, letter series, matrix reasoning, and spatial
+rotations. These lower level factors all share a higher level factor
+('g').
 
 This data set may be used to demonstrate item response functions,
 ``tetrachoric`` correlations, or ``irt.fa`` as well as ``omega``
@@ -104,8 +104,9 @@ Source
 ~~~~~~
 
 The example data set is taken from the Synthetic Aperture Personality
-Assessment personality and ability test at http://sapa-project.org. The
-data were collected with David Condon from 8/08/12 to 8/31/12.
+Assessment personality and ability test at
+`http://sapa-project.org <http://sapa-project.org>`__. The data were
+collected with David Condon from 8/08/12 to 8/31/12.
 
 References
 ~~~~~~~~~~

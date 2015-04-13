@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Ketchup                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| Ketchup   | R Documentation   |
++-----------+-------------------+
 
 Choice of Brand for Ketchup
 ---------------------------
@@ -53,7 +52,7 @@ References
 ~~~~~~~~~~
 
 Journal of Business Economics and Statistics web site :
-http://www.amstat.org/publications/jbes/.
+`http://www.amstat.org/publications/jbes/ <http://www.amstat.org/publications/jbes/>`__.
 
 See Also
 ~~~~~~~~

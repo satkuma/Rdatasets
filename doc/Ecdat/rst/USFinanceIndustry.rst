@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| USFinanceIndustry                    |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------------------+-------------------+
+| USFinanceIndustry   | R Documentation   |
++---------------------+-------------------+
 
 US Finance Industry Profits
 ---------------------------
@@ -75,15 +74,15 @@ with(USFinanceIndustry, Financial/Domestic)
 Source
 ~~~~~~
 
-http://www.bea.gov: Under "U.S. Economic Accounts", first select
-"Corporate Profits" under "National". Then next to "Interactive Tables",
-select, "National Income and Product Accounts Tables". From there,
-select "Begin using the data...". Under "Section 6 - income and
-employment by industry", select each of the tables starting "Table
-6.16". As of February 2013, there were 4 such tables available: Table
-6.16A, 6.16B, 6.16C and 6.16D. Each of the last three are available in
-annual and quarterly summaries. The ``USFinanceIndustry`` data combined
-the first 4 rows of the 4 annual summary tables.
+`http://www.bea.gov <http://www.bea.gov>`__: Under "U.S. Economic
+Accounts", first select "Corporate Profits" under "National". Then next
+to "Interactive Tables", select, "National Income and Product Accounts
+Tables". From there, select "Begin using the data...". Under "Section 6
+- income and employment by industry", select each of the tables starting
+"Table 6.16". As of February 2013, there were 4 such tables available:
+Table 6.16A, 6.16B, 6.16C and 6.16D. Each of the last three are
+available in annual and quarterly summaries. The ``USFinanceIndustry``
+data combined the first 4 rows of the 4 annual summary tables.
 
 See Also
 ~~~~~~~~

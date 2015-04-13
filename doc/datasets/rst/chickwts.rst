@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| chickwts                             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------+-------------------+
+| chickwts   | R Documentation   |
++------------+-------------------+
 
 Chicken Weights by Feed Type
 ----------------------------
@@ -22,12 +21,12 @@ Usage
 Format
 ~~~~~~
 
-A data frame with 71 observations on the following 2 variables.
+A data frame with 71 observations on 2 variables.
 
-``weight``
+weight
     a numeric variable giving the chick weight.
 
-``feed``
+feed
     a factor giving the feed type.
 
 Details

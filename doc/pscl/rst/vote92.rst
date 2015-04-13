@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| vote92                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| vote92   | R Documentation   |
++----------+-------------------+
 
 Reports of voting in the 1992 U.S. Presidential election.
 ---------------------------------------------------------
@@ -81,7 +80,8 @@ Pre-/Post-Election Study*. Center for Political Studies, University of
 Michigan: Ann Arbor, Michigan.
 
 Inter-University Consortium for Political and Social Research. Study
-Number 1112. http://dx.doi.org/10.3886/ICPSR01112.
+Number 1112.
+`http://dx.doi.org/10.3886/ICPSR01112 <http://dx.doi.org/10.3886/ICPSR01112>`__.
 
 References
 ~~~~~~~~~~

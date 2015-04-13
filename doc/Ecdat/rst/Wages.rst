@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Wages                                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------+-------------------+
+| Wages   | R Documentation   |
++---------+-------------------+
 
 Panel Datas of Individual Wages
 -------------------------------
@@ -78,7 +77,8 @@ References
 ~~~~~~~~~~
 
 Baltagi, Badi H. (2003) *Econometric analysis of panel data*, John Wiley
-and sons, http://www.wiley.com/legacy/wileychi/baltagi/.
+and sons,
+`http://www.wiley.com/legacy/wileychi/baltagi/ <http://www.wiley.com/legacy/wileychi/baltagi/>`__.
 
 See Also
 ~~~~~~~~

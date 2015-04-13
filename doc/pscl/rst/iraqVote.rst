@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| iraqVote                             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------+-------------------+
+| iraqVote   | R Documentation   |
++------------+-------------------+
 
 U.S. Senate vote on the use of force against Iraq, 2002.
 --------------------------------------------------------
@@ -54,10 +53,11 @@ Source
 ~~~~~~
 
 Keith Poole, 107th Senate Roll Call Data.
-ftp://voteview.com/sen107kh.ord The Iraq vote is vote number 617.
+`ftp://voteview.com/sen107kh.ord <ftp://voteview.com/sen107kh.ord>`__
+The Iraq vote is vote number 617.
 
 David Leip's Atlas of U.S. Presidential Elections.
-http://uselectionatlas.org
+`http://uselectionatlas.org <http://uselectionatlas.org>`__
 
 References
 ~~~~~~~~~~

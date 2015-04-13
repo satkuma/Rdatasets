@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| WeightLoss                           |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------+-------------------+
+| WeightLoss   | R Documentation   |
++--------------+-------------------+
 
 Weight Loss Data
 ----------------
@@ -55,5 +54,6 @@ Helmert contrasts are assigned to ``group``, comparing ``Control`` vs.
 Source
 ~~~~~~
 
-Originally taken from http://www.csun.edu/~ata20315/psy524/main.htm, but
-modified slightly. Courtesy of Michael Friendly.
+Originally taken from
+`http://www.csun.edu/~ata20315/psy524/main.htm <http://www.csun.edu/~ata20315/psy524/main.htm>`__,
+but modified slightly. Courtesy of Michael Friendly.

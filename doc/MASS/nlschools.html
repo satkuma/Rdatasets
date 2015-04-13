@@ -81,6 +81,7 @@ Multilevel Modelling.</EM> London: Sage.
 <h3>Examples</h3>
 
 <pre>
+
 nl1 &lt;- within(nlschools, {
 IQave &lt;- tapply(IQ, class, mean)[as.character(class)]
 IQ &lt;- IQ - IQave
@@ -91,6 +92,7 @@ nl1[cen] &lt;- scale(nl1[cen], center = TRUE, scale = FALSE)
 nl.lme &lt;- nlme::lme(lang ~ IQ*COMB + IQave + SES,
                     random = ~ IQ | class, data = nl1)
 summary(nl.lme)
+
 </pre>
 
 

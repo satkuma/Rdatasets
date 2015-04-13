@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| presidentialElections                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------------------+-------------------+
+| presidentialElections   | R Documentation   |
++-------------------------+-------------------+
 
 elections for U.S. President, 1932-2012, by state
 -------------------------------------------------
@@ -44,7 +43,7 @@ Source
 ~~~~~~
 
 David Leip's Atlas of U.S. Presidential Elections
-http://uselectionsatlas.org
+`http://uselectionsatlas.org <http://uselectionsatlas.org>`__
 
 Examples
 ~~~~~~~~

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| blot                                 |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------+-------------------+
+| blot   | R Documentation   |
++--------+-------------------+
 
 Bond's Logical Operations Test – BLOT
 -------------------------------------
@@ -51,8 +50,9 @@ Source
 ~~~~~~
 
 The data are taken (with kind permission from Trevor Bond) from the
-webpage http://homes.jcu.edu.au/~edtgb/book/data/Bond87.txt and read
-using read.fwf.
+webpage
+`http://homes.jcu.edu.au/~edtgb/book/data/Bond87.txt <http://homes.jcu.edu.au/~edtgb/book/data/Bond87.txt>`__
+and read using read.fwf.
 
 References
 ~~~~~~~~~~

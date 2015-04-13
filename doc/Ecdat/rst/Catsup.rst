@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Catsup                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| Catsup   | R Documentation   |
++----------+-------------------+
 
 Choice of Brand for Catsup
 --------------------------
@@ -55,7 +54,7 @@ References
 ~~~~~~~~~~
 
 Journal of Business Economics and Statistics web site :
-http://www.amstat.org/publications/jbes/.
+`http://www.amstat.org/publications/jbes/ <http://www.amstat.org/publications/jbes/>`__.
 
 See Also
 ~~~~~~~~

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Diamond                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| Diamond   | R Documentation   |
++-----------+-------------------+
 
 Pricing the C's of Diamond Stones
 ---------------------------------
@@ -54,7 +53,7 @@ References
 ~~~~~~~~~~
 
 Journal of Statistics Education's data archive :
-http://www.amstat.org/publications/jse/jse_data_archive.html.
+`http://www.amstat.org/publications/jse/jse\_data\_archive.html <http://www.amstat.org/publications/jse/jse_data_archive.html>`__.
 
 See Also
 ~~~~~~~~
