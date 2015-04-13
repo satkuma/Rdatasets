@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Snow                                 |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------+-------------------+
+| Snow   | R Documentation   |
++--------+-------------------+
 
 John Snow's map and data on the 1854 London Cholera outbreak
 ------------------------------------------------------------
@@ -126,8 +125,9 @@ Source
 ~~~~~~
 
 Tobler, W. (1994). Snow's Cholera Map
-http://www.ncgia.ucsb.edu/pubs/snow/snow.html; data files were obtained
-from http://ncgia.ucsb.edu/Publications/Software/cholera/
+`http://www.ncgia.ucsb.edu/pubs/snow/snow.html <http://www.ncgia.ucsb.edu/pubs/snow/snow.html>`__;
+data files were obtained from
+`http://ncgia.ucsb.edu/Publications/Software/cholera/ <http://ncgia.ucsb.edu/Publications/Software/cholera/>`__
 
 The data in these files were first digitized in 1992 by Rusty Dodson of
 the NCGIA, Santa Barbara, from the map included in the book by John

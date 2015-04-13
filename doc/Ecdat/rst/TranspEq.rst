@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| TranspEq                             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------+-------------------+
+| TranspEq   | R Documentation   |
++------------+-------------------+
 
 Statewide Data on Transportation Equipment Manufacturing
 --------------------------------------------------------
@@ -54,7 +53,8 @@ References
 ~~~~~~~~~~
 
 Greene, W.H. (2003) *Econometric Analysis*, Prentice Hall,
-http://www.prenhall.com/greene/greene1.html, Table F9.2.
+`http://www.prenhall.com/greene/greene1.html <http://www.prenhall.com/greene/greene1.html>`__,
+Table F9.2.
 
 See Also
 ~~~~~~~~

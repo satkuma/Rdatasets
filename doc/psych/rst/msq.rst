@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| msq                                  |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------+-------------------+
+| msq   | R Documentation   |
++-------+-------------------+
 
 75 mood items from the Motivational State Questionnaire for 3896 participants
 -----------------------------------------------------------------------------
@@ -390,7 +389,7 @@ happiness and sadness truly opposite affects? Motivation and Emotion,
 Revelle, W. and Anderson, K.J. (1998) Personality, motivation and
 cognitive performance: Final report to the Army Research Institute on
 contract MDA 903-93-K-0008.
-(http://www.personality-project.org/revelle/publications/ra.ari.98.pdf).
+(`http://www.personality-project.org/revelle/publications/ra.ari.98.pdf <http://www.personality-project.org/revelle/publications/ra.ari.98.pdf>`__).
 
 Thayer, R.E. (1989) The biopsychology of mood and arousal. Oxford
 University Press. New York, NY.

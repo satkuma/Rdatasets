@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Gasoline                             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------+-------------------+
+| Gasoline   | R Documentation   |
++------------+-------------------+
 
 Gasoline Consumption
 --------------------
@@ -58,7 +57,8 @@ References
 ~~~~~~~~~~
 
 Baltagi, Badi H. (2003) *Econometric analysis of panel data*, John Wiley
-and sons, http://www.wiley.com/legacy/wileychi/baltagi/.
+and sons,
+`http://www.wiley.com/legacy/wileychi/baltagi/ <http://www.wiley.com/legacy/wileychi/baltagi/>`__.
 
 See Also
 ~~~~~~~~

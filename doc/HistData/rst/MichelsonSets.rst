@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Michelson                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| Michelson   | R Documentation   |
++-------------+-------------------+
 
 Michelson's Determinations of the Velocity of Light
 ---------------------------------------------------
@@ -55,7 +54,7 @@ Source
 ~~~~~~
 
 Kyle Siegrist, "Virtual Laboratories in Probability and Statistics",
-http://www.math.uah.edu/stat/data/Michelson.xhtml
+`http://www.math.uah.edu/stat/data/Michelson.xhtml <http://www.math.uah.edu/stat/data/Michelson.xhtml>`__
 
 Stephen M. Stigler (1977), "Do robust estimators work with *real*
 data?", *Annals of Statistics*, 5, 1055-1098

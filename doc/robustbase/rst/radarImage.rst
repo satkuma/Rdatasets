@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| radarImage                           |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------+-------------------+
+| radarImage   | R Documentation   |
++--------------+-------------------+
 
 Satellite Radar Image Data from near Munich
 -------------------------------------------
@@ -45,7 +44,7 @@ Source
 ~~~~~~
 
 The website accompanying the MMY-book:
-http://www.wiley.com/legacy/wileychi/robust_statistics
+`http://www.wiley.com/legacy/wileychi/robust\_statistics <http://www.wiley.com/legacy/wileychi/robust_statistics>`__
 
 Examples
 ~~~~~~~~

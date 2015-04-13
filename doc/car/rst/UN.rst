@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| UN                                   |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------+-------------------+
+| UN   | R Documentation   |
++------+-------------------+
 
 GDP and Infant Mortality
 ------------------------
@@ -35,7 +34,7 @@ Source
 ~~~~~~
 
 United Nations (1998) Social indicators.
-http://www.un.org/Depts/unsd/social/main.htm.
+`http://www.un.org/Depts/unsd/social/main.htm <http://www.un.org/Depts/unsd/social/main.htm>`__.
 
 References
 ~~~~~~~~~~

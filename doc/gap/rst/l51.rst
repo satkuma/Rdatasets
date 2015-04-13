@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| l51                                  |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------+-------------------+
+| l51   | R Documentation   |
++-------+-------------------+
 
 An example pedigree data
 ------------------------
@@ -33,7 +32,7 @@ References
 ~~~~~~~~~~
 
 Morgan v3.
-http://www.stat.washington.edu/thompson/Genepi/MORGAN/Morgan.shtml
+`http://www.stat.washington.edu/thompson/Genepi/MORGAN/Morgan.shtml <http://www.stat.washington.edu/thompson/Genepi/MORGAN/Morgan.shtml>`__
 
 Examples
 ~~~~~~~~

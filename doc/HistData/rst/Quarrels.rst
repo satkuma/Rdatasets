@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Quarrels                             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------+-------------------+
+| Quarrels   | R Documentation   |
++------------+-------------------+
 
 Statistics of Deadly Quarrels
 -----------------------------
@@ -306,13 +305,13 @@ found absent or irrelevant to the particular quarrel, and did not
 subsequently mention.
 
 See the original codebook at
-http://www.icpsr.umich.edu/cgi-bin/file?comp=none&study=5407&ds=1&file_id=652814
+`http://www.icpsr.umich.edu/cgi-bin/file?comp=none&study=5407&ds=1&file\_id=652814 <http://www.icpsr.umich.edu/cgi-bin/file?comp=none&study=5407&ds=1&file_id=652814>`__
 for details not contained here.
 
 Source
 ~~~~~~
 
-http://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/05407
+`http://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/05407 <http://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/05407>`__
 
 References
 ~~~~~~~~~~

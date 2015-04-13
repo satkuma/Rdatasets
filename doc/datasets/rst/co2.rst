@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| co2                                  |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------+-------------------+
+| co2   | R Documentation   |
++-------+-------------------+
 
 Mauna Loa Atmospheric CO2 Concentration
 ---------------------------------------
@@ -38,7 +37,7 @@ Source
 Keeling, C. D. and Whorf, T. P., Scripps Institution of Oceanography
 (SIO), University of California, La Jolla, California USA 92093-0220.
 
-ftp://cdiac.esd.ornl.gov/pub/maunaloa-co2/maunaloa.co2.
+`ftp://cdiac.esd.ornl.gov/pub/maunaloa-co2/maunaloa.co2 <ftp://cdiac.esd.ornl.gov/pub/maunaloa-co2/maunaloa.co2>`__.
 
 References
 ~~~~~~~~~~

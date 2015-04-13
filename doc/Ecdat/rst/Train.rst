@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Train                                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------+-------------------+
+| Train   | R Documentation   |
++---------+-------------------+
 
 Stated Preferences for Train Traveling
 --------------------------------------
@@ -70,7 +69,7 @@ References
 ~~~~~~~~~~
 
 Journal of Applied Econometrics data archive :
-http://jae.wiley.com/jae/.
+`http://jae.wiley.com/jae/ <http://jae.wiley.com/jae/>`__.
 
 See Also
 ~~~~~~~~

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Snmesp                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| Snmesp   | R Documentation   |
++----------+-------------------+
 
 Employment and Wages in Spain
 -----------------------------
@@ -58,7 +57,7 @@ Source
 
 Journal of Business Economics and Statistics data archive:
 
-http://www.amstat.org/publications/jbes/.
+`http://www.amstat.org/publications/jbes/ <http://www.amstat.org/publications/jbes/>`__.
 
 References
 ~~~~~~~~~~

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| cities                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| cities   | R Documentation   |
++----------+-------------------+
 
 Distances between 11 US cities
 ------------------------------
@@ -73,7 +72,7 @@ far south.
 Source
 ~~~~~~
 
-http://www.timeanddate.com/worldclock/distance.html
+`http://www.timeanddate.com/worldclock/distance.html <http://www.timeanddate.com/worldclock/distance.html>`__
 
 Examples
 ~~~~~~~~

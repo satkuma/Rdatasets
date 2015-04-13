@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Wages1                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| Wages1   | R Documentation   |
++----------+-------------------+
 
 Wages, Experience and Schooling
 -------------------------------
@@ -45,7 +44,8 @@ References
 ~~~~~~~~~~
 
 Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley and
-Sons, http://www.econ.kuleuven.ac.be/GME.
+Sons,
+`http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`__.
 
 See Also
 ~~~~~~~~

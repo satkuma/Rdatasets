@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| HC                                   |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------+-------------------+
+| HC   | R Documentation   |
++------+-------------------+
 
 Heating and Cooling System Choice in Newly Built Houses in California
 ---------------------------------------------------------------------
@@ -55,7 +54,8 @@ income
 References
 ~~~~~~~~~~
 
-Kenneth Train's home page : http://elsa.berkeley.edu/~train/.
+Kenneth Train's home page :
+`http://elsa.berkeley.edu/~train/ <http://elsa.berkeley.edu/~train/>`__.
 
 See Also
 ~~~~~~~~

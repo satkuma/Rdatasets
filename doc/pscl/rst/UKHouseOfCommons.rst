@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| UKHouseOfCommons                     |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------------+-------------------+
+| UKHouseOfCommons   | R Documentation   |
++--------------------+-------------------+
 
 1992 United Kingdom electoral returns
 -------------------------------------
@@ -80,9 +79,10 @@ Source
 
 Jonathan Katz; Gary King. 1999. "Replication data for: A Statistical
 Model of Multiparty Electoral Data",
-http://hdl.handle.net/1902.1/QIGTWZYTLZ
+`http://hdl.handle.net/1902.1/QIGTWZYTLZ <http://hdl.handle.net/1902.1/QIGTWZYTLZ>`__
 
-Martin Baxter. http://www.electoralcalculus.co.uk/electdata_1992ob.txt
+Martin Baxter.
+`http://www.electoralcalculus.co.uk/electdata\_1992ob.txt <http://www.electoralcalculus.co.uk/electdata_1992ob.txt>`__
 
 References
 ~~~~~~~~~~

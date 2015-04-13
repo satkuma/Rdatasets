@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| incomeInequality                     |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------------+-------------------+
+| incomeInequality   | R Documentation   |
++--------------------+-------------------+
 
 Income Inequality in the US
 ---------------------------
@@ -97,16 +96,18 @@ Source
 
 United States Census Bureau, Table F-1. Income Limits for Each Fifth and
 Top 5 Percent of Families, All Races,
-http://www.census.gov/hhes/www/income/data/historical/families, accessed
-March 25, 2014.
+`http://www.census.gov/hhes/www/income/data/historical/families <http://www.census.gov/hhes/www/income/data/historical/families>`__,
+accessed March 25, 2014.
 
 Thomas Piketty and Emmanuel Saez (2003) "Income Inequality in the United
 States, 1913-1998", Quarterly Journal of Economics, 118(1) 1-39,
-http://elsa.berkeley.edu/~saez, update accessed February 28, 2014.
+`http://elsa.berkeley.edu/~saez <http://elsa.berkeley.edu/~saez>`__,
+update accessed February 28, 2014.
 
 Louis Johnston and Samuel H. Williamson (2011) "What Was the U.S. GDP
-Then?" MeasuringWorth, http://www.measuringworth.org/usgdp, accessed
-February 28, 2014.
+Then?" MeasuringWorth,
+`http://www.measuringworth.org/usgdp <http://www.measuringworth.org/usgdp>`__,
+accessed February 28, 2014.
 
 Examples
 ~~~~~~~~

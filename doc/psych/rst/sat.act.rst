@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| sat.act                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| sat.act   | R Documentation   |
++-----------+-------------------+
 
 3 Measures of ability: SATV, SATQ, ACT
 --------------------------------------
@@ -50,17 +49,18 @@ Details
 ~~~~~~~
 
 hese items were collected as part of the SAPA project
-(http://sapa-project.org)to develop online measures of ability (Revelle,
-Wilt and Rosenthal, 2009). The score means are higher than national
-norms suggesting both self selection for people taking on line
-personality and ability tests and a self reporting bias in scores.
+(`http://sapa-project.org <http://sapa-project.org>`__)to develop online
+measures of ability (Revelle, Wilt and Rosenthal, 2009). The score means
+are higher than national norms suggesting both self selection for people
+taking on line personality and ability tests and a self reporting bias
+in scores.
 
 See also the iq.items data set.
 
 Source
 ~~~~~~
 
-http://personality-project.org
+`http://personality-project.org <http://personality-project.org>`__
 
 References
 ~~~~~~~~~~

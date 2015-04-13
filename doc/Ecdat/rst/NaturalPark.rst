@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| NaturalPark                          |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------------+-------------------+
+| NaturalPark   | R Documentation   |
++---------------+-------------------+
 
 Willingness to Pay for the Preservation of the Alentejo Natural Park
 --------------------------------------------------------------------
@@ -60,7 +59,9 @@ References
 ~~~~~~~~~~
 
 Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley and
-Sons, http://www.econ.kuleuven.ac.be/GME, chapter 7.
+Sons,
+`http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`__,
+chapter 7.
 
 See Also
 ~~~~~~~~

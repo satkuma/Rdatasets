@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| PreSex                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| PreSex   | R Documentation   |
++----------+-------------------+
 
 Pre-marital Sex and Divorce
 ---------------------------
@@ -25,17 +24,23 @@ Format
 A 4-dimensional array resulting from cross-tabulating 1036 observations
 on 4 variables. The variables and their levels are as follows:
 
-+--------------------------+--------------------------+--------------------------+
-| No                       | 1                        | 2                        |
-| Name                     | MaritalStatus            | ExtramaritalSex          |
-| Levels                   | Divorced, Married        | Yes, No                  |
-+--------------------------+--------------------------+--------------------------+
++------+-------------------+---------------------+
+| No   | Name              | Levels              |
++------+-------------------+---------------------+
+| 1    | MaritalStatus     | Divorced, Married   |
++------+-------------------+---------------------+
+| 2    | ExtramaritalSex   | Yes, No             |
++------+-------------------+---------------------+
+| 3    | PremaritalSex     | Yes, No             |
++------+-------------------+---------------------+
+| 4    | Gender            | Women, Men          |
++------+-------------------+---------------------+
 
 Source
 ~~~~~~
 
 Michael Friendly (2000), Visualizing Categorical Data:
-http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/marital.sas
+`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/marital.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/marital.sas>`__
 
 References
 ~~~~~~~~~~

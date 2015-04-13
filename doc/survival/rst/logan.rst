@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| logan                                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------+-------------------+
+| logan   | R Documentation   |
++---------+-------------------+
 
 Data from the 1972-78 GSS data used by Logan
 --------------------------------------------
@@ -40,7 +39,8 @@ Source
 ~~~~~~
 
 General Social Survey data, see the web site for detailed information on
-the variables. http://www3.norc.org/GSS+Website.
+the variables.
+`http://www3.norc.org/GSS+Website <http://www3.norc.org/GSS+Website>`__.
 
 References
 ~~~~~~~~~~

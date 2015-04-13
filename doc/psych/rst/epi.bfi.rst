@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| epi.bfi                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| epi.bfi   | R Documentation   |
++-----------+-------------------+
 
 13 personality scales from the Eysenck Personality Inventory and Big 5 inventory
 --------------------------------------------------------------------------------
@@ -84,7 +83,7 @@ Data were collected at the Personality, Motivation, and Cognition Lab
 References
 ~~~~~~~~~~
 
-http://personality-project.org/pmc.html
+`http://personality-project.org/pmc.html <http://personality-project.org/pmc.html>`__
 
 Examples
 ~~~~~~~~

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Wheat                                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------+-------------------+
+| Wheat   | R Documentation   |
++---------+-------------------+
 
 Playfair's Data on Wages and the Price of Wheat
 -----------------------------------------------
@@ -70,8 +69,9 @@ Playfair, W. (1821). *Letter on our Agricultural Distresses, Their
 Causes and Remedies*. London: W. Sams, 1821
 
 Data values: originally digitized from
-http://www.math.yorku.ca/SCS/Gallery/images/playfair-wheat1.gif now
-taken from http://mbostock.github.com/protovis/ex/wheat.js
+`http://www.math.yorku.ca/SCS/Gallery/images/playfair-wheat1.gif <http://www.math.yorku.ca/SCS/Gallery/images/playfair-wheat1.gif>`__
+now taken from
+`http://mbostock.github.com/protovis/ex/wheat.js <http://mbostock.github.com/protovis/ex/wheat.js>`__
 
 References
 ~~~~~~~~~~

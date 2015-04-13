@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| bankingCrises                        |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------------+-------------------+
+| bankingCrises   | R Documentation   |
++-----------------+-------------------+
 
 Countries in Banking Crises
 ---------------------------
@@ -58,7 +57,7 @@ Spencer Graves
 Source
 ~~~~~~
 
-http://www.reinhartandrogoff.com
+`http://www.reinhartandrogoff.com <http://www.reinhartandrogoff.com>`__
 
 References
 ~~~~~~~~~~

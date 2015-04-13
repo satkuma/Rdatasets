@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| ModeChoice                           |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------+-------------------+
+| ModeChoice   | R Documentation   |
++--------------+-------------------+
 
 Data to Study Travel Mode Choice
 --------------------------------
@@ -61,7 +60,8 @@ References
 ~~~~~~~~~~
 
 Greene, W.H. (2003) *Econometric Analysis*, Prentice Hall,
-http://www.prenhall.com/greene/greene1.html, Table F21.2.
+`http://www.prenhall.com/greene/greene1.html <http://www.prenhall.com/greene/greene1.html>`__,
+Table F21.2.
 
 See Also
 ~~~~~~~~

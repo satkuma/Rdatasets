@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| RepVict                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| RepVict   | R Documentation   |
++-----------+-------------------+
 
 Repeat Victimization Data
 -------------------------
@@ -25,27 +24,17 @@ Format
 A 2-dimensional array resulting from cross-tabulating victimization. The
 variables and their levels are as follows:
 
-No
-
-Name
-
-Levels
-
-1
-
-First Victimization
-
-Rape, Assault, Robbery, Pickpocket, Personal Larceny,
-
-Burglary, Household Larceny, Auto Theft
-
-2
-
-Second Victimization
-
-Rape, Assault, Robbery, Pickpocket, Personal Larceny,
-
-Burglary, Household Larceny, Auto Theft
++------+------------------------+---------------------------------------------------------+
+| No   | Name                   | Levels                                                  |
++------+------------------------+---------------------------------------------------------+
+| 1    | First Victimization    | Rape, Assault, Robbery, Pickpocket, Personal Larceny,   |
++------+------------------------+---------------------------------------------------------+
+|      |                        | Burglary, Household Larceny, Auto Theft                 |
++------+------------------------+---------------------------------------------------------+
+| 2    | Second Victimization   | Rape, Assault, Robbery, Pickpocket, Personal Larceny,   |
++------+------------------------+---------------------------------------------------------+
+|      |                        | Burglary, Household Larceny, Auto Theft                 |
++------+------------------------+---------------------------------------------------------+
 
 Source
 ~~~~~~

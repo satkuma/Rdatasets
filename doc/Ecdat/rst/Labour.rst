@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Labour                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| Labour   | R Documentation   |
++----------+-------------------+
 
 Belgian Firms
 -------------
@@ -45,7 +44,9 @@ References
 ~~~~~~~~~~
 
 Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley and
-Sons, http://www.econ.kuleuven.ac.be/GME, chapter 4.
+Sons,
+`http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`__,
+chapter 4.
 
 See Also
 ~~~~~~~~

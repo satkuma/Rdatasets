@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| baseball                             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------+-------------------+
+| baseball   | R Documentation   |
++------------+-------------------+
 
 Yearly batting records for all major league baseball players
 ------------------------------------------------------------
@@ -10,9 +9,10 @@ Description
 ~~~~~~~~~~~
 
 This data frame contains batting statistics for a subset of players
-collected from http://www.baseball-databank.org/. There are a total of
-21,699 records, covering 1,228 players from 1871 to 2007. Only players
-with more 15 seasons of play are included.
+collected from
+`http://www.baseball-databank.org/ <http://www.baseball-databank.org/>`__.
+There are a total of 21,699 records, covering 1,228 players from 1871 to
+2007. Only players with more 15 seasons of play are included.
 
 Usage
 ~~~~~
@@ -79,7 +79,7 @@ Variables:
 References
 ~~~~~~~~~~
 
-http://www.baseball-databank.org/
+`http://www.baseball-databank.org/ <http://www.baseball-databank.org/>`__
 
 Examples
 ~~~~~~~~

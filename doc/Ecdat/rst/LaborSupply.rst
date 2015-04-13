@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| LaborSupply                          |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------------+-------------------+
+| LaborSupply   | R Documentation   |
++---------------+-------------------+
 
 Wages and Hours Worked
 ----------------------
@@ -61,7 +60,7 @@ Cameron, A.C. and P.K. Trivedi (2005) *Microeconometrics : methods and
 applications*, Cambridge, pp. 708–15, 754–6.
 
 Journal of Business Economics and Statistics web site :
-http://www.amstat.org/publications/jbes/.
+`http://www.amstat.org/publications/jbes/ <http://www.amstat.org/publications/jbes/>`__.
 
 See Also
 ~~~~~~~~

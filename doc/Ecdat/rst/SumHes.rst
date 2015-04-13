@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| SumHes                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| SumHes   | R Documentation   |
++----------+-------------------+
 
 The Penn Table
 --------------
@@ -61,8 +60,8 @@ References
 ~~~~~~~~~~
 
 Hayashi, F. (2000) *Econometrics*, Princeton University Press,
-http://www.e.u-tokyo.ac.jp/~hayashi/hayashi_econometrics.htm, chapter 5,
-358-363.
+`http://www.e.u-tokyo.ac.jp/~hayashi/hayashi\_econometrics.htm <http://www.e.u-tokyo.ac.jp/~hayashi/hayashi_econometrics.htm>`__,
+chapter 5, 358-363.
 
 See Also
 ~~~~~~~~

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| StrikeNb                             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------+-------------------+
+| StrikeNb   | R Documentation   |
++------------+-------------------+
 
 Number of Strikes in Us Manufacturing
 -------------------------------------
@@ -55,7 +54,8 @@ References
 
 Cameron, A.C. and Trivedi P.K. (1998) *Regression analysis of count
 data*, Cambridge University Press,
-http://cameron.econ.ucdavis.edu/racd/racddata.html, chapter 7.
+`http://cameron.econ.ucdavis.edu/racd/racddata.html <http://cameron.econ.ucdavis.edu/racd/racddata.html>`__,
+chapter 7.
 
 See Also
 ~~~~~~~~

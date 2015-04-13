@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Capm                                 |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------+-------------------+
+| Capm   | R Documentation   |
++--------+-------------------+
 
 Stock Market Data
 -----------------
@@ -50,7 +49,9 @@ References
 ~~~~~~~~~~
 
 Verbeek, Marno (2004) *A guide to modern econometrics*, John Wiley and
-Sons, http://www.econ.kuleuven.ac.be/GME, chapter 2.
+Sons,
+`http://www.econ.kuleuven.ac.be/GME <http://www.econ.kuleuven.ac.be/GME>`__,
+chapter 2.
 
 See Also
 ~~~~~~~~

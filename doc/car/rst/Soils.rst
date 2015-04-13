@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Soils                                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------+-------------------+
+| Soils   | R Documentation   |
++---------+-------------------+
 
 Soil Compositions of Physical and Chemical Characteristics
 ----------------------------------------------------------
@@ -89,7 +88,7 @@ Horton, I. F.,Russell, J. S., and Moore, A. W. (1968)
 Multivariate-covariance and canonical analysis: A method for selecting
 the most effective discriminators in a multivariate situation.
 *Biometrics* **24**, 845–858.
-http://www.stat.lsu.edu/faculty/moser/exst7037/soils.sas
+`http://www.stat.lsu.edu/faculty/moser/exst7037/soils.sas <http://www.stat.lsu.edu/faculty/moser/exst7037/soils.sas>`__
 
 References
 ~~~~~~~~~~
@@ -99,4 +98,5 @@ Discrimination with SAS Software.* SAS Institute.
 
 Friendly, M. (2006) Data ellipses, HE plots and reduced-rank displays
 for multivariate linear models: SAS software and examples. *Journal of
-Statistical Software*, 17(6), http://www.jstatsoft.org/v17/i06.
+Statistical Software*, 17(6),
+`http://www.jstatsoft.org/v17/i06 <http://www.jstatsoft.org/v17/i06>`__.

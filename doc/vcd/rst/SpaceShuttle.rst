@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| SpaceShuttle                         |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------------+-------------------+
+| SpaceShuttle   | R Documentation   |
++----------------+-------------------+
 
 Space Shuttle O-ring Failures
 -----------------------------
@@ -47,7 +46,7 @@ Source
 ~~~~~~
 
 Michael Friendly (2000), Visualizing Categorical Data:
-http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/orings.sas
+`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/orings.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/orings.sas>`__
 
 References
 ~~~~~~~~~~

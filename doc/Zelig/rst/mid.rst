@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| mid                                  |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------+-------------------+
+| mid   | R Documentation   |
++-------+-------------------+
 
 Militarized Interstate Disputes
 -------------------------------
@@ -10,7 +9,8 @@ Description
 ~~~~~~~~~~~
 
 A small sample from the militarized interstate disputes database,
-available at http://pss.la.psu.edu/MID_DATA.HTM.
+available at
+`http://pss.la.psu.edu/MID\_DATA.HTM <http://pss.la.psu.edu/MID_DATA.HTM>`__.
 
 Usage
 ~~~~~

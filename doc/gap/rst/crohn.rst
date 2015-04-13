@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| crohn                                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------+-------------------+
+| crohn   | R Documentation   |
++---------+-------------------+
 
 Crohn's disease data
 --------------------
@@ -123,7 +122,7 @@ The positions, names and haplotype blocks reported are as follows,
     890710   GENS020ex1_1   BLOCK 11
 
 However it has been updated after the paper was published (posted on
-http://www.broad.mit.edu/humgen/IBD5/haplodata.html)
+`http://www.broad.mit.edu/humgen/IBD5/haplodata.html <http://www.broad.mit.edu/humgen/IBD5/haplodata.html>`__)
 
 Usage
 ~~~~~
